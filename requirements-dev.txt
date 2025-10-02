@@ -1,33 +1,6 @@
-# # Development dependencies for the project
-# # This file is used to install the required packages for development via pip
-
-# -r requirements.txt
-# pytest==7.4.3
-# pytest-cov==4.1.0
-# pytest-mock==3.12.0
-# pytest-xdist==3.5.0
-# black==23.12.1
-# flake8==7.0.0
-# isort==5.13.2
-# mypy==1.7.0
-# pylint==3.0.3
-# jupyter===1.0.0
-# ipykernel==6.27.1
-# notebook==7.0.6
-# jupyterlab==4.0.9
-# ipywidgets==8.1.1
-# mkdocs==1.5.3
-# mkdocs-material==9.5.3
-# mkdocstrings==0.24.0
-# ipdb==0.13.13
-# memory-profiler==0.61.0
-# line-profiler==4.1.1
-# ydata-profiling==4.6.1
-# sweetviz==2.3.1
-# pre-commit==3.6.0
-# python-dotenv==1.0.0
-# watchdog==3.0.0
-
+# Development dependencies for the project
+# This file is used to install the required packages for development via pip
+# Usage: pip install -r requirements-dev.txt
 -r requirements.txt
 pytest==7.4.3
 black==23.12.1
