@@ -15,12 +15,12 @@ from generate_facility_data import (
     generate_facility_data, save_facility_data
 )
 
-from generate_climate_data import (
-    generate_climate_data, save_climate_data
+from generate_weather_data import (
+    generate_weather_data, save_weather_data
 )
 
-from generate_disease_data import (
-    generate_disease_data, save_disease_data
+from src.data_generation.generate_reports_data import (
+    generate_reports_data, save_reports_data
 )
 
 def main():
@@ -58,30 +58,30 @@ def main():
     facility_path = save_facility_data(facility_df)
     print()
 
-    # Generate climate data
-    print('Generating climate data....')
-    climate_df = generate_climate_data(
+    # Generate weather data
+    print('Generating weather data....')
+    weather_df = generate_weather_data(
         geography_df=geo_df,
         start_date=START_DATE,
         end_date=END_DATE,
         random_state=RANDOM_STATE
     )
 
-    climate_path = save_climate_data(climate_df)
+    weather_path = save_weather_data(weather_df)
     print()
 
-    # Generate disease data
-    print('Generating disease data....')
-    disease_df = generate_disease_data(
+    # Generate reports data
+    print('Generating reports data....')
+    reports_df = generate_reports_data(
         geography_df=geo_df,
         facility_df=facility_df,
-        climate_df=climate_df,
+        weather_df=weather_df,
         start_date=START_DATE,
         end_date=END_DATE,
         random_state=RANDOM_STATE
     )
 
-    disease_path = save_disease_data(disease_df)
+    reports_path = save_reports_data(reports_df)
 
     print('Data generation complete!')
 

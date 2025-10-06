@@ -1,6 +1,6 @@
 """
-This module generates synthetic climate data for the Afrihealth project.
-It creates daily climate observations (temperature, humidity, rainfall) for each geograriphica area that mimics African seasonal patterns.
+This module generates synthetic weather data for the Afrihealth project.
+It creates daily weather observations (temperature, humidity, rainfall) for each geograriphica area that mimics African seasonal patterns.
 """
 
 import pandas as pd
@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Tuple
 
-def generate_climate_data(
+def generate_weather_data(
         geography_df: pd.DataFrame, 
         start_date: str = '2020-01-01', 
         end_date: str = '2024-12-31',
@@ -26,7 +26,7 @@ def generate_climate_data(
         random_state (int): Seed for random number generator for reproducibility.
     
     Returns: 
-        pd.DataFrame: DataFrame containing daily climate data for each geography with columns:
+        pd.DataFrame: DataFrame containing daily weather data for each geography with columns:
             - date: Date of observation
             - geography_id: Identifier for the geography (links to geographical data)
             - temperature_min_c: Minimum daily temperature in Celsius
@@ -36,8 +36,8 @@ def generate_climate_data(
     
     Example:
         >>> geography_df = pd.DataFrame(data/raw/geograohical_data.csv)
-        >>> climate_df = generate_climate_data(geography_df, '2020-01-01', '2024-12-31')
-        >>> climate_df.to_csv('data/raw/climate_data.csv', index=False)
+        >>> weather_df = generate_weather_data(geography_df, '2020-01-01', '2024-12-31')
+        >>> weather_df.to_csv('data/raw/weather_data.csv', index=False)
     """
     np.random.seed(random_state)
 
@@ -47,7 +47,7 @@ def generate_climate_data(
     date_range = pd.date_range(start, end, freq='D')
     num_days = len(date_range)
 
-    print(f"Generating climate data from {start_date} to {end_date} for {len(geography_df)} geographic areas in {num_days} days.")
+    print(f"Generating weather data from {start_date} to {end_date} for {len(geography_df)} geographic areas in {num_days} days.")
 
     data = []
 
@@ -67,7 +67,7 @@ def generate_climate_data(
         else:
             temp_variation = 10
         
-        # Country specific climate patterns
+        # Country specific weather patterns
         if country_code == 'KE':  # Kenya
             rainy_months = [3, 4, 5, 10, 11]
             base_rainfall = 80
@@ -144,20 +144,20 @@ def generate_climate_data(
         date = df.loc[idx, 'date']
         df.loc[(df['geography_id'] == geo_id) & (df['date'] == date), ['temperature_min_c', 'temperature_max_c', 'rainfall_mm', 'humidity_pct']] = np.nan
     
-    print(f"Generated climate data with {len(df)} records.")
+    print(f"Generated weather data with {len(df)} records.")
     return df
 
-def save_climate_data(df: pd.DataFrame, output_path: str = "data/raw") -> Path:
+def save_weather_data(df: pd.DataFrame, output_path: str = "data/raw") -> Path:
     """
-    Saves the climate data DataFrame to a CSV file.
+    Saves the weather data DataFrame to a CSV file.
 
     Args:
-        df (pd.DataFrame): DataFrame containing climate data.
+        df (pd.DataFrame): DataFrame containing weather data.
         output_path (str): Directory path where the CSV file will be saved.
     """
     output_path = Path(output_path)
     output_path.mkdir(parents=True, exist_ok=True)
-    file_path = output_path / "climate.csv"
+    file_path = output_path / "weather.csv"
     df.to_csv(file_path, index=False)
     return file_path
 

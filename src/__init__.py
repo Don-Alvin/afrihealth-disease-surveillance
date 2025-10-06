@@ -1,6 +1,6 @@
 """
 Afrihealth Disease Surveillance System
-==================================================================================
+
 A web-based application for disease surveillance and reporting in Africa.
 """
 

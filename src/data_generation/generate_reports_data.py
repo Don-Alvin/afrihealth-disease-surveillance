@@ -3,7 +3,7 @@ This module generates disease data for the Afrihealth project.
 
 This module models:
 - Three diseases: Malaria, Cholera, and Tuberculosis.
-- Climate correlations for each disease e.g Malaria and Cholera spike in rainy seasons.
+- weather correlations for each disease e.g Malaria and Cholera spike in rainy seasons.
 - Outbreak events with geographic spread
 - Facility-level reporting with underreporting factors
 """
@@ -14,10 +14,10 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, List, Tuple
 
-def generate_disease_data(
+def generate_reports_data(
         geography_df: pd.DataFrame,
         facility_df: pd.DataFrame,
-        climate_df: pd.DataFrame,
+        weather_df: pd.DataFrame,
         start_date: str = "2020-01-01",
         end_date: str = "2024-12-31",
         random_state: int = 42
@@ -25,19 +25,19 @@ def generate_disease_data(
     """
     This function generates synthetic disease data for the Afrihealth project with realistic patterns.
 
-    It models three diseases: Malaria, Cholera, and Tuberculosis, incorporating climate correlations, outbreak events, seasonality and transmission.
+    It models three diseases: Malaria, Cholera, and Tuberculosis, incorporating weather correlations, outbreak events, seasonality and transmission.
 
     Args:
         geography_df (pd.DataFrame): DataFrame containing geographic information.
         facility_df (pd.DataFrame): DataFrame containing health facility information.
-        climate_df (pd.DataFrame): DataFrame containing climate data.
+        weather_df (pd.DataFrame): DataFrame containing weather data.
         start_date (str): Start date for the data generation in 'YYYY-MM-DD' format.
         end_date (str): End date for the data generation in 'YYYY-MM-DD' format.
         random_state (int): Seed for random number generator for reproducibility.
     
     Returns:
         pd.DataFrame: DataFrame containing generated disease data with columns:
-            - case_id: Unique identifier for each case.
+            - report_id: Unique identifier for each case.
             - report_date: Date when the case was reported.
             - case_date: Date when the symptoms started.
             - facility_id: Identifier for the health facility reporting the case.
@@ -52,8 +52,8 @@ def generate_disease_data(
     Example:
         >>> geo_df = pd.read_csv('geographical.csv')
         >>> fac_df = pd.read_csv('facilities.csv')
-        >>> climate_df = pd.read_csv('climate.csv')
-        >>> cases_df = generate_disease_data(geo_df, fac_df, climate_df)
+        >>> weather_df = pd.read_csv('weather.csv')
+        >>> cases_df = generate_disease_data(geo_df, fac_df, weather_df)
         >>> cases.to_csv('disease.csv', index=False)
     """
 
@@ -64,9 +64,9 @@ def generate_disease_data(
     end_date = datetime.strptime(end_date, "%Y-%m-%d")
     date_range = pd.date_range(start=start_date, end=end_date, freq='D')
 
-    # Climate data preprocessing
-    climate_df['date'] = pd.to_datetime(climate_df['date'])
-    climate_df['temperature_avg_c'] = (climate_df['temperature_min_c'] + climate_df['temperature_max_c']) / 2
+    # weather data preprocessing
+    weather_df['date'] = pd.to_datetime(weather_df['date'])
+    weather_df['temperature_avg_c'] = (weather_df['temperature_min_c'] + weather_df['temperature_max_c']) / 2
 
     # Merge facility and geography data
     facility_geo_df = facility_df.merge(
@@ -78,7 +78,7 @@ def generate_disease_data(
     # Filter to active facilities
     active_facilities = facility_geo_df[facility_geo_df['operational_status'] == 'Operational'].copy()
 
-    print(f"Generating disease data for {len(active_facilities)} active facilities...")
+    print(f"Generating report data for {len(active_facilities)} active facilities...")
 
     data = []
     case_counter = 1
@@ -89,22 +89,22 @@ def generate_disease_data(
     }
 
     for date in date_range:
-        daily_climate = climate_df[climate_df['date'] == date]
+        daily_weather = weather_df[weather_df['date'] == date]
         for _, facility in active_facilities.iterrows():
             geography_id = facility['geography_id']
             facility_id = facility['facility_id']
             population = facility['population']
             is_urban = facility['urban_rural'] == 'Urban'
 
-            # Get climate data for the facility's geography
-            location_climate = daily_climate[daily_climate['geography_id'] == geography_id]
+            # Get weather data for the facility's geography
+            location_weather = daily_weather[daily_weather['geography_id'] == geography_id]
 
-            if len(location_climate) == 0:
+            if len(location_weather) == 0:
                 continue
 
-            climate_row = location_climate.iloc[0]
-            rainfall = climate_row['rainfall_mm']
-            temperature = climate_row['temperature_avg_c']
+            weather_row = location_weather.iloc[0]
+            rainfall = weather_row['rainfall_mm']
+            temperature = weather_row['temperature_avg_c']
 
             # Malaria
             malaria_cases = generate_malaria_cases(
@@ -113,10 +113,10 @@ def generate_disease_data(
                 is_urban=is_urban,
                 rainfall=rainfall,
                 temperature=temperature,
-                climate_history=climate_df[
-                    (climate_df['geography_id'] == geography_id) &
-                    (climate_df['date'] >= date -timedelta(days=21)) &
-                    (climate_df['date'] < date)
+                weather_history=weather_df[
+                    (weather_df['geography_id'] == geography_id) &
+                    (weather_df['date'] >= date -timedelta(days=21)) &
+                    (weather_df['date'] < date)
                 ]
             )
 
@@ -187,10 +187,10 @@ def generate_malaria_cases(
         is_urban: bool,
         rainfall: float,
         temperature: float,
-        climate_history: pd.DataFrame
+        weather_history: pd.DataFrame
 ) -> int:
     """
-    This function generates malaria cases with respect to climate
+    This function generates malaria cases with respect to weather
     Malaria transmission increases 2-3 weeks after rainfall
     """
 
@@ -207,8 +207,8 @@ def generate_malaria_cases(
         season_multiplier = 0.5
     
     # Rainfall lagged effect (2-3 weeks)
-    if len(climate_history) > 0:
-        recent_rainfall = climate_history['rainfall_mm'].sum()
+    if len(weather_history) > 0:
+        recent_rainfall = weather_history['rainfall_mm'].sum()
         rainfall_factor = 1 + (recent_rainfall / 500)
     else:
         rainfall_factor = 1.0
@@ -312,7 +312,7 @@ def generate_tb_cases(
 
 
 def create_case_record(
-        case_id: int,
+        report_id: int,
         report_date: pd.Timestamp,
         facility_id: str,
         geography_id: str,
@@ -357,7 +357,7 @@ def create_case_record(
     gender = 'M' if np.random.random() < 0.47 else 'F'
 
     return {
-        'case_id': f"CASE-{case_id:07d}",
+        'report_id': f"REP-{report_id:07d}",
         'report_date': report_date.strftime('%Y-%m-%d'),
         'case_date': case_date.strftime('%Y-%m-%d'),
         'facility_id': facility_id,
@@ -398,7 +398,7 @@ def add_data_quality_issues(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def save_disease_data(
+def save_report_data(
         df: pd.DataFrame,
         output_path: str = "data/raw",
         compress: bool = False
@@ -407,7 +407,7 @@ def save_disease_data(
     This functions takes the generated dataframe and saves it as csv
 
     Args:
-        df (pd.DataFrame): DataFrame containing climate data.
+        df (pd.DataFrame): DataFrame containing weather data.
         output_path (str): Directory path where the CSV file will be saved.
     """
 
@@ -415,14 +415,11 @@ def save_disease_data(
     output_path.mkdir(parents=True, exist_ok=True)
 
     if compress:
-        file_path = output_path / 'disease.csv.gz'
+        file_path = output_path / 'reports.csv.gz'
         df.to_csv(file_path, index=False, compression='gzip')
     else:
-        file_path = output_path / 'diseases.csv'
+        file_path = output_path / 'reports.csv'
         df.to_csv(file_path, index=False)
-    
-    print(f"Saved diseases case data to {file_path}")
-    print(f"Record: {len(df)}")
 
     return file_path
 
