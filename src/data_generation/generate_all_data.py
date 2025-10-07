@@ -19,7 +19,7 @@ from generate_weather_data import (
     generate_weather_data, save_weather_data
 )
 
-from src.data_generation.generate_reports_data import (
+from generate_reports_data import (
     generate_reports_data, save_reports_data
 )
 

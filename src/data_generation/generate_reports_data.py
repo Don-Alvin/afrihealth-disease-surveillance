@@ -398,7 +398,7 @@ def add_data_quality_issues(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def save_report_data(
+def save_reports_data(
         df: pd.DataFrame,
         output_path: str = "data/raw",
         compress: bool = False
