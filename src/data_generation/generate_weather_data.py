@@ -122,6 +122,7 @@ def generate_weather_data(
                 'geography_id': geography_id,
                 'temperature_min_c': round(temp_min, 1),
                 'temperature_max_c': round(temp_max, 1),
+                "temperature_avg_c": round(temp_avg, 1),
                 'rainfall_mm': round(rainfall, 1),
                 'humidity_pct': round(humidity, 1)
             })

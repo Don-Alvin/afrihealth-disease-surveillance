@@ -103,7 +103,9 @@ Column name | Data Type | Description | Example values
 
 ## Data Architecture
 
-![Flow Diagram](src/images/afriheath.drawio.png)
+<div align="center">
+    <img src="src/images/afriheath.drawio.png" alt="Flow Diagram" width=300>
+</div>
 
 ### 1. Data Lake (Google Cloud Storage)
 Storage repository that holds raw data in its native format (CSV, JSON, etc). This is where the simulated disease reports, climate data, facility data will be stored in csv format.

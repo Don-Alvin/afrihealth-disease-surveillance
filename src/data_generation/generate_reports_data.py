@@ -66,7 +66,6 @@ def generate_reports_data(
 
     # weather data preprocessing
     weather_df['date'] = pd.to_datetime(weather_df['date'])
-    weather_df['temperature_avg_c'] = (weather_df['temperature_min_c'] + weather_df['temperature_max_c']) / 2
 
     # Merge facility and geography data
     facility_geo_df = facility_df.merge(
