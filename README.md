@@ -17,14 +17,14 @@ This project is an end-to-end data project that aims to develop a disease survei
 4. Healthcare facility managers.
 
 ### Diseases on focus
-1. Malaria (seasonal, climate sensitive).
+1. Malaria (seasonal, weather sensitive).
 2. Cholera (waterborne, linked to sanitation).
 3. Tuberculosis (chronic, treatment adherence tracking).
 
 ### Data Sources
 We will create synthetic data to simulate the following scenarios:
     1. Disease case reports.
-    2. Climate data (rainfall, temperature).
+    2. weather data (rainfall, temperature).
     3. Population demographics.
     4. Healthcare facility information.
     5. Geographic boundaries.
@@ -78,7 +78,7 @@ Column name | Data Type | Description | Example values
 Column name | Data Type | Description | Example values
 ------------------|------------|--------------|-------------|
 `geography_id` | String | Foreign key identifier for geographic area | "KE-NAI-001", "ZA-FRE-062", "NG-KAN-028"
-`date` | Date | Date of climate measurement | "2023-01-15", "2023-06-20"	
+`date` | Date | Date of weather measurement | "2023-01-15", "2023-06-20"	
 `temperature_min_c` | Float | Minimum daily temperature in Celsius | 18.5, 22.3
 `temperature_max_c` | Float | Minimum daily temperature in Celsius | 30.2, 35.7
 `rainfall_mm` | Float | Name of district | "Nairobi District 1", "Lagos District 2"
@@ -108,13 +108,13 @@ Column name | Data Type | Description | Example values
 </div>
 
 ### 1. Data Lake (Google Cloud Storage)
-Storage repository that holds raw data in its native format (CSV, JSON, etc). This is where the simulated disease reports, climate data, facility data will be stored in csv format.
+Storage repository that holds raw data in its native format (CSV, JSON, etc). This is where the simulated disease reports, weather data, facility data will be stored in csv format.
 
 ### 2. Data Lakehouse (Apache Iceberg)
 A layer that brings database-like features such as ACID transactions to data lake files. Whenever disease data arrives, this layer ensures that exixting data is not corrupted. This ensure we can track changes overtime.
 For this project, we will create iceberg tables for:
 - `disease_cases` (partitioned by date and region)
-- `climate_data` (partitioned by date)
+- `weather_data` (partitioned by date)
 - `facilities` (slowly changing dimension)
 
 ### 3. Data Warehouse (BigQuery)
