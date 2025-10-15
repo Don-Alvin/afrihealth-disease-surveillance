@@ -152,21 +152,34 @@ class DataQualityChecker:
             })
 
         # Check for temperature outliers
-        temp_mean = self.weather['temperature_avg_c'].mean()
-        temp_std = self.weather['temperature_avg_c'].std()
-        temp_z = ((self.weather['temperature_avg_c'] - temp_mean) / temp_std).round(0)
-        temp_outliers_count = (abs(temp_z) > 3).sum()
+        cols_to_check = ['temperature_avg_c', 'temperature_min_c', 'temperature_max_c']
+        for col in cols_to_check:
+            temp_mean = self.weather[col].mean()
+            temp_std = self.weather[col].std()
+            temp_z = ((self.weather[col] - temp_mean) / temp_std).round(2)
+            temp_outliers_count = (abs(temp_z) > 3).sum()
 
-        if temp_outliers_count > 0:
+            if temp_outliers_count > 0:
+                issues.append({
+                    "check": f"{col} outliers",
+                    "issue_count": int(temp_outliers_count),
+                    "severity": 'LOW',
+                    "description": f"{temp_outliers_count} {col} readings are outliers."
+                })
+        
+        
+        # Check negative rainfall values
+        negative_rainfall = (self.weather['rainfall_mm'] < 0).sum()
+        if negative_rainfall > 0:
             issues.append({
-                "check": "Temperature outliers",
-                "issue_count": int(temp_outliers_count),
-                "severity": 'LOW',
-                "description": f"{temp_outliers_count} temperature readings are outliers."
-            })
+                'check': 'Negative rainfall values',
+                'issue_count': int(negative_rainfall),
+                'severity': 'MEDIUM',
+                'description': f"{negative_rainfall} rainfall values are negative."
+            })        
         
         return {
-            "total_checks": 5,
+            "total_checks": 6,
             "issues_found": len(issues),
             "issues": issues,
             "status": 'PASS' if len(issues) == 0 else 'WARNING' if len(issues) <= 2 else 'FAIL'
@@ -274,7 +287,6 @@ class DataQualityChecker:
         avg_delay = delays.mean()
         median_delay = delays.median()
         max_delay = delays.max()
-        min_delay = delays.min()
 
         # Count extreme delays (delays above 14 days)
         extreme_delays = delays > 14
@@ -381,9 +393,9 @@ class DataQualityChecker:
         warning_count = statuses.count('WARNING')
         fail_count = statuses.count('FAIL')
 
-        if fail_count > 0:
+        if overall_score < 85:
             overall_status = 'FAIL'
-        elif warning_count > 2:
+        elif overall_score < 90:
             overall_status = 'WARNING'
         else:
             overall_status = 'PASS'
