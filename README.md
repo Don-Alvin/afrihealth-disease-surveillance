@@ -85,7 +85,7 @@ Column name | Data Type | Description | Example values
 `humidity_pct` | Float | Humidity percentage | 28, 12
 
 #### 4. Reports data
-- This data shows cases reported per day and their outcomes. For example can be that, on 2020-03-12 (case_date), 7(new_cases) male(gender) adults aged 18-49(age_group) got Malaria(disease). Nairobi District 2 Regional Hospital-35(facility) reported the cases on 2020-03-15. Of the cases reported, 5 recovered, 0 died and 3 were reported still in recovery as of date of report.
+- This data shows cases reported per day and their outcomes. For example can be that, on 2020-03-12 (case_date), 7(cases) male(gender) adults aged 18-49(age_group) got Malaria(disease). Nairobi District 2 Regional Hospital-35(facility) reported the cases on 2020-03-15. Of the cases reported, 5 recovered, 0 died and 3 were reported still in recovery as of date of report.
  
 Column name | Data Type | Description | Example values
 ------------------|------------|--------------|-------------|
@@ -95,7 +95,7 @@ Column name | Data Type | Description | Example values
 `facility_id` | String |  Which healthcare facility reported this case | "FAC-0001, "FAC-01256"
 `geography_id` | String | Geographic area where case occurred | "KE-NAI-001", "NG-LAG-045"
 `disease` | String | Which disease | "Malaria", "Cholera", "Tuberculosis"
-`new_cases` | Integer | Number of new cases | 1, 5, 23
+`cases` | Integer | Number of new cases | 1, 5, 23
 `deaths` | Integer | Number of deaths among new cases | 0, 1 , 4
 `recoveries` | Integer | Number who recovered | 0, 3, 18
 `age_group` | Categorical | Age category of patients | 0-5, 6-17

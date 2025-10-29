@@ -1,506 +1,640 @@
 facility_id,facility_name,facility_type,facility_level,geography_id,country_code,region_name,district_name,capacity,staff_count,has_lab,has_isolation_ward,has_xray,ambulance_count,latitude,longitude,operational_status,established_year
-FAC-00001,Nairobi District 1 Clinic-1,Clinic,2,KE-NAI-001,KE,Nairobi,Nairobi District 1,97.0,19,False,False,False,2,2.667847,35.363403,Operational,2013
-FAC-00002,Nairobi District 1 Dispensary-2,Dispensary,1,KE-NAI-001,KE,Nairobi,Nairobi District 1,57.0,6,True,True,True,1,2.688274,35.369954,Operational,2016
-FAC-00003,Nairobi District 1 Dispensary-3,Dispensary,1,KE-NAI-001,KE,Nairobi,Nairobi District 1,46.0,32,False,False,True,2,2.709273,35.376719,Operational,1996
-FAC-00004,Nairobi District 1 Clinic-4,Clinic,2,KE-NAI-002,KE,Nairobi,Nairobi District 1,43.0,22,False,False,True,0,-3.810466,37.592414,Operational,1996
-FAC-00005,Nairobi District 2 Dispensary-5,Dispensary,1,KE-NAI-003,KE,Nairobi,Nairobi District 2,12.0,39,False,True,False,1,-4.182856,39.646784,Operational,2018
-FAC-00006,Nairobi District 2 Dispensary-6,Dispensary,1,KE-NAI-003,KE,Nairobi,Nairobi District 2,94.0,48,False,False,False,1,-4.192718,39.683034,Operational,2010
-FAC-00007,Nairobi District 2 Clinic-7,Clinic,2,KE-NAI-003,KE,Nairobi,Nairobi District 2,86.0,28,False,False,True,1,-4.195745,39.642517,Operational,1998
-FAC-00008,Nairobi District 2 Dispensary-8,Dispensary,1,KE-NAI-004,KE,Nairobi,Nairobi District 2,12.0,28,False,False,False,2,4.554695,38.797256,Operational,2017
-FAC-00009,Nairobi District 2 Dispensary-9,Dispensary,1,KE-NAI-004,KE,Nairobi,Nairobi District 2,76.0,16,True,False,False,1,4.54416,38.848982,Operational,1990
-FAC-00010,Nairobi District 2 Clinic-10,Clinic,2,KE-NAI-004,KE,Nairobi,Nairobi District 2,51.0,18,False,False,False,2,4.526948,38.842125,Operational,2002
-FAC-00011,Nairobi District 2 Health Center-11,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,56.0,36,True,False,False,1,-2.021263,38.839108,Operational,2011
-FAC-00012,Nairobi District 2 Dispensary-12,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,46.0,49,False,False,False,1,-2.022912,38.834079,Operational,2017
-FAC-00013,Nairobi District 2 Clinic-13,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,66.0,37,True,False,False,0,-1.955496,38.745518,Operational,1998
-FAC-00014,Nairobi District 2 Clinic-14,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,55.0,46,True,False,False,2,-2.001185,38.751312,Operational,2001
-FAC-00015,Nairobi District 2 Health Center-15,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,6.0,7,True,False,True,0,-1.943908,38.785927,Operational,2021
-FAC-00016,Nairobi District 2 Dispensary-16,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,23.0,6,False,False,True,0,-1.974355,38.820985,Operational,2013
-FAC-00017,Nairobi District 2 Clinic-17,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,74.0,26,False,False,True,2,-1.990749,38.814404,Under Construction,2008
-FAC-00018,Nairobi District 2 Dispensary-18,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,23.0,24,True,False,True,2,-1.947896,38.758575,Operational,2014
-FAC-00019,Nairobi District 2 Health Center-19,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,35.0,34,True,False,False,1,-1.986049,38.797788,Operational,2001
-FAC-00020,Nairobi District 2 Clinic-20,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,36.0,13,False,False,False,0,-1.95286,38.822811,Operational,2000
-FAC-00021,Nairobi District 2 Dispensary-21,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,40.0,42,True,True,False,1,-2.041063,38.760904,Operational,2005
-FAC-00022,Nairobi District 2 Dispensary-22,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,37.0,8,False,True,True,0,-1.967152,38.816917,Operational,2001
-FAC-00023,Nairobi District 2 Clinic-23,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,90.0,26,False,False,False,1,-1.950959,38.788262,Operational,2022
-FAC-00024,Nairobi District 2 Clinic-24,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,68.0,37,True,False,False,0,-1.964714,38.749183,Closed,2019
-FAC-00025,Nairobi District 2 Dispensary-25,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,10.0,39,False,False,False,0,-1.98434,38.842856,Operational,2010
-FAC-00026,Nairobi District 2 Health Center-26,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,37.0,7,False,False,False,1,-1.984563,38.754541,Operational,2011
-FAC-00027,Nairobi District 2 Clinic-27,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,31.0,46,False,False,True,1,-1.970678,38.800105,Operational,2015
-FAC-00028,Nairobi District 2 Dispensary-28,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,29.0,28,True,True,False,0,-2.022142,38.751917,Operational,2003
-FAC-00029,Nairobi District 2 Dispensary-29,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,91.0,19,True,False,True,1,-1.995009,38.799087,Operational,2011
-FAC-00030,Nairobi District 2 Health Center-30,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,46.0,10,False,True,False,2,-1.96457,38.766405,Operational,1993
-FAC-00031,Nairobi District 2 Dispensary-31,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,98.0,39,True,True,False,2,-1.970109,38.74893,Operational,2008
-FAC-00032,Nairobi District 2 Clinic-32,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,59.0,30,True,True,False,0,-1.972719,38.750642,Under Construction,2023
-FAC-00033,Nairobi District 2 Health Center-33,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,52.0,29,True,False,False,0,-1.986134,38.805995,Operational,2001
-FAC-00034,Nairobi District 2 Clinic-34,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,55.0,41,True,True,True,1,-2.037496,38.830369,Operational,2001
-FAC-00035,Nairobi District 2 Regional Hospital-35,Regional Hospital,5,KE-NAI-005,KE,Nairobi,Nairobi District 2,973.0,631,True,True,True,9,-1.994222,38.762143,Operational,2012
-FAC-00036,Nairobi District 2 District Hospital-36,District Hospital,4,KE-NAI-005,KE,Nairobi,Nairobi District 2,299.0,133,True,True,True,5,-2.004108,38.807409,Operational,1990
-FAC-00037,Nairobi District 2 Clinic-37,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,8.0,20,False,False,False,2,-1.961474,38.81254,Operational,2022
-FAC-00038,Nairobi District 2 Clinic-38,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,55.0,47,False,False,False,0,-2.020901,38.772219,Operational,1991
-FAC-00039,Nairobi District 2 District Hospital-39,District Hospital,4,KE-NAI-005,KE,Nairobi,Nairobi District 2,234.0,180,True,True,True,3,-2.009671,38.829311,Operational,2023
-FAC-00040,Nairobi District 2 Health Center-40,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,11.0,8,False,False,False,1,-1.968062,38.825171,Operational,1999
-FAC-00041,Nairobi District 2 Clinic-41,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,28.0,39,False,True,True,0,-1.983515,38.831535,Operational,2001
-FAC-00042,Nairobi District 2 Clinic-42,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,17.0,27,True,False,False,0,-1.991913,38.783785,Operational,2008
-FAC-00043,Nairobi District 2 Clinic-43,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,16.0,45,True,False,False,2,-1.946508,38.802167,Operational,1994
-FAC-00044,Nairobi District 2 Clinic-44,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,29.0,25,False,False,True,0,-1.992127,38.750579,Operational,1994
-FAC-00045,Nairobi District 2 Dispensary-45,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,97.0,47,True,True,False,2,-1.979747,38.754935,Operational,2002
-FAC-00046,Nairobi District 2 Health Center-46,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,13.0,31,True,False,True,1,-1.983438,38.831137,Under Construction,2006
-FAC-00047,Nairobi District 2 Dispensary-47,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,,49,False,False,True,1,-1.971061,38.769695,Operational,1992
-FAC-00048,Nairobi District 2 Health Center-48,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,96.0,24,False,False,False,0,-2.017818,38.784845,Operational,2014
-FAC-00049,Nairobi District 2 Dispensary-49,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,42.0,10,True,False,True,1,-1.952455,38.797593,Closed,2008
-FAC-00050,Nairobi District 2 Dispensary-50,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,22.0,45,False,False,False,0,-1.983138,38.834939,Operational,2001
-FAC-00051,Nairobi District 2 Dispensary-51,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,20.0,12,False,False,True,1,-2.022757,38.791193,Operational,2017
-FAC-00052,Nairobi District 2 Health Center-52,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,45.0,40,False,False,True,2,-1.960189,38.813296,Operational,1995
-FAC-00053,Nairobi District 2 Dispensary-53,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,73.0,29,True,False,False,1,-2.025086,38.785949,Operational,2007
-FAC-00054,Nairobi District 2 Dispensary-54,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,53.0,15,False,False,False,0,-1.984661,38.751174,Operational,1990
-FAC-00055,Nairobi District 2 Regional Hospital-55,Regional Hospital,5,KE-NAI-005,KE,Nairobi,Nairobi District 2,1322.0,717,True,True,True,16,-1.960279,38.844795,Closed,2012
-FAC-00056,Nairobi District 2 Dispensary-56,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,41.0,14,False,False,True,1,-2.016425,38.772296,Operational,1990
-FAC-00057,Nairobi District 2 Dispensary-57,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,36.0,38,True,False,False,2,-1.964337,38.796839,Under Construction,1994
-FAC-00058,Nairobi District 2 Health Center-58,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,61.0,21,True,False,False,2,-1.971161,38.766119,Operational,2023
-FAC-00059,Nairobi District 2 Clinic-59,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,86.0,34,False,False,True,2,-1.99017,38.823188,Operational,2006
-FAC-00060,Nairobi District 2 Dispensary-60,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,8.0,14,False,False,False,0,-1.943566,38.794085,Operational,2000
-FAC-00061,Nairobi District 2 Health Center-61,Health Center,3,KE-NAI-005,KE,Nairobi,Nairobi District 2,27.0,20,False,False,True,2,-1.971919,38.785989,Under Construction,2016
-FAC-00062,Nairobi District 2 Dispensary-62,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,54.0,23,True,False,True,0,-2.032699,38.756887,Operational,2015
-FAC-00063,Nairobi District 2 Dispensary-63,Dispensary,1,KE-NAI-005,KE,Nairobi,Nairobi District 2,53.0,18,False,True,False,1,-1.978779,38.752999,Under Construction,2006
-FAC-00064,Nairobi District 2 Clinic-64,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,5.0,12,False,False,False,0,-1.949165,38.768435,Operational,2003
-FAC-00065,Nairobi District 2 Clinic-65,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,30.0,0,True,False,False,2,-1.990401,38.798034,Operational,2004
-FAC-00066,Nairobi District 3 Health Center-66,Health Center,3,KE-NAI-006,KE,Nairobi,Nairobi District 3,32.0,14,False,False,True,2,-2.573251,34.663904,Operational,1993
-FAC-00067,Nairobi District 3 Clinic-67,Clinic,2,KE-NAI-006,KE,Nairobi,Nairobi District 3,22.0,40,False,False,False,2,-2.528781,34.612728,Operational,2015
-FAC-00068,Nairobi District 3 Dispensary-68,Dispensary,1,KE-NAI-007,KE,Nairobi,Nairobi District 3,63.0,49,False,False,True,1,4.409333,37.608699,Operational,2000
-FAC-00069,Nairobi District 3 Clinic-69,Clinic,2,KE-NAI-008,KE,Nairobi,Nairobi District 3,98.0,35,False,True,True,2,-0.490661,34.055846,Under Construction,2009
-FAC-00070,Coast District 1 Dispensary-70,Dispensary,1,KE-COA-009,KE,Coast,Coast District 1,8.0,19,False,False,False,1,-3.759563,39.39571,Operational,2015
-FAC-00071,Coast District 1 Clinic-71,Clinic,2,KE-COA-009,KE,Coast,Coast District 1,48.0,9,False,False,True,1,-3.768024,39.376848,Operational,2003
-FAC-00072,Coast District 1 Clinic-72,Clinic,2,KE-COA-010,KE,Coast,Coast District 1,41.0,15,False,False,True,2,-3.104049,36.991926,Operational,1991
-FAC-00073,Coast District 1 Clinic-73,Clinic,2,KE-COA-011,KE,Coast,Coast District 1,6.0,24,True,True,True,0,-0.748733,35.574143,Operational,2020
-FAC-00074,Coast District 1 Dispensary-74,Dispensary,1,KE-COA-011,KE,Coast,Coast District 1,66.0,48,True,False,False,1,-0.777927,35.520183,Operational,2011
-FAC-00075,Rift Valley District 1 Health Center-75,Health Center,3,KE-RIF-012,KE,Rift Valley,Rift Valley District 1,97.0,12,False,False,True,2,2.475162,41.447449,Operational,2015
-FAC-00076,Rift Valley District 1 Dispensary-76,Dispensary,1,KE-RIF-012,KE,Rift Valley,Rift Valley District 1,93.0,49,False,False,False,1,2.496429,41.41226,Operational,2012
-FAC-00077,Rift Valley District 1 Clinic-77,Clinic,2,KE-RIF-013,KE,Rift Valley,Rift Valley District 1,29.0,21,False,False,True,0,-1.690268,38.467837,Operational,1992
-FAC-00078,Rift Valley District 1 Dispensary-78,Dispensary,1,KE-RIF-013,KE,Rift Valley,Rift Valley District 1,76.0,46,False,False,False,2,-1.655856,38.513321,Operational,2016
-FAC-00079,Rift Valley District 1 Dispensary-79,Dispensary,1,KE-RIF-014,KE,Rift Valley,Rift Valley District 1,72.0,26,False,False,True,1,3.186291,39.839624,Operational,2013
-FAC-00080,Central District 1 Dispensary-80,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,19.0,33,False,False,False,0,-2.136089,38.251413,Operational,2015
-FAC-00081,Central District 1 Health Center-81,Health Center,3,KE-CEN-015,KE,Central,Central District 1,73.0,24,False,False,True,2,-2.094949,38.220362,Operational,2015
-FAC-00082,Central District 1 Clinic-82,Clinic,2,KE-CEN-015,KE,Central,Central District 1,66.0,22,True,False,False,0,-2.127088,38.283444,Operational,1997
-FAC-00083,Central District 1 Dispensary-83,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,96.0,35,True,True,True,1,-2.053265,38.282638,Operational,2010
-FAC-00084,Central District 1 Health Center-84,Health Center,3,KE-CEN-015,KE,Central,Central District 1,40.0,27,False,False,True,0,-2.07652,38.2295,Operational,1999
-FAC-00085,Central District 1 Dispensary-85,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,30.0,45,False,False,False,2,-2.102674,38.226264,Operational,2006
-FAC-00086,Central District 1 Clinic-86,Clinic,2,KE-CEN-015,KE,Central,Central District 1,63.0,48,True,True,False,2,-2.095416,38.283054,Operational,2011
-FAC-00087,Central District 1 Health Center-87,Health Center,3,KE-CEN-015,KE,Central,Central District 1,89.0,11,False,True,False,0,-2.128774,38.291256,Operational,1990
-FAC-00088,Central District 1 Clinic-88,Clinic,2,KE-CEN-015,KE,Central,Central District 1,98.0,27,True,False,True,2,-2.11824,38.195224,Operational,2008
-FAC-00089,Central District 1 District Hospital-89,District Hospital,4,KE-CEN-015,KE,Central,Central District 1,789.0,214,True,True,True,8,-2.084544,38.245015,Operational,2019
-FAC-00090,Central District 1 Clinic-90,Clinic,2,KE-CEN-015,KE,Central,Central District 1,67.0,8,False,True,False,0,-2.110079,38.281312,Operational,2022
-FAC-00091,Central District 1 Regional Hospital-91,Regional Hospital,5,KE-CEN-015,KE,Central,Central District 1,1999.0,999,True,True,True,6,-2.05061,38.232367,Operational,1992
-FAC-00092,Central District 1 Health Center-92,Health Center,3,KE-CEN-015,KE,Central,Central District 1,63.0,12,False,False,False,1,-2.081637,38.26365,Operational,2013
-FAC-00093,Central District 1 Dispensary-93,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,50.0,47,True,False,True,0,-2.128616,38.254893,Operational,2010
-FAC-00094,Central District 1 Regional Hospital-94,Regional Hospital,5,KE-CEN-015,KE,Central,Central District 1,1904.0,747,True,True,True,17,-2.095167,38.280836,Operational,2009
-FAC-00095,Central District 1 Clinic-95,Clinic,2,KE-CEN-015,KE,Central,Central District 1,6.0,7,True,False,True,2,-2.059926,38.227845,Under Construction,2011
-FAC-00096,Central District 1 Dispensary-96,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,85.0,14,False,False,False,1,-2.094788,38.193816,Operational,1991
-FAC-00097,Central District 1 Dispensary-97,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,77.0,26,False,True,False,2,-2.068187,38.259887,Operational,2010
-FAC-00098,Central District 1 Dispensary-98,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,45.0,42,False,False,False,1,-2.116667,38.192669,Operational,2020
-FAC-00099,Central District 1 Dispensary-99,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,44.0,38,False,True,False,0,-2.095432,38.229883,Operational,1991
-FAC-00100,Central District 1 Health Center-100,Health Center,3,KE-CEN-015,KE,Central,Central District 1,69.0,40,True,False,True,2,-2.101742,38.263474,Operational,2023
-FAC-00101,Central District 1 Clinic-101,Clinic,2,KE-CEN-015,KE,Central,Central District 1,28.0,26,False,False,False,0,-2.121108,38.275722,Operational,2023
-FAC-00102,Central District 1 Dispensary-102,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,70.0,13,False,False,False,0,-2.07748,38.237537,Operational,2019
-FAC-00103,Central District 1 Regional Hospital-103,Regional Hospital,5,KE-CEN-015,KE,Central,Central District 1,1023.0,474,True,True,True,9,-2.128151,38.2833,Operational,1999
-FAC-00104,Central District 1 Dispensary-104,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,51.0,16,False,False,False,1,-2.061405,38.263979,Operational,1997
-FAC-00105,Central District 1 Health Center-105,Health Center,3,KE-CEN-015,KE,Central,Central District 1,93.0,16,False,True,False,2,-2.132892,38.250395,Closed,2015
-FAC-00106,Central District 1 Clinic-106,Clinic,2,KE-CEN-015,KE,Central,Central District 1,11.0,18,False,False,False,2,-2.040203,38.285996,Operational,2019
-FAC-00107,Central District 1 District Hospital-107,District Hospital,4,KE-CEN-015,KE,Central,Central District 1,601.0,286,True,True,True,3,-2.072854,38.256586,Operational,2023
-FAC-00108,Central District 1 Dispensary-108,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,47.0,44,False,True,True,1,-2.08336,38.270641,Operational,2007
-FAC-00109,Central District 1 Clinic-109,Clinic,2,KE-CEN-015,KE,Central,Central District 1,46.0,48,False,False,False,1,-2.137285,38.210116,Operational,2021
-FAC-00110,Central District 1 Dispensary-110,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,43.0,33,True,True,False,1,-2.079233,38.218738,Operational,2019
-FAC-00111,Central District 1 Clinic-111,Clinic,2,KE-CEN-015,KE,Central,Central District 1,88.0,9,True,True,True,0,-2.108585,38.2212,Operational,2014
-FAC-00112,Central District 1 Clinic-112,Clinic,2,KE-CEN-015,KE,Central,Central District 1,57.0,19,True,False,True,0,-2.041667,38.271368,Operational,1995
-FAC-00113,Central District 1 Dispensary-113,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,67.0,28,False,False,False,2,-2.13081,38.231727,Operational,1999
-FAC-00114,Central District 1 District Hospital-114,District Hospital,4,KE-CEN-015,KE,Central,Central District 1,417.0,268,True,True,True,2,-2.041582,38.27419,Operational,2012
-FAC-00115,Central District 1 Dispensary-115,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,24.0,46,False,False,True,2,-2.055726,38.214013,Operational,2014
-FAC-00116,Central District 1 Clinic-116,Clinic,2,KE-CEN-015,KE,Central,Central District 1,18.0,41,False,False,True,1,-2.089641,38.196007,Under Construction,1998
-FAC-00117,Central District 1 Clinic-117,Clinic,2,KE-CEN-015,KE,Central,Central District 1,29.0,9,True,False,True,2,-2.111334,38.263911,Operational,1995
-FAC-00118,Central District 1 Dispensary-118,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,52.0,17,False,True,False,0,-2.085701,38.28222,Operational,2023
-FAC-00119,Central District 1 Clinic-119,Clinic,2,KE-CEN-015,KE,Central,Central District 1,81.0,49,False,False,False,0,-2.052251,38.278298,Operational,2014
-FAC-00120,Central District 1 Dispensary-120,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,67.0,31,True,False,False,1,-2.090762,38.279476,Operational,2021
-FAC-00121,Central District 1 Clinic-121,Clinic,2,KE-CEN-015,KE,Central,Central District 1,34.0,43,True,False,False,2,-2.11144,38.210882,Operational,2016
-FAC-00122,Central District 1 Dispensary-122,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,21.0,44,False,True,False,2,-2.124464,38.219903,Operational,2021
-FAC-00123,Central District 1 Dispensary-123,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,32.0,19,False,False,True,1,-2.060224,38.286299,Operational,2001
-FAC-00124,Central District 1 District Hospital-124,District Hospital,4,KE-CEN-015,KE,Central,Central District 1,221.0,219,True,True,True,4,-2.052068,38.290584,Operational,2001
-FAC-00125,Central District 1 Dispensary-125,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,56.0,16,True,False,True,2,-2.05543,38.21682,Operational,2023
-FAC-00126,Central District 1 Clinic-126,Clinic,2,KE-CEN-015,KE,Central,Central District 1,33.0,8,True,False,False,0,-2.054717,38.221406,Operational,2003
-FAC-00127,Central District 1 Health Center-127,Health Center,3,KE-CEN-015,KE,Central,Central District 1,79.0,31,False,True,False,2,-2.042947,38.233542,Operational,1995
-FAC-00128,Central District 1 Dispensary-128,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,73.0,7,False,False,True,2,-2.115999,38.194682,Operational,2001
-FAC-00129,Central District 1 Clinic-129,Clinic,2,KE-CEN-015,KE,Central,Central District 1,84.0,31,True,True,True,1,-2.09194,38.244604,Operational,2018
-FAC-00130,Central District 1 Health Center-130,Health Center,3,KE-CEN-015,KE,Central,Central District 1,57.0,28,False,False,False,1,-2.125578,38.204088,Operational,1998
-FAC-00131,Central District 1 Health Center-131,Health Center,3,KE-CEN-015,KE,Central,Central District 1,64.0,26,False,False,False,1,-2.038874,38.206527,Operational,2019
-FAC-00132,Central District 1 Clinic-132,Clinic,2,KE-CEN-015,KE,Central,Central District 1,99.0,42,False,False,False,2,-2.133347,38.23962,Operational,2006
-FAC-00133,Central District 1 Health Center-133,Health Center,3,KE-CEN-015,KE,Central,Central District 1,50.0,36,False,False,False,2,-2.081344,38.192546,Operational,1991
-FAC-00134,Central District 1 Clinic-134,Clinic,2,KE-CEN-015,KE,Central,Central District 1,81.0,34,False,False,True,0,-2.039562,38.211655,Operational,2004
-FAC-00135,Central District 1 Health Center-135,Health Center,3,KE-CEN-015,KE,Central,Central District 1,48.0,44,True,False,False,2,-2.075649,38.252863,Operational,2001
-FAC-00136,Central District 1 Dispensary-136,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,54.0,32,False,False,False,1,-2.071227,38.246869,Operational,2011
-FAC-00137,Central District 1 Clinic-137,Clinic,2,KE-CEN-015,KE,Central,Central District 1,7.0,45,False,False,False,1,-2.07228,38.239497,Operational,2008
-FAC-00138,Central District 1 Dispensary-138,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,49.0,12,False,False,False,0,-2.081773,38.263489,Operational,2021
-FAC-00139,Central District 1 Clinic-139,Clinic,2,KE-CEN-015,KE,Central,Central District 1,63.0,7,False,False,False,1,-2.116951,38.275614,Operational,2010
-FAC-00140,Central District 1 Dispensary-140,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,65.0,28,False,False,False,0,-2.133298,38.278272,Operational,2023
-FAC-00141,Central District 1 Clinic-141,Clinic,2,KE-CEN-015,KE,Central,Central District 1,70.0,19,False,False,False,1,-2.108924,38.227484,Operational,2007
-FAC-00142,Central District 1 Dispensary-142,Dispensary,1,KE-CEN-015,KE,Central,Central District 1,19.0,37,False,False,False,2,-2.074055,38.228854,Operational,1994
-FAC-00143,Central District 1 Clinic-143,Clinic,2,KE-CEN-016,KE,Central,Central District 1,45.0,18,False,False,True,2,-4.017571,41.842036,Operational,1994
-FAC-00144,Eastern District 1 Clinic-144,Clinic,2,KE-EAS-017,KE,Eastern,Eastern District 1,44.0,16,True,False,False,0,-4.574856,35.473828,Operational,2001
-FAC-00145,Eastern District 1 Dispensary-145,Dispensary,1,KE-EAS-018,KE,Eastern,Eastern District 1,5.0,9,False,False,True,2,3.902534,39.11917,Operational,2001
-FAC-00146,Eastern District 1 Clinic-146,Clinic,2,KE-EAS-018,KE,Eastern,Eastern District 1,48.0,32,False,False,True,2,3.891573,39.064325,Operational,2009
-FAC-00147,Eastern District 1 Health Center-147,Health Center,3,KE-EAS-018,KE,Eastern,Eastern District 1,5.0,39,True,True,True,1,3.923065,39.127437,Operational,2013
-FAC-00148,Eastern District 1 Dispensary-148,Dispensary,1,KE-EAS-019,KE,Eastern,Eastern District 1,93.0,33,False,False,False,0,-0.535844,34.666505,Operational,2005
-FAC-00149,Eastern District 1 Dispensary-149,Dispensary,1,KE-EAS-019,KE,Eastern,Eastern District 1,12.0,25,False,True,True,0,-0.473774,34.638812,Operational,2015
-FAC-00150,Eastern District 1 Clinic-150,Clinic,2,KE-EAS-019,KE,Eastern,Eastern District 1,34.0,22,False,False,False,0,-0.558798,34.692832,Under Construction,1990
-FAC-00151,Western District 1 Health Center-151,Health Center,3,KE-WES-020,KE,Western,Western District 1,84.0,18,False,False,True,0,2.051266,39.010955,Operational,2022
-FAC-00152,Western District 1 Clinic-152,Clinic,2,KE-WES-020,KE,Western,Western District 1,52.0,17,True,False,True,0,2.100388,39.026979,Under Construction,2008
-FAC-00153,Western District 1 Dispensary-153,Dispensary,1,KE-WES-021,KE,Western,Western District 1,86.0,17,False,False,True,0,1.912864,40.001187,Operational,1990
-FAC-00154,Nyanza District 1 Clinic-154,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,75.0,19,False,False,False,0,-4.319399,39.579745,Operational,2000
-FAC-00155,Nyanza District 1 Dispensary-155,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,82.0,14,False,False,False,1,-4.32206,39.583221,Operational,2015
-FAC-00156,Nyanza District 1 Health Center-156,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,9.0,38,True,False,True,0,-4.319027,39.609991,Operational,2010
-FAC-00157,Nyanza District 1 Health Center-157,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,84.0,19,False,False,True,0,-4.32605,39.554759,Operational,1993
-FAC-00158,Nyanza District 1 Health Center-158,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,56.0,31,False,False,True,0,-4.312935,39.606918,Operational,1993
-FAC-00159,Nyanza District 1 Dispensary-159,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,98.0,15,False,True,False,2,-4.303063,39.545991,Operational,2009
-FAC-00160,Nyanza District 1 Clinic-160,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,11.0,5,False,False,False,0,-4.292049,39.623724,Operational,1998
-FAC-00161,Nyanza District 1 Dispensary-161,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,92.0,46,True,False,True,0,-4.291707,39.577677,Operational,2007
-FAC-00162,Nyanza District 1 Dispensary-162,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,78.0,37,False,True,False,2,-4.287688,39.556977,Operational,2004
-FAC-00163,Nyanza District 1 Health Center-163,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,75.0,36,True,False,False,2,-4.324291,39.634082,Operational,2010
-FAC-00164,Nyanza District 1 Dispensary-164,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,46.0,43,False,False,True,0,-4.363557,39.607737,Operational,2022
-FAC-00165,Nyanza District 1 Dispensary-165,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,77.0,12,True,False,True,0,-4.322062,39.542064,Operational,2016
-FAC-00166,Nyanza District 1 Dispensary-166,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,12.0,42,False,False,False,1,-4.354936,39.540537,Operational,2006
-FAC-00167,Nyanza District 1 Dispensary-167,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,91.0,34,False,False,True,1,-4.304968,39.555396,Operational,2019
-FAC-00168,Nyanza District 1 Clinic-168,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,20.0,16,False,False,False,0,-4.335715,39.547286,Closed,1994
-FAC-00169,Nyanza District 1 Dispensary-169,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,69.0,34,True,False,False,0,-4.287499,39.596152,Operational,2023
-FAC-00170,Nyanza District 1 District Hospital-170,District Hospital,4,KE-NYA-022,KE,Nyanza,Nyanza District 1,,250,True,True,True,3,-4.339801,39.573394,Operational,1998
-FAC-00171,Nyanza District 1 Clinic-171,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,71.0,27,False,False,False,1,-4.324272,39.634519,Under Construction,2001
-FAC-00172,Nyanza District 1 Dispensary-172,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,46.0,42,False,False,False,1,-4.301826,39.549431,Operational,2003
-FAC-00173,Nyanza District 1 Health Center-173,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,25.0,39,True,False,False,1,-4.316664,39.628576,Operational,2022
-FAC-00174,Nyanza District 1 Dispensary-174,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,18.0,5,False,False,True,1,-4.278688,39.617823,Operational,2023
-FAC-00175,Nyanza District 1 Health Center-175,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,72.0,29,False,False,False,2,-4.330718,39.566485,Operational,2007
-FAC-00176,Nyanza District 1 Clinic-176,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,67.0,10,True,False,True,0,-4.335322,39.591747,Operational,2014
-FAC-00177,Nyanza District 1 District Hospital-177,District Hospital,4,KE-NYA-022,KE,Nyanza,Nyanza District 1,452.0,258,True,True,True,9,-4.344232,39.578337,Operational,2010
-FAC-00178,Nyanza District 1 Health Center-178,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,66.0,11,False,False,False,0,-4.312446,39.565928,Operational,1996
-FAC-00179,Nyanza District 1 Clinic-179,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,90.0,18,False,False,True,2,-4.332353,39.583437,Operational,2004
-FAC-00180,Nyanza District 1 Clinic-180,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,91.0,43,True,True,True,0,-4.276381,39.615457,Closed,2006
-FAC-00181,Nyanza District 1 Health Center-181,Health Center,3,KE-NYA-022,KE,Nyanza,Nyanza District 1,64.0,15,False,False,True,2,-4.361248,39.621769,Operational,2007
-FAC-00182,Nyanza District 1 Clinic-182,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,97.0,33,False,False,True,1,-4.363753,39.601172,Under Construction,1991
-FAC-00183,Nyanza District 1 Clinic-183,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,33.0,37,False,False,False,1,-4.291455,39.584848,Operational,2011
-FAC-00184,Nyanza District 1 Dispensary-184,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,83.0,21,False,True,False,2,-4.322746,39.603326,Operational,2012
-FAC-00185,Nyanza District 1 Dispensary-185,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,55.0,28,True,False,False,2,-4.338643,39.564957,Operational,2004
-FAC-00186,Nyanza District 1 Dispensary-186,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,32.0,47,True,False,False,1,-4.347463,39.537397,Operational,2017
-FAC-00187,Nyanza District 1 Dispensary-187,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,12.0,44,False,False,True,0,-4.348427,39.561374,Operational,2014
-FAC-00188,Nyanza District 1 Clinic-188,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,66.0,14,True,False,True,0,-4.325366,39.627333,Operational,2021
-FAC-00189,Nyanza District 1 Dispensary-189,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,15.0,14,True,False,True,2,-4.336369,39.590312,Operational,2011
-FAC-00190,Nyanza District 1 Clinic-190,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,88.0,25,False,False,True,2,-4.292373,39.62144,Operational,2007
-FAC-00191,Nyanza District 1 Dispensary-191,Dispensary,1,KE-NYA-022,KE,Nyanza,Nyanza District 1,25.0,12,False,False,False,1,-4.356225,39.589806,Closed,2011
-FAC-00192,Nyanza District 1 Clinic-192,Clinic,2,KE-NYA-022,KE,Nyanza,Nyanza District 1,17.0,22,True,False,False,1,-4.352617,39.585888,Operational,2002
-FAC-00193,Nyanza District 1 Clinic-193,Clinic,2,KE-NYA-023,KE,Nyanza,Nyanza District 1,41.0,37,True,False,False,2,-2.786679,41.079738,Operational,1997
-FAC-00194,Lagos District 1 Clinic-194,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,20.0,12,False,False,True,0,8.209071,11.729041,Operational,2014
-FAC-00195,Lagos District 1 Clinic-195,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,50.0,43,True,False,False,2,8.245099,11.641582,Operational,2001
-FAC-00196,Lagos District 1 Dispensary-196,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,18.0,38,False,False,True,0,8.220236,11.728724,Closed,1993
-FAC-00197,Lagos District 1 Clinic-197,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,8.0,24,False,False,True,1,8.230938,11.710621,Operational,1993
-FAC-00198,Lagos District 1 Health Center-198,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,49.0,24,False,False,False,0,8.196161,11.699057,Operational,1993
-FAC-00199,Lagos District 1 District Hospital-199,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,735.0,261,True,True,True,7,8.270175,11.668041,Operational,2008
-FAC-00200,Lagos District 1 District Hospital-200,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,308.0,175,True,True,True,7,8.287873,11.662043,Operational,2008
-FAC-00201,Lagos District 1 Clinic-201,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,98.0,37,False,True,False,1,8.266335,11.714421,Operational,2022
-FAC-00202,Lagos District 1 Clinic-202,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,8.0,24,True,False,False,2,8.228059,11.698246,Operational,1999
-FAC-00203,Lagos District 1 Clinic-203,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,81.0,47,False,False,False,0,8.282638,11.719317,Operational,2015
-FAC-00204,Lagos District 1 Dispensary-204,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,97.0,41,False,False,False,0,8.252793,11.646043,Under Construction,1990
-FAC-00205,Lagos District 1 Dispensary-205,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,74.0,45,True,True,True,1,8.281938,11.688265,Operational,2013
-FAC-00206,Lagos District 1 District Hospital-206,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,613.0,185,True,True,True,5,8.217248,11.66862,Operational,1999
-FAC-00207,Lagos District 1 Clinic-207,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,58.0,35,False,False,True,1,8.274985,11.645709,Operational,2010
-FAC-00208,Lagos District 1 Clinic-208,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,37.0,31,True,False,False,2,8.244508,11.653858,Under Construction,2010
-FAC-00209,Lagos District 1 District Hospital-209,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,691.0,219,True,True,True,9,8.252119,11.690507,Closed,1994
-FAC-00210,Lagos District 1 Dispensary-210,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,94.0,41,False,False,False,0,8.224627,11.652469,Operational,1993
-FAC-00211,Lagos District 1 Clinic-211,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,75.0,26,False,False,True,2,8.230074,11.695314,Operational,2006
-FAC-00212,Lagos District 1 Dispensary-212,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,74.0,38,False,True,False,0,8.211285,11.650815,Under Construction,2011
-FAC-00213,Lagos District 1 Clinic-213,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,44.0,42,False,True,False,2,8.209812,11.666921,Operational,1993
-FAC-00214,Lagos District 1 Dispensary-214,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,90.0,19,False,True,True,0,8.28434,11.697077,Operational,1991
-FAC-00215,Lagos District 1 District Hospital-215,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,453.0,230,True,True,True,9,8.217919,11.680132,Operational,2012
-FAC-00216,Lagos District 1 Dispensary-216,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,54.0,47,False,True,True,2,8.19908,11.676726,Operational,2010
-FAC-00217,Lagos District 1 Clinic-217,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,13.0,19,False,True,False,1,8.269002,11.672735,Under Construction,1992
-FAC-00218,Lagos District 1 Dispensary-218,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,44.0,42,False,True,True,0,8.26294,11.723097,Operational,2019
-FAC-00219,Lagos District 1 Dispensary-219,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,23.0,36,False,False,False,0,8.231452,11.73947,Operational,2002
-FAC-00220,Lagos District 1 Clinic-220,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,32.0,42,False,True,True,1,8.245652,11.693799,Operational,2023
-FAC-00221,Lagos District 1 Health Center-221,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,9.0,39,False,False,False,0,8.200751,11.717017,Closed,1991
-FAC-00222,Lagos District 1 Dispensary-222,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,77.0,25,False,False,False,1,8.21411,11.652353,Operational,2022
-FAC-00223,Lagos District 1 Health Center-223,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,56.0,38,False,True,False,0,8.233227,11.698784,Operational,2000
-FAC-00224,Lagos District 1 Dispensary-224,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,95.0,39,True,False,True,0,8.258309,11.648023,Operational,1998
-FAC-00225,Lagos District 1 Dispensary-225,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,5.0,12,True,False,False,2,8.240941,11.67159,Operational,2003
-FAC-00226,Lagos District 1 Dispensary-226,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,21.0,43,False,False,True,0,8.280396,11.708132,Operational,2016
-FAC-00227,Lagos District 1 Clinic-227,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,50.0,42,False,False,True,1,8.287356,11.652131,Operational,2014
-FAC-00228,Lagos District 1 Clinic-228,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,18.0,30,True,False,True,1,8.280753,11.716455,Operational,2009
-FAC-00229,Lagos District 1 Dispensary-229,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,82.0,13,False,False,False,2,8.23466,11.662903,Operational,2006
-FAC-00230,Lagos District 1 Health Center-230,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,68.0,37,False,True,True,0,8.262701,11.70094,Operational,2017
-FAC-00231,Lagos District 1 Dispensary-231,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,90.0,45,False,False,False,2,8.218205,11.683977,Operational,2010
-FAC-00232,Lagos District 1 Clinic-232,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,73.0,24,False,True,True,0,8.280639,11.707979,Operational,2013
-FAC-00233,Lagos District 1 Dispensary-233,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,12.0,49,False,False,False,2,8.267064,11.701251,Under Construction,2018
-FAC-00234,Lagos District 1 Health Center-234,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,25.0,42,False,False,False,0,8.200098,11.67951,Operational,2011
-FAC-00235,Lagos District 1 Health Center-235,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,92.0,38,False,False,False,2,8.196769,11.666498,Operational,2001
-FAC-00236,Lagos District 1 Dispensary-236,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,31.0,12,True,False,True,2,8.23788,11.660669,Operational,2009
-FAC-00237,Lagos District 1 Health Center-237,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,17.0,42,True,False,True,0,8.200479,11.674945,Operational,1998
-FAC-00238,Lagos District 1 Dispensary-238,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,53.0,45,True,False,False,0,8.277098,11.690414,Operational,2008
-FAC-00239,Lagos District 1 Clinic-239,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,50.0,49,False,False,False,0,8.25677,11.666876,Operational,2022
-FAC-00240,Lagos District 1 Dispensary-240,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,96.0,9,False,True,True,0,8.195628,11.701439,Operational,1991
-FAC-00241,Lagos District 1 Dispensary-241,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,37.0,40,True,False,False,1,8.279708,11.681483,Operational,1991
-FAC-00242,Lagos District 1 Dispensary-242,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,78.0,6,False,True,False,2,8.281005,11.702316,Under Construction,2009
-FAC-00243,Lagos District 1 Dispensary-243,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,6.0,33,False,False,False,1,8.259164,11.694308,Operational,2004
-FAC-00244,Lagos District 1 District Hospital-244,District Hospital,4,NG-LAG-024,NG,Lagos,Lagos District 1,412.0,161,True,True,True,2,8.211281,11.68772,Operational,2017
-FAC-00245,Lagos District 1 Clinic-245,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,22.0,40,True,False,False,2,8.248705,11.663687,Operational,1992
-FAC-00246,Lagos District 1 Dispensary-246,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,83.0,45,True,False,True,2,8.226681,11.643801,Operational,2013
-FAC-00247,Lagos District 1 Clinic-247,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,60.0,32,False,True,False,0,8.28434,11.675036,Operational,2007
-FAC-00248,Lagos District 1 Dispensary-248,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,47.0,35,False,False,False,2,8.250254,11.677518,Operational,2001
-FAC-00249,Lagos District 1 Clinic-249,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,35.0,8,True,False,True,0,8.240222,11.737461,Operational,2016
-FAC-00250,Lagos District 1 Health Center-250,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,68.0,31,False,False,True,1,8.238461,11.654064,Operational,2012
-FAC-00251,Lagos District 1 Clinic-251,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,22.0,13,True,False,True,0,8.19277,11.738133,Operational,1994
-FAC-00252,Lagos District 1 Health Center-252,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,53.0,17,True,False,False,1,8.225295,11.72374,Operational,2010
-FAC-00253,Lagos District 1 Clinic-253,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,25.0,48,False,False,False,2,8.203596,11.685463,Operational,2000
-FAC-00254,Lagos District 1 Health Center-254,Health Center,3,NG-LAG-024,NG,Lagos,Lagos District 1,21.0,39,False,False,False,1,8.209807,11.680573,Operational,2006
-FAC-00255,Lagos District 1 Dispensary-255,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,23.0,31,False,False,False,0,8.193474,11.715645,Operational,1994
-FAC-00256,Lagos District 1 Dispensary-256,Dispensary,1,NG-LAG-024,NG,Lagos,Lagos District 1,24.0,45,True,False,False,1,8.240966,11.650426,Operational,1995
-FAC-00257,Lagos District 1 Clinic-257,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,79.0,37,False,False,False,1,8.238909,11.698787,Under Construction,2003
-FAC-00258,Lagos District 1 Clinic-258,Clinic,2,NG-LAG-024,NG,Lagos,Lagos District 1,96.0,8,False,False,True,2,8.275072,11.684974,Operational,2021
-FAC-00259,Lagos District 1 Clinic-259,Clinic,2,NG-LAG-025,NG,Lagos,Lagos District 1,67.0,42,False,False,False,2,7.124252,4.570445,Operational,2018
-FAC-00260,Lagos District 1 Health Center-260,Health Center,3,NG-LAG-025,NG,Lagos,Lagos District 1,71.0,14,False,False,False,1,7.064955,4.641838,Operational,2019
-FAC-00261,Lagos District 2 District Hospital-261,District Hospital,4,NG-LAG-026,NG,Lagos,Lagos District 2,218.0,213,True,True,True,9,12.715487,12.222679,Operational,1992
-FAC-00262,Lagos District 2 Dispensary-262,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,29.0,41,True,True,False,0,12.698215,12.294616,Under Construction,1991
-FAC-00263,Lagos District 2 Health Center-263,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,27.0,13,True,False,False,1,12.622623,12.24858,Operational,2002
-FAC-00264,Lagos District 2 Dispensary-264,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,38.0,49,True,False,False,0,12.627315,12.297905,Operational,1991
-FAC-00265,Lagos District 2 Health Center-265,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,17.0,35,True,False,False,1,12.656532,12.304309,Operational,1990
-FAC-00266,Lagos District 2 Clinic-266,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,34.0,17,True,False,False,0,12.634806,12.285677,Under Construction,1999
-FAC-00267,Lagos District 2 Dispensary-267,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,76.0,24,True,False,False,1,12.696418,12.268948,Operational,2002
-FAC-00268,Lagos District 2 Dispensary-268,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,12.0,22,True,False,False,2,12.688194,12.240853,Operational,2020
-FAC-00269,Lagos District 2 Health Center-269,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,97.0,30,True,False,True,1,12.699956,12.21408,Operational,2018
-FAC-00270,Lagos District 2 Dispensary-270,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,69.0,47,False,False,False,2,12.706742,12.307996,Operational,1995
-FAC-00271,Lagos District 2 Clinic-271,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,80.0,41,False,False,True,0,12.679293,12.284084,Operational,2012
-FAC-00272,Lagos District 2 Clinic-272,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,17.0,41,True,True,False,0,12.71042,12.240595,Operational,2008
-FAC-00273,Lagos District 2 Dispensary-273,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,46.0,21,False,False,False,0,12.663619,12.224796,Operational,1996
-FAC-00274,Lagos District 2 Dispensary-274,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,86.0,41,False,False,True,0,12.702998,12.286748,Operational,2012
-FAC-00275,Lagos District 2 Dispensary-275,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,38.0,13,True,False,False,2,12.621242,12.281917,Operational,1990
-FAC-00276,Lagos District 2 Dispensary-276,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,17.0,14,True,False,True,0,12.653931,12.247433,Operational,2003
-FAC-00277,Lagos District 2 Clinic-277,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,29.0,7,False,False,True,2,12.688508,12.301463,Operational,2015
-FAC-00278,Lagos District 2 Dispensary-278,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,88.0,32,True,True,False,2,12.673558,12.221336,Operational,2023
-FAC-00279,Lagos District 2 Health Center-279,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,11.0,36,False,False,True,0,12.680208,12.270763,Operational,2002
-FAC-00280,Lagos District 2 Dispensary-280,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,55.0,13,False,False,True,2,12.636731,12.228931,Under Construction,2018
-FAC-00281,Lagos District 2 Health Center-281,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,32.0,17,True,False,False,2,12.715043,12.237614,Operational,2009
-FAC-00282,Lagos District 2 Clinic-282,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,19.0,36,False,False,True,1,12.630102,12.275939,Operational,2008
-FAC-00283,Lagos District 2 Health Center-283,Health Center,3,NG-LAG-026,NG,Lagos,Lagos District 2,57.0,12,True,False,False,2,12.710762,12.247432,Operational,2020
-FAC-00284,Lagos District 2 Dispensary-284,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,30.0,9,False,True,False,0,12.668988,12.237887,Operational,2010
-FAC-00285,Lagos District 2 Dispensary-285,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,10.0,42,False,False,False,1,12.659304,12.218088,Operational,2018
-FAC-00286,Lagos District 2 Clinic-286,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,37.0,21,False,False,True,2,12.712085,12.233391,Closed,2015
-FAC-00287,Lagos District 2 Clinic-287,Clinic,2,NG-LAG-026,NG,Lagos,Lagos District 2,80.0,15,False,False,True,0,12.678256,12.311816,Operational,2018
-FAC-00288,Lagos District 2 Dispensary-288,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,21.0,47,False,False,False,2,12.632189,12.261388,Operational,2019
-FAC-00289,Lagos District 2 Dispensary-289,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,43.0,21,False,False,False,2,12.676328,12.297239,Operational,2017
-FAC-00290,Lagos District 2 Dispensary-290,Dispensary,1,NG-LAG-026,NG,Lagos,Lagos District 2,46.0,47,True,False,False,0,12.688908,12.223238,Operational,2018
-FAC-00291,Lagos District 2 Dispensary-291,Dispensary,1,NG-LAG-027,NG,Lagos,Lagos District 2,17.0,49,False,True,False,1,7.459197,4.152315,Operational,1996
-FAC-00292,Kano District 1 Clinic-292,Clinic,2,NG-KAN-028,NG,Kano,Kano District 1,88.0,24,True,True,False,0,10.49538,2.718396,Closed,2018
-FAC-00293,Kano District 1 Clinic-293,Clinic,2,NG-KAN-028,NG,Kano,Kano District 1,95.0,22,True,True,False,0,10.478005,2.706788,Operational,1994
-FAC-00294,Kano District 1 Health Center-294,Health Center,3,NG-KAN-028,NG,Kano,Kano District 1,21.0,26,False,False,False,1,10.539741,2.712524,Operational,2001
-FAC-00295,Kano District 1 Dispensary-295,Dispensary,1,NG-KAN-029,NG,Kano,Kano District 1,23.0,49,False,False,False,2,9.195119,7.695228,Operational,2004
-FAC-00296,Kano District 1 Clinic-296,Clinic,2,NG-KAN-029,NG,Kano,Kano District 1,97.0,12,True,False,True,0,9.216778,7.653626,Operational,1990
-FAC-00297,Kaduna District 1 Clinic-297,Clinic,2,NG-KAD-030,NG,Kaduna,Kaduna District 1,28.0,31,False,False,False,2,13.367398,6.511275,Under Construction,2012
-FAC-00298,Kaduna District 1 Health Center-298,Health Center,3,NG-KAD-030,NG,Kaduna,Kaduna District 1,27.0,49,False,False,False,0,13.360976,6.502248,Operational,1999
-FAC-00299,Kaduna District 1 Clinic-299,Clinic,2,NG-KAD-031,NG,Kaduna,Kaduna District 1,42.0,25,False,False,True,0,7.759956,14.245215,Operational,1994
-FAC-00300,Kaduna District 1 Dispensary-300,Dispensary,1,NG-KAD-032,NG,Kaduna,Kaduna District 1,62.0,34,False,False,True,1,7.150968,6.073298,Closed,2005
-FAC-00301,Kaduna District 1 Dispensary-301,Dispensary,1,NG-KAD-032,NG,Kaduna,Kaduna District 1,89.0,25,False,False,False,0,7.140499,6.066504,Operational,2006
-FAC-00302,Kaduna District 1 Dispensary-302,Dispensary,1,NG-KAD-032,NG,Kaduna,Kaduna District 1,14.0,26,False,False,False,0,7.151426,6.095611,Operational,2014
-FAC-00303,Kaduna District 1 Health Center-303,Health Center,3,NG-KAD-032,NG,Kaduna,Kaduna District 1,85.0,45,False,False,False,2,7.184604,6.131701,Operational,2006
-FAC-00304,Kaduna District 1 Health Center-304,Health Center,3,NG-KAD-032,NG,Kaduna,Kaduna District 1,45.0,33,False,False,False,0,7.224086,6.109719,Operational,1990
-FAC-00305,Kaduna District 1 Clinic-305,Clinic,2,NG-KAD-032,NG,Kaduna,Kaduna District 1,94.0,19,True,False,True,1,7.218187,6.101193,Operational,1993
-FAC-00306,Kaduna District 1 Clinic-306,Clinic,2,NG-KAD-032,NG,Kaduna,Kaduna District 1,33.0,23,False,False,True,1,7.188912,6.111447,Under Construction,2002
-FAC-00307,Rivers District 1 Dispensary-307,Dispensary,1,NG-RIV-033,NG,Rivers,Rivers District 1,66.0,39,False,True,False,2,8.211682,3.074283,Operational,2011
-FAC-00308,Rivers District 1 Dispensary-308,Dispensary,1,NG-RIV-033,NG,Rivers,Rivers District 1,76.0,11,False,False,False,1,8.286564,3.04452,Operational,2022
-FAC-00309,Rivers District 1 Clinic-309,Clinic,2,NG-RIV-034,NG,Rivers,Rivers District 1,57.0,15,False,False,True,0,8.621988,9.269881,Operational,2022
-FAC-00310,Rivers District 1 Clinic-310,Clinic,2,NG-RIV-034,NG,Rivers,Rivers District 1,23.0,26,True,False,True,0,8.646923,9.307914,Operational,2012
-FAC-00311,Rivers District 1 Health Center-311,Health Center,3,NG-RIV-035,NG,Rivers,Rivers District 1,23.0,33,False,False,False,0,6.532468,11.360787,Closed,1991
-FAC-00312,Rivers District 1 Dispensary-312,Dispensary,1,NG-RIV-035,NG,Rivers,Rivers District 1,73.0,32,False,True,False,1,6.551764,11.367745,Operational,1992
-FAC-00313,Rivers District 1 Health Center-313,Health Center,3,NG-RIV-035,NG,Rivers,Rivers District 1,93.0,39,True,False,False,1,6.591684,11.323473,Operational,2009
-FAC-00314,Oyo District 1 Clinic-314,Clinic,2,NG-OYO-036,NG,Oyo,Oyo District 1,58.0,24,False,False,True,2,9.394948,3.82095,Operational,1999
-FAC-00315,Oyo District 1 Clinic-315,Clinic,2,NG-OYO-036,NG,Oyo,Oyo District 1,52.0,10,False,False,True,0,9.410845,3.736155,Operational,2004
-FAC-00316,Oyo District 1 Health Center-316,Health Center,3,NG-OYO-037,NG,Oyo,Oyo District 1,55.0,25,False,False,True,2,6.045627,3.197973,Operational,1996
-FAC-00317,Oyo District 1 Clinic-317,Clinic,2,NG-OYO-037,NG,Oyo,Oyo District 1,40.0,23,True,False,False,0,6.114519,3.156691,Operational,1999
-FAC-00318,Oyo District 1 Health Center-318,Health Center,3,NG-OYO-037,NG,Oyo,Oyo District 1,58.0,39,True,False,False,2,6.122303,3.186497,Operational,2008
-FAC-00319,Oyo District 1 Dispensary-319,Dispensary,1,NG-OYO-038,NG,Oyo,Oyo District 1,21.0,47,False,False,True,0,9.231492,5.427137,Operational,2022
-FAC-00320,Borno District 1 Health Center-320,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,73.0,47,True,False,False,1,8.023332,13.864374,Operational,1999
-FAC-00321,Borno District 1 Dispensary-321,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,23.0,40,True,False,True,2,8.01402,13.822423,Closed,1997
-FAC-00322,Borno District 1 Health Center-322,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,85.0,13,False,False,True,0,7.999504,13.886622,Operational,2010
-FAC-00323,Borno District 1 Clinic-323,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,62.0,47,False,False,False,2,8.027591,13.890715,Operational,2023
-FAC-00324,Borno District 1 Clinic-324,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,15.0,17,False,True,False,1,8.05537,13.807626,Operational,2003
-FAC-00325,Borno District 1 Regional Hospital-325,Regional Hospital,5,NG-BOR-039,NG,Borno,Borno District 1,620.0,584,True,True,True,10,7.978608,13.813133,Operational,1999
-FAC-00326,Borno District 1 Dispensary-326,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,75.0,7,False,False,False,0,7.963455,13.889543,Operational,2012
-FAC-00327,Borno District 1 Health Center-327,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,65.0,28,False,False,False,0,8.041295,13.860309,Operational,2005
-FAC-00328,Borno District 1 Dispensary-328,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,89.0,13,False,False,True,1,8.048541,13.864781,Operational,2012
-FAC-00329,Borno District 1 Clinic-329,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,34.0,26,True,False,True,0,8.032054,13.820047,Operational,2006
-FAC-00330,Borno District 1 Dispensary-330,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,89.0,6,False,False,True,0,7.971014,13.799,Operational,2003
-FAC-00331,Borno District 1 Health Center-331,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,40.0,38,True,False,True,0,7.987032,13.823847,Operational,2017
-FAC-00332,Borno District 1 Clinic-332,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,13.0,37,False,False,False,1,8.038018,13.817454,Operational,2002
-FAC-00333,Borno District 1 Dispensary-333,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,38.0,33,True,False,True,2,7.99638,13.811371,Operational,1996
-FAC-00334,Borno District 1 Health Center-334,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,30.0,7,False,False,False,2,8.023793,13.882818,Operational,1992
-FAC-00335,Borno District 1 Clinic-335,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,36.0,30,False,False,False,0,8.009165,13.884504,Operational,1996
-FAC-00336,Borno District 1 Clinic-336,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,87.0,23,False,False,True,1,8.003633,13.861864,Operational,1991
-FAC-00337,Borno District 1 District Hospital-337,District Hospital,4,NG-BOR-039,NG,Borno,Borno District 1,733.0,105,True,True,True,5,7.980831,13.871395,Operational,2007
-FAC-00338,Borno District 1 Clinic-338,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,49.0,19,False,False,True,0,7.997711,13.83434,Operational,1993
-FAC-00339,Borno District 1 Clinic-339,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,79.0,35,False,False,False,2,8.046892,13.834411,Operational,2023
-FAC-00340,Borno District 1 Dispensary-340,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,83.0,29,False,False,False,0,8.042959,13.848888,Operational,2008
-FAC-00341,Borno District 1 Dispensary-341,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,33.0,11,False,False,True,0,7.988482,13.857628,Operational,2015
-FAC-00342,Borno District 1 Dispensary-342,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,90.0,46,False,False,True,1,8.021509,13.815624,Operational,1991
-FAC-00343,Borno District 1 Clinic-343,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,80.0,14,True,True,False,2,8.000939,13.87927,Operational,2021
-FAC-00344,Borno District 1 Clinic-344,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,66.0,42,True,False,False,0,7.99511,13.824038,Operational,2002
-FAC-00345,Borno District 1 Dispensary-345,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,11.0,26,False,False,False,1,8.038744,13.815859,Operational,2009
-FAC-00346,Borno District 1 Clinic-346,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,32.0,12,False,False,False,0,8.051505,13.87952,Operational,1995
-FAC-00347,Borno District 1 Clinic-347,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,63.0,44,False,False,False,2,8.047146,13.821988,Operational,2016
-FAC-00348,Borno District 1 Dispensary-348,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,47.0,35,False,False,False,2,7.986809,13.801122,Operational,2000
-FAC-00349,Borno District 1 Clinic-349,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,58.0,15,False,False,True,1,7.964097,13.873522,Operational,2021
-FAC-00350,Borno District 1 Clinic-350,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,59.0,19,True,False,False,2,8.002892,13.836146,Operational,2018
-FAC-00351,Borno District 1 Dispensary-351,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,47.0,6,True,False,False,1,8.0495,13.835,Operational,2017
-FAC-00352,Borno District 1 Clinic-352,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,63.0,9,False,False,False,2,8.008776,13.89108,Operational,2021
-FAC-00353,Borno District 1 Clinic-353,Clinic,2,NG-BOR-039,NG,Borno,Borno District 1,22.0,0,False,True,False,2,8.025823,13.802526,Operational,2014
-FAC-00354,Borno District 1 Dispensary-354,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,78.0,26,False,False,False,2,7.983076,13.801321,Operational,2006
-FAC-00355,Borno District 1 Dispensary-355,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,18.0,24,False,False,False,1,8.046474,13.877368,Closed,1992
-FAC-00356,Borno District 1 Dispensary-356,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,94.0,34,True,False,True,0,8.05479,13.855406,Operational,2011
-FAC-00357,Borno District 1 Dispensary-357,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,33.0,44,True,False,False,1,8.05095,13.862992,Operational,2016
-FAC-00358,Borno District 1 Dispensary-358,Dispensary,1,NG-BOR-039,NG,Borno,Borno District 1,92.0,13,True,False,False,2,8.022963,13.858986,Under Construction,2019
-FAC-00359,Borno District 1 Health Center-359,Health Center,3,NG-BOR-039,NG,Borno,Borno District 1,57.0,16,False,False,True,0,8.017847,13.876028,Operational,2023
-FAC-00360,Borno District 1 Dispensary-360,Dispensary,1,NG-BOR-040,NG,Borno,Borno District 1,54.0,42,True,False,False,1,6.355618,9.109833,Operational,2012
-FAC-00361,Borno District 1 Dispensary-361,Dispensary,1,NG-BOR-041,NG,Borno,Borno District 1,68.0,12,True,True,True,0,12.130865,9.324289,Operational,2015
-FAC-00362,Enugu District 1 Dispensary-362,Dispensary,1,NG-ENU-042,NG,Enugu,Enugu District 1,99.0,22,False,True,True,1,13.56648,9.323934,Operational,2021
-FAC-00363,Enugu District 1 Clinic-363,Clinic,2,NG-ENU-043,NG,Enugu,Enugu District 1,68.0,42,False,True,False,1,6.954529,11.033041,Operational,2020
-FAC-00364,Enugu District 1 Clinic-364,Clinic,2,NG-ENU-044,NG,Enugu,Enugu District 1,61.0,46,False,False,False,0,8.190707,13.281185,Operational,2004
-FAC-00365,Enugu District 1 Clinic-365,Clinic,2,NG-ENU-044,NG,Enugu,Enugu District 1,83.0,43,False,False,True,0,8.152795,13.263403,Operational,2001
-FAC-00366,Gauteng District 1 Dispensary-366,Dispensary,1,ZA-GAU-045,ZA,Gauteng,Gauteng District 1,87.0,11,False,False,True,0,-25.976742,26.049506,Operational,2002
-FAC-00367,Gauteng District 1 Dispensary-367,Dispensary,1,ZA-GAU-046,ZA,Gauteng,Gauteng District 1,10.0,23,False,False,False,0,-33.966278,19.142518,Operational,2021
-FAC-00368,Gauteng District 1 Clinic-368,Clinic,2,ZA-GAU-046,ZA,Gauteng,Gauteng District 1,67.0,42,True,False,True,0,-33.90669,19.115823,Under Construction,1997
-FAC-00369,Gauteng District 1 Dispensary-369,Dispensary,1,ZA-GAU-047,ZA,Gauteng,Gauteng District 1,66.0,10,True,False,False,1,-26.192717,20.200963,Operational,1994
-FAC-00370,Gauteng District 2 Clinic-370,Clinic,2,ZA-GAU-048,ZA,Gauteng,Gauteng District 2,93.0,45,True,False,True,2,-31.877802,22.460153,Under Construction,2009
-FAC-00371,Gauteng District 2 Clinic-371,Clinic,2,ZA-GAU-049,ZA,Gauteng,Gauteng District 2,85.0,40,False,True,True,0,-30.329562,25.44251,Under Construction,1997
-FAC-00372,KwaZulu-Natal District 1 Clinic-372,Clinic,2,ZA-KWA-050,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,94.0,17,True,False,False,2,-26.910025,32.579885,Operational,2019
-FAC-00373,KwaZulu-Natal District 1 Dispensary-373,Dispensary,1,ZA-KWA-051,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,97.0,34,True,True,True,1,-28.803227,22.242344,Operational,1998
-FAC-00374,KwaZulu-Natal District 1 Clinic-374,Clinic,2,ZA-KWA-051,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,99.0,27,False,False,False,1,-28.8212,22.193783,Operational,1998
-FAC-00375,KwaZulu-Natal District 1 Clinic-375,Clinic,2,ZA-KWA-051,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,16.0,37,True,False,True,0,-28.819918,22.229261,Operational,2000
-FAC-00376,KwaZulu-Natal District 1 Dispensary-376,Dispensary,1,ZA-KWA-052,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,99.0,21,True,False,False,0,-23.587075,20.26377,Operational,1997
-FAC-00377,KwaZulu-Natal District 1 Dispensary-377,Dispensary,1,ZA-KWA-052,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,15.0,28,False,False,True,0,-23.61628,20.284767,Operational,2017
-FAC-00378,KwaZulu-Natal District 1 Dispensary-378,Dispensary,1,ZA-KWA-052,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,41.0,8,True,False,False,1,-23.678961,20.296643,Operational,2008
-FAC-00379,Western Cape District 1 Clinic-379,Clinic,2,ZA-WES-053,ZA,Western Cape,Western Cape District 1,60.0,32,True,False,False,0,-33.42827,32.854528,Operational,2016
-FAC-00380,Western Cape District 1 Health Center-380,Health Center,3,ZA-WES-054,ZA,Western Cape,Western Cape District 1,20.0,16,True,False,False,2,-29.557944,16.728155,Operational,1998
-FAC-00381,Western Cape District 1 Dispensary-381,Dispensary,1,ZA-WES-054,ZA,Western Cape,Western Cape District 1,68.0,44,True,False,True,1,-29.513943,16.78191,Operational,2015
-FAC-00382,Eastern Cape District 1 Dispensary-382,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,91.0,35,False,False,True,1,-27.113384,32.554601,Operational,2019
-FAC-00383,Eastern Cape District 1 Dispensary-383,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,25.0,29,False,True,False,0,-27.170798,32.595653,Under Construction,2004
-FAC-00384,Eastern Cape District 1 Clinic-384,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,25.0,28,False,False,True,0,-27.160699,32.528956,Operational,2010
-FAC-00385,Eastern Cape District 1 Dispensary-385,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,90.0,44,False,False,False,2,-27.088224,32.535711,Operational,1994
-FAC-00386,Eastern Cape District 1 Health Center-386,Health Center,3,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,57.0,41,False,False,True,2,-27.123005,32.601325,Operational,2019
-FAC-00387,Eastern Cape District 1 Dispensary-387,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,80.0,43,False,False,False,1,-27.157866,32.569793,Operational,2020
-FAC-00388,Eastern Cape District 1 Dispensary-388,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,60.0,38,True,True,False,2,-27.160664,32.626381,Operational,2010
-FAC-00389,Eastern Cape District 1 Dispensary-389,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,26.0,42,False,False,False,2,-27.149672,32.548344,Operational,2006
-FAC-00390,Eastern Cape District 1 Clinic-390,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,49.0,10,True,False,False,2,-27.100128,32.565899,Operational,1995
-FAC-00391,Eastern Cape District 1 Dispensary-391,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,62.0,27,False,False,True,0,-27.157513,32.592854,Operational,1993
-FAC-00392,Eastern Cape District 1 Clinic-392,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,18.0,18,True,False,False,0,-27.105133,32.531842,Operational,2008
-FAC-00393,Eastern Cape District 1 Health Center-393,Health Center,3,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,39.0,36,False,False,False,1,-27.145144,32.552972,Operational,2021
-FAC-00394,Eastern Cape District 1 Dispensary-394,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,74.0,18,True,False,True,0,-27.166809,32.610168,Operational,2015
-FAC-00395,Eastern Cape District 1 Health Center-395,Health Center,3,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,70.0,35,True,False,False,2,-27.086678,32.549483,Under Construction,2005
-FAC-00396,Eastern Cape District 1 Clinic-396,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,,42,True,False,True,1,-27.1381,32.616797,Operational,2019
-FAC-00397,Eastern Cape District 1 Clinic-397,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,8.0,33,False,False,True,2,-27.127743,32.554876,Under Construction,1995
-FAC-00398,Eastern Cape District 1 Clinic-398,Clinic,2,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,67.0,7,True,False,False,1,-27.142974,32.600275,Operational,2011
-FAC-00399,Eastern Cape District 1 Dispensary-399,Dispensary,1,ZA-EAS-055,ZA,Eastern Cape,Eastern Cape District 1,39.0,26,False,False,True,0,-27.083457,32.530015,Operational,2012
-FAC-00400,Eastern Cape District 1 Clinic-400,Clinic,2,ZA-EAS-056,ZA,Eastern Cape,Eastern Cape District 1,22.0,45,True,False,True,0,-30.216214,19.284327,Operational,2017
-FAC-00401,Eastern Cape District 1 Health Center-401,Health Center,3,ZA-EAS-056,ZA,Eastern Cape,Eastern Cape District 1,29.0,14,False,False,True,1,-30.16644,19.23492,Operational,2023
-FAC-00402,Limpopo District 1 Clinic-402,Clinic,2,ZA-LIM-057,ZA,Limpopo,Limpopo District 1,79.0,15,False,False,True,0,-27.186118,18.130535,Under Construction,2007
-FAC-00403,Limpopo District 1 Clinic-403,Clinic,2,ZA-LIM-058,ZA,Limpopo,Limpopo District 1,79.0,20,True,False,False,0,-32.274316,25.028768,Operational,2001
-FAC-00404,Mpumalanga District 1 Clinic-404,Clinic,2,ZA-MPU-059,ZA,Mpumalanga,Mpumalanga District 1,8.0,43,False,False,False,1,-25.593042,22.436079,Operational,2001
-FAC-00405,Mpumalanga District 1 Clinic-405,Clinic,2,ZA-MPU-060,ZA,Mpumalanga,Mpumalanga District 1,47.0,21,True,False,False,2,-24.235599,30.679522,Operational,2018
-FAC-00406,Free State District 1 Dispensary-406,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,34.0,27,False,True,False,1,-26.471056,19.669533,Operational,2008
-FAC-00407,Free State District 1 Health Center-407,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,25.0,41,False,False,False,2,-26.480611,19.676865,Operational,2007
-FAC-00408,Free State District 1 Health Center-408,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,34.0,49,False,True,False,2,-26.489284,19.724702,Under Construction,1998
-FAC-00409,Free State District 1 Health Center-409,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,23.0,42,False,False,True,1,-26.460709,19.646652,Operational,2012
-FAC-00410,Free State District 1 Dispensary-410,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,41.0,26,True,False,True,1,-26.470814,19.686555,Operational,2019
-FAC-00411,Free State District 1 Clinic-411,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,39.0,25,False,False,False,0,-26.471831,19.680737,Operational,2013
-FAC-00412,Free State District 1 Clinic-412,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,20.0,20,True,False,True,1,-26.50235,19.646048,Operational,2001
-FAC-00413,Free State District 1 District Hospital-413,District Hospital,4,ZA-FRE-061,ZA,Free State,Free State District 1,424.0,191,True,True,True,9,-26.48586,19.657125,Operational,1991
-FAC-00414,Free State District 1 Dispensary-414,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,8.0,48,True,False,False,2,-26.430578,19.668526,Operational,1991
-FAC-00415,Free State District 1 Dispensary-415,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,6.0,34,True,True,False,1,-26.420961,19.668475,Operational,2005
-FAC-00416,Free State District 1 Health Center-416,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,61.0,24,True,False,True,1,-26.467414,19.728979,Operational,2001
-FAC-00417,Free State District 1 District Hospital-417,District Hospital,4,ZA-FRE-061,ZA,Free State,Free State District 1,721.0,195,True,True,True,2,-26.489408,19.638878,Operational,1990
-FAC-00418,Free State District 1 Dispensary-418,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,40.0,28,True,False,False,1,-26.510225,19.725131,Operational,2013
-FAC-00419,Free State District 1 Clinic-419,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,82.0,41,True,False,False,1,-26.500198,19.721252,Closed,2011
-FAC-00420,Free State District 1 Clinic-420,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,84.0,40,False,False,False,0,-26.457147,19.661457,Operational,2005
-FAC-00421,Free State District 1 Health Center-421,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,72.0,25,False,True,False,2,-26.482914,19.702599,Operational,1996
-FAC-00422,Free State District 1 Health Center-422,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,19.0,48,False,False,False,0,-26.504924,19.676296,Operational,2003
-FAC-00423,Free State District 1 Health Center-423,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,35.0,39,False,True,True,0,-26.433739,19.725533,Operational,1994
-FAC-00424,Free State District 1 Clinic-424,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,74.0,29,False,False,True,2,-26.491237,19.64559,Operational,2012
-FAC-00425,Free State District 1 Health Center-425,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,,28,False,False,False,2,-26.456996,19.71734,Operational,1990
-FAC-00426,Free State District 1 Clinic-426,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,33.0,24,False,False,True,1,-26.441416,19.702755,Operational,2009
-FAC-00427,Free State District 1 Dispensary-427,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,77.0,43,False,False,False,2,-26.496603,19.638662,Operational,2011
-FAC-00428,Free State District 1 Health Center-428,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,76.0,12,False,False,True,1,-26.487482,19.713244,Operational,2001
-FAC-00429,Free State District 1 Clinic-429,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,59.0,18,False,False,True,2,-26.465454,19.705024,Operational,2017
-FAC-00430,Free State District 1 Dispensary-430,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,76.0,11,False,False,False,2,-26.438222,19.669823,Under Construction,2013
-FAC-00431,Free State District 1 Dispensary-431,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,17.0,29,False,False,False,0,-26.475673,19.711718,Operational,2000
-FAC-00432,Free State District 1 Clinic-432,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,91.0,49,False,False,True,2,-26.43369,19.682766,Operational,2003
-FAC-00433,Free State District 1 Health Center-433,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,34.0,32,True,True,False,0,-26.428001,19.681302,Closed,2012
-FAC-00434,Free State District 1 Clinic-434,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,11.0,0,False,True,False,0,-26.455086,19.694267,Operational,2022
-FAC-00435,Free State District 1 Health Center-435,Health Center,3,ZA-FRE-061,ZA,Free State,Free State District 1,57.0,38,False,False,True,0,-26.511071,19.672458,Operational,1997
-FAC-00436,Free State District 1 Clinic-436,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,87.0,40,False,False,False,1,-26.500431,19.653302,Under Construction,2020
-FAC-00437,Free State District 1 Dispensary-437,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,21.0,43,False,False,False,1,-26.507248,19.683777,Operational,2019
-FAC-00438,Free State District 1 Clinic-438,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,94.0,11,True,False,False,0,-26.497552,19.7083,Operational,2011
-FAC-00439,Free State District 1 Clinic-439,Clinic,2,ZA-FRE-061,ZA,Free State,Free State District 1,22.0,35,False,False,False,1,-26.434299,19.731146,Operational,1998
-FAC-00440,Free State District 1 Dispensary-440,Dispensary,1,ZA-FRE-061,ZA,Free State,Free State District 1,80.0,33,False,False,False,0,-26.512856,19.647739,Operational,1996
-FAC-00441,Free State District 1 Dispensary-441,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,,41,False,True,False,1,-33.358144,31.049321,Operational,2018
-FAC-00442,Free State District 1 Health Center-442,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,70.0,48,False,False,False,2,-33.399364,31.086316,Operational,2017
-FAC-00443,Free State District 1 Clinic-443,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,55.0,13,True,True,False,1,-33.364409,31.042861,Operational,2004
-FAC-00444,Free State District 1 Dispensary-444,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,7.0,23,True,False,True,1,-33.400999,31.041692,Operational,1997
-FAC-00445,Free State District 1 Clinic-445,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,88.0,8,True,True,False,2,-33.384176,31.078324,Operational,2002
-FAC-00446,Free State District 1 Health Center-446,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,75.0,19,True,True,False,2,-33.376221,30.99508,Under Construction,1997
-FAC-00447,Free State District 1 Clinic-447,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,93.0,16,True,True,False,0,-33.416193,31.026335,Closed,1994
-FAC-00448,Free State District 1 Dispensary-448,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,22.0,17,False,True,True,2,-33.373735,31.054703,Operational,1998
-FAC-00449,Free State District 1 Clinic-449,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,88.0,32,True,False,True,0,-33.343998,31.045507,Closed,2019
-FAC-00450,Free State District 1 Clinic-450,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,73.0,29,False,False,False,1,-33.429542,31.02372,Operational,2002
-FAC-00451,Free State District 1 Clinic-451,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,59.0,15,False,False,False,2,-33.357716,31.012987,Operational,2011
-FAC-00452,Free State District 1 Health Center-452,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,23.0,22,True,False,True,2,-33.38859,30.997318,Operational,2015
-FAC-00453,Free State District 1 Dispensary-453,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,44.0,20,False,False,False,1,-33.427256,31.058067,Operational,1997
-FAC-00454,Free State District 1 Health Center-454,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,90.0,25,False,False,True,1,-33.405234,31.057443,Operational,2012
-FAC-00455,Free State District 1 Clinic-455,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,81.0,47,False,True,False,1,-33.385431,31.04755,Operational,1996
-FAC-00456,Free State District 1 Dispensary-456,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,88.0,31,False,False,False,1,-33.421202,31.041839,Operational,2012
-FAC-00457,Free State District 1 Clinic-457,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,96.0,21,True,False,False,0,-33.349976,31.014779,Operational,2000
-FAC-00458,Free State District 1 Clinic-458,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,44.0,7,False,True,True,2,-33.369337,31.026686,Operational,1990
-FAC-00459,Free State District 1 Health Center-459,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,49.0,47,False,False,False,1,-33.397811,31.065507,Under Construction,1990
-FAC-00460,Free State District 1 Clinic-460,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,38.0,20,False,False,False,2,-33.381813,30.997259,Operational,2020
-FAC-00461,Free State District 1 Health Center-461,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,34.0,22,False,True,False,0,-33.37389,31.070387,Under Construction,2005
-FAC-00462,Free State District 1 Clinic-462,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,56.0,9,False,False,False,2,-33.35917,30.992416,Operational,2020
-FAC-00463,Free State District 1 Health Center-463,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,71.0,13,True,False,True,1,-33.354867,31.040527,Operational,1999
-FAC-00464,Free State District 1 Dispensary-464,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,77.0,11,False,False,False,1,-33.360402,30.998893,Operational,2015
-FAC-00465,Free State District 1 Dispensary-465,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,99.0,29,False,False,True,2,-33.373607,31.063452,Operational,1995
-FAC-00466,Free State District 1 Clinic-466,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,86.0,15,False,False,True,1,-33.440097,31.042862,Under Construction,2013
-FAC-00467,Free State District 1 Dispensary-467,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,19.0,29,False,True,False,2,-33.376621,30.993078,Operational,2005
-FAC-00468,Free State District 1 Clinic-468,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,55.0,12,False,False,False,1,-33.410531,31.076391,Under Construction,2023
-FAC-00469,Free State District 1 Clinic-469,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,10.0,28,False,False,True,1,-33.39072,31.055094,Operational,2023
-FAC-00470,Free State District 1 District Hospital-470,District Hospital,4,ZA-FRE-062,ZA,Free State,Free State District 1,274.0,265,True,True,True,6,-33.427048,31.08576,Operational,2019
-FAC-00471,Free State District 1 Dispensary-471,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,55.0,24,False,True,False,1,-33.36658,31.058293,Operational,1992
-FAC-00472,Free State District 1 Health Center-472,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,11.0,31,False,False,True,0,-33.42395,31.074165,Operational,2006
-FAC-00473,Free State District 1 Clinic-473,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,9.0,36,False,True,False,2,-33.373677,31.060223,Operational,2006
-FAC-00474,Free State District 1 Clinic-474,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,27.0,22,False,False,True,1,-33.405798,31.076771,Operational,2004
-FAC-00475,Free State District 1 Health Center-475,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,51.0,17,True,False,False,0,-33.341231,31.081672,Operational,2023
-FAC-00476,Free State District 1 Clinic-476,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,82.0,33,True,False,True,1,-33.428589,31.032107,Operational,2016
-FAC-00477,Free State District 1 Health Center-477,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,85.0,41,False,False,False,1,-33.399707,31.072283,Under Construction,2006
-FAC-00478,Free State District 1 Clinic-478,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,6.0,8,False,False,True,0,-33.356213,31.016481,Operational,1998
-FAC-00479,Free State District 1 Clinic-479,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,61.0,6,False,False,True,0,-33.358555,31.065806,Operational,2022
-FAC-00480,Free State District 1 Dispensary-480,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,69.0,37,True,False,True,0,-33.403296,31.052654,Operational,1995
-FAC-00481,Free State District 1 Health Center-481,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,38.0,27,True,True,True,1,-33.360538,31.024645,Operational,2006
-FAC-00482,Free State District 1 Dispensary-482,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,27.0,34,False,True,False,1,-33.408706,31.046764,Operational,1990
-FAC-00483,Free State District 1 Dispensary-483,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,53.0,47,False,False,True,0,-33.40043,31.013996,Operational,2009
-FAC-00484,Free State District 1 Dispensary-484,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,42.0,12,False,True,False,0,-33.422286,31.033337,Operational,2019
-FAC-00485,Free State District 1 Clinic-485,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,79.0,24,False,False,True,1,-33.345438,30.996544,Operational,2006
-FAC-00486,Free State District 1 Clinic-486,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,91.0,29,False,True,False,2,-33.428393,30.997575,Under Construction,1990
-FAC-00487,Free State District 1 Dispensary-487,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,97.0,10,True,False,False,0,-33.426878,31.034528,Operational,2015
-FAC-00488,Free State District 1 Clinic-488,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,69.0,40,False,True,False,1,-33.342699,31.051114,Operational,2023
-FAC-00489,Free State District 1 Clinic-489,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,72.0,18,False,False,False,1,-33.421351,31.035241,Operational,2011
-FAC-00490,Free State District 1 Dispensary-490,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,88.0,5,True,False,False,1,-33.418727,31.009117,Closed,2002
-FAC-00491,Free State District 1 Dispensary-491,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,48.0,31,False,False,False,1,-33.429196,31.061117,Operational,2022
-FAC-00492,Free State District 1 Clinic-492,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,42.0,20,False,False,False,1,-33.377452,31.035549,Operational,1996
-FAC-00493,Free State District 1 Dispensary-493,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,36.0,35,False,False,False,1,-33.373637,31.083152,Operational,2015
-FAC-00494,Free State District 1 Dispensary-494,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,25.0,21,True,False,True,0,-33.376498,31.050616,Operational,2004
-FAC-00495,Free State District 1 Dispensary-495,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,32.0,21,False,False,True,1,-33.389049,31.031832,Operational,2011
-FAC-00496,Free State District 1 Health Center-496,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,94.0,37,True,False,True,2,-33.402097,30.998579,Operational,2022
-FAC-00497,Free State District 1 Health Center-497,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,61.0,6,True,False,True,0,-33.429629,31.047562,Operational,2000
-FAC-00498,Free State District 1 Health Center-498,Health Center,3,ZA-FRE-062,ZA,Free State,Free State District 1,22.0,33,False,True,True,1,-33.349129,31.023305,Operational,2018
-FAC-00499,Free State District 1 Clinic-499,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,86.0,24,False,True,True,2,-33.394274,31.013219,Operational,2015
-FAC-00500,Free State District 1 Clinic-500,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,30.0,32,False,False,True,0,-33.349823,31.047417,Operational,1992
-FAC-00501,Free State District 1 Clinic-501,Clinic,2,ZA-FRE-062,ZA,Free State,Free State District 1,59.0,30,False,False,False,2,-33.406856,31.044981,Operational,1990
-FAC-00502,Free State District 1 District Hospital-502,District Hospital,4,ZA-FRE-062,ZA,Free State,Free State District 1,465.0,217,True,True,True,9,-33.402031,31.048863,Operational,1995
-FAC-00503,Free State District 1 Dispensary-503,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,84.0,11,True,True,False,0,-33.392309,30.993208,Operational,1992
-FAC-00504,Free State District 1 Dispensary-504,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,30.0,15,False,False,False,1,-33.388273,31.061249,Operational,2023
-FAC-00505,Free State District 1 Dispensary-505,Dispensary,1,ZA-FRE-062,ZA,Free State,Free State District 1,25.0,32,True,False,True,1,-33.402008,31.004358,Operational,2009
+FAC-00001,Nairobi District 1 Clinic-1,Clinic,2,KE-NAI-001,KE,Nairobi,Nairobi District 1,97.0,19,False,False,False,2,2.067541,38.685193,Operational,2013
+FAC-00002,Nairobi District 1 Dispensary-2,Dispensary,1,KE-NAI-002,KE,Nairobi,Nairobi District 1,57.0,6,True,True,True,1,-1.616086,35.045411,Operational,2016
+FAC-00003,Nairobi District 1 Dispensary-3,Dispensary,1,KE-NAI-002,KE,Nairobi,Nairobi District 1,46.0,32,False,False,True,2,-1.595087,35.052176,Operational,1996
+FAC-00004,Nairobi District 1 Health Center-4,Health Center,3,KE-NAI-002,KE,Nairobi,Nairobi District 1,43.0,22,False,False,True,0,-1.636743,35.061358,Operational,1996
+FAC-00005,Nairobi District 1 Dispensary-5,Dispensary,1,KE-NAI-002,KE,Nairobi,Nairobi District 1,12.0,39,False,True,False,1,-1.603994,35.013729,Operational,2018
+FAC-00006,Nairobi District 1 Dispensary-6,Dispensary,1,KE-NAI-002,KE,Nairobi,Nairobi District 1,94.0,48,False,False,False,1,-1.613856,35.049979,Operational,2010
+FAC-00007,Nairobi District 1 Clinic-7,Clinic,2,KE-NAI-002,KE,Nairobi,Nairobi District 1,86.0,28,False,False,True,1,-1.616883,35.009462,Operational,1998
+FAC-00008,Nairobi District 1 Dispensary-8,Dispensary,1,KE-NAI-003,KE,Nairobi,Nairobi District 1,12.0,28,False,False,False,2,-2.698119,35.312004,Operational,2017
+FAC-00009,Nairobi District 1 Dispensary-9,Dispensary,1,KE-NAI-004,KE,Nairobi,Nairobi District 1,76.0,16,True,False,False,1,-4.468927,38.107327,Operational,1990
+FAC-00010,Nairobi District 2 Clinic-10,Clinic,2,KE-NAI-005,KE,Nairobi,Nairobi District 2,51.0,18,False,False,False,2,1.05037,36.961969,Operational,2002
+FAC-00011,Nairobi District 2 Health Center-11,Health Center,3,KE-NAI-006,KE,Nairobi,Nairobi District 2,56.0,36,True,False,False,1,-0.540051,34.050405,Operational,2011
+FAC-00012,Nairobi District 2 Dispensary-12,Dispensary,1,KE-NAI-007,KE,Nairobi,Nairobi District 2,46.0,49,False,False,False,1,-3.822992,39.41312,Operational,2017
+FAC-00013,Nairobi District 2 Clinic-13,Clinic,2,KE-NAI-008,KE,Nairobi,Nairobi District 2,66.0,37,True,False,False,0,3.792753,35.920935,Operational,1998
+FAC-00014,Nairobi District 3 Clinic-14,Clinic,2,KE-NAI-009,KE,Nairobi,Nairobi District 3,55.0,46,True,False,False,2,4.307521,40.057552,Operational,2001
+FAC-00015,Nairobi District 3 Health Center-15,Health Center,3,KE-NAI-009,KE,Nairobi,Nairobi District 3,6.0,7,True,False,True,0,4.364798,40.092167,Operational,2021
+FAC-00016,Nairobi District 3 Dispensary-16,Dispensary,1,KE-NAI-010,KE,Nairobi,Nairobi District 3,23.0,6,False,False,True,0,-3.859806,35.494025,Operational,2013
+FAC-00017,Nairobi District 3 Clinic-17,Clinic,2,KE-NAI-011,KE,Nairobi,Nairobi District 3,74.0,26,False,False,True,2,3.008079,36.773608,Under Construction,2008
+FAC-00018,Nairobi District 4 Dispensary-18,Dispensary,1,KE-NAI-012,KE,Nairobi,Nairobi District 4,23.0,24,True,False,True,2,-4.510908,37.250964,Operational,2014
+FAC-00019,Nairobi District 4 Health Center-19,Health Center,3,KE-NAI-012,KE,Nairobi,Nairobi District 4,35.0,34,True,False,False,1,-4.549061,37.290177,Operational,2001
+FAC-00020,Nairobi District 4 Clinic-20,Clinic,2,KE-NAI-012,KE,Nairobi,Nairobi District 4,36.0,13,False,False,False,0,-4.515872,37.3152,Operational,2000
+FAC-00021,Nairobi District 4 Dispensary-21,Dispensary,1,KE-NAI-013,KE,Nairobi,Nairobi District 4,40.0,42,True,True,False,1,1.824279,39.698138,Operational,2005
+FAC-00022,Nairobi District 4 Dispensary-22,Dispensary,1,KE-NAI-013,KE,Nairobi,Nairobi District 4,37.0,8,False,True,True,0,1.89819,39.754151,Operational,2001
+FAC-00023,Coast District 1 Dispensary-23,Dispensary,1,KE-COA-014,KE,Coast,Coast District 1,90.0,26,False,False,False,1,3.953372,39.383824,Operational,2022
+FAC-00024,Coast District 1 Clinic-24,Clinic,2,KE-COA-015,KE,Coast,Coast District 1,68.0,37,True,False,False,0,1.411824,36.556134,Closed,2019
+FAC-00025,Coast District 1 Dispensary-25,Dispensary,1,KE-COA-016,KE,Coast,Coast District 1,10.0,39,False,False,False,0,2.96843,38.942251,Operational,2010
+FAC-00026,Coast District 1 Clinic-26,Clinic,2,KE-COA-017,KE,Coast,Coast District 1,37.0,7,False,False,False,1,-3.103704,34.615151,Operational,2011
+FAC-00027,Coast District 2 Clinic-27,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,31.0,46,False,False,True,1,-0.276648,40.453691,Operational,2015
+FAC-00028,Coast District 2 Dispensary-28,Dispensary,1,KE-COA-018,KE,Coast,Coast District 2,29.0,28,True,True,False,0,-0.328112,40.405503,Operational,2003
+FAC-00029,Coast District 2 Dispensary-29,Dispensary,1,KE-COA-018,KE,Coast,Coast District 2,91.0,19,True,False,True,1,-0.300979,40.452673,Operational,2011
+FAC-00030,Coast District 2 Health Center-30,Health Center,3,KE-COA-018,KE,Coast,Coast District 2,46.0,10,False,True,False,2,-0.27054,40.419991,Operational,1993
+FAC-00031,Coast District 2 Dispensary-31,Dispensary,1,KE-COA-018,KE,Coast,Coast District 2,98.0,39,True,True,False,2,-0.276079,40.402516,Operational,2008
+FAC-00032,Coast District 2 Clinic-32,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,59.0,30,True,True,False,0,-0.278689,40.404228,Under Construction,2023
+FAC-00033,Coast District 2 Health Center-33,Health Center,3,KE-COA-018,KE,Coast,Coast District 2,52.0,29,True,False,False,0,-0.292104,40.459581,Operational,2001
+FAC-00034,Coast District 2 Clinic-34,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,55.0,41,True,True,True,1,-0.343466,40.483955,Operational,2001
+FAC-00035,Coast District 2 Regional Hospital-35,Regional Hospital,5,KE-COA-018,KE,Coast,Coast District 2,973.0,631,True,True,True,9,-0.300192,40.415729,Operational,2012
+FAC-00036,Coast District 2 District Hospital-36,District Hospital,4,KE-COA-018,KE,Coast,Coast District 2,299.0,133,True,True,True,5,-0.310078,40.460995,Operational,1990
+FAC-00037,Coast District 2 Clinic-37,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,8.0,20,False,False,False,2,-0.267444,40.466126,Operational,2022
+FAC-00038,Coast District 2 Clinic-38,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,55.0,47,False,False,False,0,-0.326871,40.425805,Operational,1991
+FAC-00039,Coast District 2 Regional Hospital-39,Regional Hospital,5,KE-COA-018,KE,Coast,Coast District 2,1253.0,234,True,True,True,11,-0.34042,40.430307,Operational,2015
+FAC-00040,Coast District 2 Clinic-40,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,11.0,8,False,False,False,1,-0.274032,40.478757,Operational,1999
+FAC-00041,Coast District 2 Clinic-41,Clinic,2,KE-COA-018,KE,Coast,Coast District 2,28.0,39,False,True,True,0,-0.289485,40.485121,Operational,2001
+FAC-00042,Coast District 2 Dispensary-42,Dispensary,1,KE-COA-019,KE,Coast,Coast District 2,17.0,27,True,False,False,0,4.531744,40.857925,Operational,2008
+FAC-00043,Coast District 2 Clinic-43,Clinic,2,KE-COA-020,KE,Coast,Coast District 2,16.0,45,True,False,False,2,-1.05263,35.388048,Operational,1994
+FAC-00044,Coast District 3 Clinic-44,Clinic,2,KE-COA-021,KE,Coast,Coast District 3,29.0,25,False,False,True,0,3.492879,41.245601,Operational,1994
+FAC-00045,Coast District 3 Dispensary-45,Dispensary,1,KE-COA-021,KE,Coast,Coast District 3,97.0,47,True,True,False,2,-0.962457,41.860112,Operational,2002
+FAC-00046,Rift Valley District 1 Health Center-46,Health Center,3,KE-RIF-023,KE,Rift Valley,Rift Valley District 1,13.0,31,True,False,True,1,3.924091,35.662572,Under Construction,2006
+FAC-00047,Rift Valley District 1 Dispensary-47,Dispensary,1,KE-RIF-024,KE,Rift Valley,Rift Valley District 1,93.0,49,False,False,True,1,4.068227,36.875168,Operational,1992
+FAC-00048,Rift Valley District 2 Clinic-48,Clinic,2,KE-RIF-025,KE,Rift Valley,Rift Valley District 2,96.0,24,False,False,False,0,-0.896666,38.025167,Operational,2014
+FAC-00049,Rift Valley District 2 Dispensary-49,Dispensary,1,KE-RIF-026,KE,Rift Valley,Rift Valley District 2,42.0,10,True,False,True,1,-1.575303,38.673217,Closed,2008
+FAC-00050,Rift Valley District 2 Dispensary-50,Dispensary,1,KE-RIF-026,KE,Rift Valley,Rift Valley District 2,22.0,45,False,False,False,0,-1.605986,38.710563,Operational,2001
+FAC-00051,Rift Valley District 2 Dispensary-51,Dispensary,1,KE-RIF-026,KE,Rift Valley,Rift Valley District 2,20.0,12,False,False,True,1,-1.645605,38.666817,Operational,2017
+FAC-00052,Rift Valley District 2 Clinic-52,Clinic,2,KE-RIF-027,KE,Rift Valley,Rift Valley District 2,45.0,40,False,False,True,2,-0.277171,39.196975,Operational,1995
+FAC-00053,Rift Valley District 2 Dispensary-53,Dispensary,1,KE-RIF-028,KE,Rift Valley,Rift Valley District 2,73.0,29,True,False,False,1,-0.305852,35.415092,Operational,2007
+FAC-00054,Rift Valley District 3 Dispensary-54,Dispensary,1,KE-RIF-029,KE,Rift Valley,Rift Valley District 3,53.0,15,False,False,False,0,-3.748947,36.296882,Operational,1990
+FAC-00055,Rift Valley District 3 Health Center-55,Health Center,3,KE-RIF-030,KE,Rift Valley,Rift Valley District 3,59.0,10,False,False,False,0,-0.221571,35.721245,Operational,2008
+FAC-00056,Rift Valley District 4 Clinic-56,Clinic,2,KE-RIF-031,KE,Rift Valley,Rift Valley District 4,82.0,13,True,False,True,1,-3.242002,35.868671,Operational,2020
+FAC-00057,Rift Valley District 4 Clinic-57,Clinic,2,KE-RIF-032,KE,Rift Valley,Rift Valley District 4,30.0,38,False,False,False,1,0.941285,34.291214,Under Construction,2006
+FAC-00058,Rift Valley District 5 Dispensary-58,Dispensary,1,KE-RIF-033,KE,Rift Valley,Rift Valley District 5,51.0,27,False,False,False,2,1.176081,33.911726,Closed,2023
+FAC-00059,Rift Valley District 5 Dispensary-59,Dispensary,1,KE-RIF-034,KE,Rift Valley,Rift Valley District 5,83.0,31,False,False,False,2,-0.413223,35.032236,Operational,2006
+FAC-00060,Rift Valley District 5 Dispensary-60,Dispensary,1,KE-RIF-035,KE,Rift Valley,Rift Valley District 5,8.0,14,False,False,False,0,0.298473,34.36066,Operational,2000
+FAC-00061,Rift Valley District 5 Clinic-61,Clinic,2,KE-RIF-036,KE,Rift Valley,Rift Valley District 5,27.0,20,False,False,True,2,-0.488448,40.851956,Under Construction,2016
+FAC-00062,Rift Valley District 6 Dispensary-62,Dispensary,1,KE-RIF-037,KE,Rift Valley,Rift Valley District 6,54.0,23,True,False,True,0,-0.433432,38.150098,Operational,2015
+FAC-00063,Rift Valley District 6 Dispensary-63,Dispensary,1,KE-RIF-038,KE,Rift Valley,Rift Valley District 6,53.0,18,False,True,False,1,3.194484,39.551926,Under Construction,2006
+FAC-00064,Rift Valley District 6 Clinic-64,Clinic,2,KE-RIF-039,KE,Rift Valley,Rift Valley District 6,5.0,12,False,False,False,0,2.940592,35.941203,Operational,2003
+FAC-00065,Rift Valley District 6 Clinic-65,Clinic,2,KE-RIF-040,KE,Rift Valley,Rift Valley District 6,30.0,18,True,False,False,2,0.14462,41.104449,Operational,2004
+FAC-00066,Central District 1 Dispensary-66,Dispensary,1,KE-CEN-041,KE,Central,Central District 1,32.0,14,False,False,True,2,-0.454009,36.788362,Operational,1993
+FAC-00067,Central District 1 Clinic-67,Clinic,2,KE-CEN-042,KE,Central,Central District 1,22.0,40,False,False,False,2,-0.98741,38.062124,Operational,2015
+FAC-00068,Central District 1 Dispensary-68,Dispensary,1,KE-CEN-043,KE,Central,Central District 1,63.0,49,False,False,True,1,0.877988,41.076957,Operational,2000
+FAC-00069,Central District 2 Dispensary-69,Dispensary,1,KE-CEN-044,KE,Central,Central District 2,98.0,35,False,True,True,2,1.65174,38.273519,Under Construction,2009
+FAC-00070,Central District 2 Dispensary-70,Dispensary,1,KE-CEN-045,KE,Central,Central District 2,8.0,19,False,False,False,1,-1.05448,39.464512,Operational,2015
+FAC-00071,Central District 2 Health Center-71,Health Center,3,KE-CEN-045,KE,Central,Central District 2,48.0,9,False,False,True,1,-1.062941,39.44565,Operational,2003
+FAC-00072,Central District 2 Dispensary-72,Dispensary,1,KE-CEN-046,KE,Central,Central District 2,,15,False,False,True,2,-2.586077,38.857387,Operational,1991
+FAC-00073,Central District 2 Clinic-73,Clinic,2,KE-CEN-047,KE,Central,Central District 2,6.0,24,True,True,True,0,-3.273443,38.977447,Operational,2020
+FAC-00074,Central District 3 Dispensary-74,Dispensary,1,KE-CEN-047,KE,Central,Central District 3,66.0,48,True,False,False,1,-1.264537,38.184421,Operational,2011
+FAC-00075,Central District 3 District Hospital-75,District Hospital,4,KE-CEN-049,KE,Central,Central District 3,548.0,171,True,True,True,4,2.750687,37.957787,Operational,2010
+FAC-00076,Central District 3 Health Center-76,Health Center,3,KE-CEN-049,KE,Central,Central District 3,87.0,18,False,False,False,1,2.739458,37.982819,Operational,2021
+FAC-00077,Central District 3 Clinic-77,Clinic,2,KE-CEN-049,KE,Central,Central District 3,42.0,37,False,False,True,2,2.710308,37.99081,Operational,1995
+FAC-00078,Central District 3 Dispensary-78,Dispensary,1,KE-CEN-049,KE,Central,Central District 3,11.0,12,True,False,False,1,2.724506,38.027013,Operational,2022
+FAC-00079,Central District 3 Dispensary-79,Dispensary,1,KE-CEN-049,KE,Central,Central District 3,31.0,37,True,False,False,1,2.746624,37.947916,Operational,2013
+FAC-00080,Central District 3 Dispensary-80,Dispensary,1,KE-CEN-049,KE,Central,Central District 3,19.0,33,False,False,False,0,2.67238,37.997468,Operational,2015
+FAC-00081,Central District 3 Health Center-81,Health Center,3,KE-CEN-050,KE,Central,Central District 3,73.0,24,False,False,True,2,-2.886018,36.157721,Operational,2015
+FAC-00082,Central District 3 Clinic-82,Clinic,2,KE-CEN-050,KE,Central,Central District 3,66.0,22,True,False,False,0,-2.918157,36.220803,Operational,1997
+FAC-00083,Central District 3 Dispensary-83,Dispensary,1,KE-CEN-050,KE,Central,Central District 3,96.0,35,True,True,True,1,-2.844334,36.219997,Operational,2010
+FAC-00084,Central District 4 Dispensary-84,Dispensary,1,KE-CEN-051,KE,Central,Central District 4,40.0,27,False,False,True,0,1.948392,38.060731,Operational,1999
+FAC-00085,Central District 4 Dispensary-85,Dispensary,1,KE-CEN-052,KE,Central,Central District 4,30.0,45,False,False,False,2,-2.913034,35.453951,Operational,2006
+FAC-00086,Central District 4 Clinic-86,Clinic,2,KE-CEN-053,KE,Central,Central District 4,63.0,48,True,True,False,2,-2.849649,38.690412,Operational,2011
+FAC-00087,Central District 4 Clinic-87,Clinic,2,KE-CEN-054,KE,Central,Central District 4,89.0,11,False,True,False,0,-3.345917,41.949687,Operational,1990
+FAC-00088,Eastern District 1 Dispensary-88,Dispensary,1,KE-EAS-055,KE,Eastern,Eastern District 1,98.0,27,True,False,True,2,-3.014442,39.905009,Operational,2008
+FAC-00089,Eastern District 1 Clinic-89,Clinic,2,KE-EAS-056,KE,Eastern,Eastern District 1,82.0,6,False,False,False,1,-0.064296,39.926499,Under Construction,1992
+FAC-00090,Eastern District 2 Dispensary-90,Dispensary,1,KE-EAS-057,KE,Eastern,Eastern District 2,78.0,23,False,False,False,1,2.452987,36.502174,Operational,1992
+FAC-00091,Eastern District 2 Clinic-91,Clinic,2,KE-EAS-058,KE,Eastern,Eastern District 2,63.0,0,False,False,False,1,-2.972074,37.385886,Operational,2013
+FAC-00092,Eastern District 3 Dispensary-92,Dispensary,1,KE-EAS-059,KE,Eastern,Eastern District 3,50.0,47,True,False,True,0,-0.441577,41.913324,Operational,2010
+FAC-00093,Eastern District 3 Regional Hospital-93,Regional Hospital,5,KE-EAS-059,KE,Eastern,Eastern District 3,1904.0,747,True,True,True,17,-0.408128,41.939267,Operational,2009
+FAC-00094,Eastern District 3 Clinic-94,Clinic,2,KE-EAS-060,KE,Eastern,Eastern District 3,6.0,7,True,False,True,2,0.325863,39.346438,Under Construction,2011
+FAC-00095,Eastern District 3 Dispensary-95,Dispensary,1,KE-EAS-061,KE,Eastern,Eastern District 3,85.0,14,False,False,False,1,1.75178,41.70118,Operational,1991
+FAC-00096,Eastern District 3 Dispensary-96,Dispensary,1,KE-EAS-062,KE,Eastern,Eastern District 3,77.0,26,False,True,False,2,4.619122,38.872337,Operational,2010
+FAC-00097,Western District 1 Dispensary-97,Dispensary,1,KE-WES-063,KE,Western,Western District 1,45.0,42,False,False,False,1,4.570642,41.156245,Operational,2020
+FAC-00098,Western District 1 Dispensary-98,Dispensary,1,KE-WES-064,KE,Western,Western District 1,44.0,0,False,True,False,0,0.490816,35.082589,Operational,1991
+FAC-00099,Western District 1 Clinic-99,Clinic,2,KE-WES-065,KE,Western,Western District 1,69.0,40,True,False,True,2,3.16542,35.357622,Operational,2023
+FAC-00100,Western District 1 Dispensary-100,Dispensary,1,KE-WES-066,KE,Western,Western District 1,28.0,26,False,False,False,0,0.957018,40.108805,Operational,2023
+FAC-00101,Western District 2 Dispensary-101,Dispensary,1,KE-WES-067,KE,Western,Western District 2,70.0,13,False,False,False,0,2.442642,35.006072,Operational,2019
+FAC-00102,Western District 2 Regional Hospital-102,Regional Hospital,5,KE-WES-068,KE,Western,Western District 2,1023.0,474,True,True,True,9,1.279098,41.374839,Operational,1999
+FAC-00103,Western District 3 Dispensary-103,Dispensary,1,KE-WES-069,KE,Western,Western District 3,51.0,16,False,False,False,1,2.525789,38.303746,Operational,1997
+FAC-00104,Western District 3 Clinic-104,Clinic,2,KE-WES-070,KE,Western,Western District 3,93.0,16,False,True,False,2,0.44963,34.527655,Closed,2015
+FAC-00105,Western District 3 Dispensary-105,Dispensary,1,KE-WES-071,KE,Western,Western District 3,11.0,18,False,False,False,2,1.998562,40.440786,Operational,2019
+FAC-00106,Western District 3 Health Center-106,Health Center,3,KE-WES-072,KE,Western,Western District 3,22.0,46,True,False,True,2,-3.353254,38.612656,Operational,2015
+FAC-00107,Nyanza District 1 Dispensary-107,Dispensary,1,KE-NYA-073,KE,Nyanza,Nyanza District 1,43.0,0,False,False,False,0,-3.038856,41.892682,Under Construction,1991
+FAC-00108,Nyanza District 1 Clinic-108,Clinic,2,KE-NYA-074,KE,Nyanza,Nyanza District 1,46.0,38,True,True,True,1,2.452166,40.502993,Operational,2018
+FAC-00109,Nyanza District 2 Dispensary-109,Dispensary,1,KE-NYA-075,KE,Nyanza,Nyanza District 2,97.0,48,False,False,True,0,4.55917,41.883637,Operational,1990
+FAC-00110,Nyanza District 2 Health Center-110,Health Center,3,KE-NYA-076,KE,Nyanza,Nyanza District 2,7.0,49,True,False,False,1,-0.855944,36.462696,Under Construction,2004
+FAC-00111,Nyanza District 2 Clinic-111,Clinic,2,KE-NYA-076,KE,Nyanza,Nyanza District 2,53.0,28,False,False,True,2,-0.873097,36.522881,Under Construction,2000
+FAC-00112,Nyanza District 2 Dispensary-112,Dispensary,1,KE-NYA-076,KE,Nyanza,Nyanza District 2,29.0,11,False,False,True,2,-0.831791,36.447003,Operational,2015
+FAC-00113,Nyanza District 2 Regional Hospital-113,Regional Hospital,5,KE-NYA-076,KE,Nyanza,Nyanza District 2,1005.0,458,True,True,True,12,-0.879842,36.440753,Closed,1998
+FAC-00114,Nyanza District 2 Dispensary-114,Dispensary,1,KE-NYA-076,KE,Nyanza,Nyanza District 2,65.0,46,False,False,True,2,-0.833272,36.457413,Operational,2014
+FAC-00115,Nyanza District 2 Clinic-115,Clinic,2,KE-NYA-076,KE,Nyanza,Nyanza District 2,18.0,41,False,False,True,1,-0.867187,36.439407,Under Construction,1998
+FAC-00116,Nyanza District 2 Clinic-116,Clinic,2,KE-NYA-076,KE,Nyanza,Nyanza District 2,29.0,9,True,False,True,2,-0.88888,36.507311,Operational,1995
+FAC-00117,Nyanza District 2 Dispensary-117,Dispensary,1,KE-NYA-076,KE,Nyanza,Nyanza District 2,52.0,17,False,True,False,0,-0.863247,36.52562,Operational,2023
+FAC-00118,Nyanza District 2 Clinic-118,Clinic,2,KE-NYA-076,KE,Nyanza,Nyanza District 2,81.0,49,False,False,False,0,-0.829797,36.521698,Operational,2014
+FAC-00119,Nyanza District 2 Dispensary-119,Dispensary,1,KE-NYA-077,KE,Nyanza,Nyanza District 2,67.0,31,True,False,False,1,0.767187,35.276435,Operational,2021
+FAC-00120,Nyanza District 2 Clinic-120,Clinic,2,KE-NYA-078,KE,Nyanza,Nyanza District 2,34.0,43,True,False,False,2,4.575869,40.755069,Operational,2016
+FAC-00121,Nyanza District 3 Dispensary-121,Dispensary,1,KE-NYA-079,KE,Nyanza,Nyanza District 3,21.0,44,False,True,False,2,-3.236442,37.970041,Operational,2021
+FAC-00122,NYANZA DISTRICT 3 Dispensary-122,Dispensary,1,KE-NYA-080,KE,Nyanza,NYANZA DISTRICT 3,32.0,19,False,False,True,1,3.553663,38.168646,Operational,2001
+FAC-00123,Nyanza District 3 Dispensary-123,Dispensary,1,KE-NYA-081,KE,Nyanza,Nyanza District 3,14.0,5,False,True,False,1,-0.854465,35.477892,Operational,2001
+FAC-00124,Nyanza District 4 Clinic-124,Clinic,2,KE-NYA-082,KE,Nyanza,Nyanza District 4,15.0,37,False,False,True,1,1.947494,40.754861,Operational,1993
+FAC-00125,Nyanza District 4 Dispensary-125,Dispensary,1,KE-NYA-083,KE,Nyanza,Nyanza District 4,17.0,45,False,False,True,2,-1.07209,37.205136,Operational,2000
+FAC-00126,Nyanza District 4 Clinic-126,Clinic,2,KE-NYA-084,KE,Nyanza,Nyanza District 4,85.0,48,False,False,False,0,-2.398655,40.330008,Closed,1990
+FAC-00127,Nyanza District 4 Clinic-127,Clinic,2,KE-NYA-085,KE,Nyanza,Nyanza District 4,42.0,19,True,True,False,1,4.13474,41.936436,Operational,1997
+FAC-00128,Nyanza District 5 Health Center-128,Health Center,3,KE-NYA-086,KE,Nyanza,Nyanza District 5,93.0,21,False,False,False,0,3.879017,40.107513,Operational,2013
+FAC-00129,Nyanza District 5 Dispensary-129,Dispensary,1,KE-NYA-087,KE,Nyanza,Nyanza District 5,7.0,24,False,True,False,1,2.221448,40.047909,Operational,2011
+FAC-00130,Nyanza District 5 Dispensary-130,Dispensary,1,KE-NYA-088,KE,Nyanza,Nyanza District 5,6.0,28,False,True,False,2,0.767013,41.889555,Closed,2021
+FAC-00131,Nyanza District 5 Dispensary-131,Dispensary,1,KE-NYA-089,KE,Nyanza,Nyanza District 5,93.0,37,False,False,False,1,0.792017,41.67701,Operational,2004
+FAC-00132,Nyanza District 6 Dispensary-132,Dispensary,1,KE-NYA-090,KE,Nyanza,Nyanza District 6,90.0,32,False,True,True,0,-0.385339,40.005994,Operational,2022
+FAC-00133,Nyanza District 6 Dispensary-133,Dispensary,1,KE-NYA-091,KE,Nyanza,Nyanza District 6,30.0,26,True,False,False,2,0.308354,40.531356,Operational,2000
+FAC-00134,Nyanza District 6 Clinic-134,Clinic,2,KE-NYA-092,KE,Nyanza,Nyanza District 6,10.0,13,False,False,True,1,2.807307,36.403294,Operational,2009
+FAC-00135,Nyanza District 7 Clinic-135,Clinic,2,KE-NYA-093,KE,Nyanza,Nyanza District 7,11.0,15,False,False,False,1,1.661192,39.278547,Operational,2001
+FAC-00136,Nyanza District 7 Health Center-136,Health Center,3,KE-NYA-094,KE,Nyanza,Nyanza District 7,17.0,29,False,False,False,0,3.0006,35.33168,Operational,2021
+FAC-00137,Nyanza District 7 Clinic-137,Clinic,2,KE-NYA-095,KE,Nyanza,Nyanza District 7,86.0,10,False,False,False,1,-1.98528,37.956441,Operational,2018
+FAC-00138,Lagos District 1 Clinic-138,Clinic,2,NG-LAG-096,NG,Lagos,Lagos District 1,83.0,37,False,False,False,2,5.326025,5.851667,Operational,2009
+FAC-00139,Lagos District 1 Clinic-139,Clinic,2,NG-LAG-096,NG,Lagos,Lagos District 1,54.0,36,False,False,False,0,5.339096,5.899188,Operational,2001
+FAC-00140,Lagos District 1 Clinic-140,Clinic,2,NG-LAG-097,NG,Lagos,Lagos District 1,22.0,44,False,True,False,0,10.249857,2.667968,Operational,2003
+FAC-00141,Lagos District 2 Clinic-141,Clinic,2,NG-LAG-098,NG,Lagos,Lagos District 2,41.0,9,False,False,False,1,8.39482,2.727329,Operational,1991
+FAC-00142,Lagos District 2 Health Center-142,Health Center,3,NG-LAG-099,NG,Lagos,Lagos District 2,21.0,29,False,False,True,0,5.050766,8.171556,Operational,2012
+FAC-00143,Lagos District 2 Clinic-143,Clinic,2,NG-LAG-099,NG,Lagos,Lagos District 2,15.0,14,False,False,False,2,5.058864,8.126261,Operational,1997
+FAC-00144,Lagos District 2 Dispensary-144,Dispensary,1,NG-LAG-099,NG,Lagos,Lagos District 2,5.0,24,False,False,False,0,5.070104,8.182224,Operational,2004
+FAC-00145,Lagos District 2 Clinic-145,Clinic,2,NG-LAG-099,NG,Lagos,Lagos District 2,65.0,24,False,True,True,1,4.997095,8.175685,Operational,1994
+FAC-00146,Lagos District 2 Health Center-146,Health Center,3,NG-LAG-099,NG,Lagos,Lagos District 2,55.0,18,False,False,False,1,4.993663,8.143998,Closed,2020
+FAC-00147,Lagos District 2 Health Center-147,Health Center,3,NG-LAG-100,NG,Lagos,Lagos District 2,47.0,27,True,True,True,1,11.86153,8.484435,Operational,2010
+FAC-00148,Lagos District 2 Health Center-148,Health Center,3,NG-LAG-100,NG,Lagos,Lagos District 2,,33,False,True,False,1,11.874874,8.558711,Operational,2007
+FAC-00149,Lagos District 2 Dispensary-149,Dispensary,1,NG-LAG-101,NG,Lagos,Lagos District 2,12.0,44,True,False,False,0,8.465874,8.405477,Operational,1994
+FAC-00150,Lagos District 3 Clinic-150,Clinic,2,NG-LAG-102,NG,Lagos,Lagos District 3,66.0,32,False,True,False,1,6.70122,13.227106,Operational,2002
+FAC-00151,Lagos District 3 Clinic-151,Clinic,2,NG-LAG-103,NG,Lagos,Lagos District 3,79.0,8,False,False,False,1,5.683979,3.388837,Operational,2008
+FAC-00152,Lagos District 3 Dispensary-152,Dispensary,1,NG-LAG-104,NG,Lagos,Lagos District 3,5.0,28,False,True,True,1,4.286646,2.689617,Operational,2018
+FAC-00153,Lagos District 3 Clinic-153,Clinic,2,NG-LAG-104,NG,Lagos,Lagos District 3,53.0,36,False,True,False,0,4.266844,2.714258,Operational,1998
+FAC-00154,Lagos District 3 Clinic-154,Clinic,2,NG-LAG-104,NG,Lagos,Lagos District 3,30.0,12,False,True,True,1,4.28802,2.689882,Operational,2004
+FAC-00155,Lagos District 4 Clinic-155,Clinic,2,NG-LAG-105,NG,Lagos,Lagos District 4,91.0,10,False,False,True,1,11.570446,11.124414,Operational,2004
+FAC-00156,Lagos District 4 Health Center-156,Health Center,3,NG-LAG-105,NG,Lagos,Lagos District 4,79.0,19,False,True,True,0,11.612603,11.175966,Operational,2018
+FAC-00157,Lagos District 4 Dispensary-157,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,39.0,12,False,False,True,1,10.180545,7.779626,Operational,2020
+FAC-00158,Lagos District 4 Dispensary-158,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,43.0,17,False,True,False,2,10.164846,7.86373,Operational,1996
+FAC-00159,Lagos District 4 Dispensary-159,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,48.0,49,True,True,False,1,10.190708,7.826791,Operational,2004
+FAC-00160,Lagos District 4 Dispensary-160,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,46.0,12,True,False,True,0,10.221451,7.809811,Operational,2007
+FAC-00161,Lagos District 4 Dispensary-161,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,78.0,37,False,True,False,2,10.22547,7.789111,Operational,2004
+FAC-00162,Lagos District 4 Health Center-162,Health Center,3,NG-LAG-106,NG,Lagos,Lagos District 4,75.0,36,True,False,False,2,10.188867,7.866216,Operational,2010
+FAC-00163,Lagos District 4 Dispensary-163,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,46.0,43,False,False,True,0,10.149601,7.839871,Operational,2022
+FAC-00164,Lagos District 4 Clinic-164,Clinic,2,NG-LAG-106,NG,Lagos,Lagos District 4,77.0,12,True,False,True,0,10.191096,7.774198,Operational,2016
+FAC-00165,Lagos District 4 Dispensary-165,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,12.0,42,False,False,False,1,10.158222,7.772671,Operational,2006
+FAC-00166,Lagos District 4 Dispensary-166,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,91.0,34,False,False,True,1,10.20819,7.78753,Operational,2019
+FAC-00167,Lagos District 4 Clinic-167,Clinic,2,NG-LAG-106,NG,Lagos,Lagos District 4,20.0,16,False,False,False,0,10.177443,7.77942,Closed,1994
+FAC-00168,Lagos District 4 Dispensary-168,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,69.0,34,True,False,False,0,10.225659,7.828286,Operational,2023
+FAC-00169,Lagos District 4 District Hospital-169,District Hospital,4,NG-LAG-106,NG,Lagos,Lagos District 4,680.0,250,True,True,True,3,10.173357,7.805528,Operational,1998
+FAC-00170,Lagos District 4 Clinic-170,Clinic,2,NG-LAG-106,NG,Lagos,Lagos District 4,71.0,27,False,False,False,1,10.188886,7.866653,Under Construction,2001
+FAC-00171,Lagos District 4 Dispensary-171,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,46.0,42,False,False,False,1,10.211332,7.781565,Operational,2003
+FAC-00172,Lagos District 4 Health Center-172,Health Center,3,NG-LAG-106,NG,Lagos,Lagos District 4,25.0,39,True,False,False,1,10.196494,7.86071,Operational,2022
+FAC-00173,Lagos District 4 Dispensary-173,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,18.0,5,False,False,True,1,10.23447,7.849957,Operational,2023
+FAC-00174,Lagos District 4 District Hospital-174,District Hospital,4,NG-LAG-106,NG,Lagos,Lagos District 4,736.0,178,True,True,True,5,10.147187,7.845109,Operational,2017
+FAC-00175,Lagos District 4 Clinic-175,Clinic,2,NG-LAG-106,NG,Lagos,Lagos District 4,82.0,24,True,False,True,1,10.140959,7.827692,Operational,2020
+FAC-00176,Lagos District 4 District Hospital-176,District Hospital,4,NG-LAG-106,NG,Lagos,Lagos District 4,666.0,261,True,True,True,3,10.160366,7.815897,Operational,2020
+FAC-00177,Lagos District 4 Dispensary-177,Dispensary,1,NG-LAG-106,NG,Lagos,Lagos District 4,77.0,27,True,True,False,2,10.165729,7.785214,Operational,2022
+FAC-00178,Lagos District 4 Clinic-178,Clinic,2,NG-LAG-106,NG,Lagos,Lagos District 4,44.0,21,False,False,False,0,10.191894,7.810045,Operational,1996
+FAC-00179,LAGOS DISTRICT 4 Clinic-179,Clinic,2,NG-LAG-107,NG,Lagos,LAGOS DISTRICT 4,90.0,18,False,False,True,2,6.390936,6.511328,Operational,2004
+FAC-00180,LAGOS DISTRICT 4 Clinic-180,Clinic,2,NG-LAG-107,NG,Lagos,LAGOS DISTRICT 4,91.0,43,True,True,True,0,6.446908,6.543348,Closed,2006
+FAC-00181,LAGOS DISTRICT 4 Health Center-181,Health Center,3,NG-LAG-107,NG,Lagos,LAGOS DISTRICT 4,64.0,15,False,False,True,2,6.362041,6.54966,Operational,2007
+FAC-00182,LAGOS DISTRICT 4 Clinic-182,Clinic,2,NG-LAG-107,NG,Lagos,LAGOS DISTRICT 4,97.0,33,False,False,True,1,6.359536,6.529063,Under Construction,1991
+FAC-00183,Kano District 1 Clinic-183,Clinic,2,NG-KAN-108,NG,Kano,Kano District 1,33.0,37,False,False,False,1,7.276166,9.83048,Operational,2011
+FAC-00184,Kano District 1 Dispensary-184,Dispensary,1,NG-KAN-109,NG,Kano,Kano District 1,83.0,21,False,True,False,2,5.764403,3.686385,Operational,2012
+FAC-00185,Kano District 1 Dispensary-185,Dispensary,1,NG-KAN-109,NG,Kano,Kano District 1,55.0,28,True,False,False,2,5.748506,3.648016,Operational,2004
+FAC-00186,Kano District 1 Dispensary-186,Dispensary,1,NG-KAN-109,NG,Kano,Kano District 1,32.0,47,True,False,False,1,5.739686,3.620456,Operational,2017
+FAC-00187,Kano District 1 Dispensary-187,Dispensary,1,NG-KAN-109,NG,Kano,Kano District 1,12.0,44,False,False,True,0,5.738722,3.644433,Operational,2014
+FAC-00188,Kano District 1 Clinic-188,Clinic,2,NG-KAN-110,NG,Kano,Kano District 1,66.0,14,True,False,True,0,11.013828,12.002942,Operational,2021
+FAC-00189,Kano District 1 Dispensary-189,Dispensary,1,NG-KAN-111,NG,Kano,Kano District 1,15.0,14,True,False,True,2,13.383879,12.80358,Operational,2011
+FAC-00190,Kano District 2 Clinic-190,Clinic,2,NG-KAN-112,NG,Kano,Kano District 2,88.0,25,False,False,True,2,8.144989,13.975085,Operational,2007
+FAC-00191,Kano District 2 Dispensary-191,Dispensary,1,NG-KAN-113,NG,Kano,Kano District 2,25.0,12,False,False,False,1,6.376165,4.866209,Closed,2011
+FAC-00192,Kano District 2 Dispensary-192,Dispensary,1,NG-KAN-114,NG,Kano,Kano District 2,17.0,22,True,False,False,1,7.479638,9.915634,Operational,2002
+FAC-00193,Kano District 2 Clinic-193,Clinic,2,NG-KAN-115,NG,Kano,Kano District 2,41.0,37,True,False,False,2,8.951858,6.514226,Operational,1997
+FAC-00194,Kano District 3 Dispensary-194,Dispensary,1,NG-KAN-116,NG,Kano,Kano District 3,20.0,12,False,False,True,0,9.548027,3.744949,Operational,2014
+FAC-00195,KANO DISTRICT 3 Clinic-195,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,50.0,43,True,False,False,2,7.693317,4.522061,Operational,2001
+FAC-00196,KANO DISTRICT 3 Dispensary-196,Dispensary,1,NG-KAN-117,NG,Kano,KANO DISTRICT 3,18.0,38,False,False,True,0,7.668454,4.609203,Closed,1993
+FAC-00197,KANO DISTRICT 3 Clinic-197,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,8.0,24,False,False,True,1,7.679156,4.5911,Operational,1993
+FAC-00198,KANO DISTRICT 3 Health Center-198,Health Center,3,NG-KAN-117,NG,Kano,KANO DISTRICT 3,49.0,24,False,False,False,0,7.644379,4.579536,Operational,1993
+FAC-00199,KANO DISTRICT 3 District Hospital-199,District Hospital,4,NG-KAN-117,NG,Kano,KANO DISTRICT 3,735.0,261,True,True,True,7,7.718393,4.54852,Operational,2008
+FAC-00200,KANO DISTRICT 3 District Hospital-200,District Hospital,4,NG-KAN-117,NG,Kano,KANO DISTRICT 3,308.0,175,True,True,True,7,7.736091,4.542522,Operational,2008
+FAC-00201,KANO DISTRICT 3 Clinic-201,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,98.0,37,False,True,False,1,7.714553,4.5949,Operational,2022
+FAC-00202,KANO DISTRICT 3 Clinic-202,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,8.0,24,True,False,False,2,7.676277,4.578725,Operational,1999
+FAC-00203,KANO DISTRICT 3 Clinic-203,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,81.0,47,False,False,False,0,7.730856,4.599796,Operational,2015
+FAC-00204,KANO DISTRICT 3 Dispensary-204,Dispensary,1,NG-KAN-117,NG,Kano,KANO DISTRICT 3,97.0,41,False,False,False,0,7.701011,4.526522,Under Construction,1990
+FAC-00205,KANO DISTRICT 3 Dispensary-205,Dispensary,1,NG-KAN-117,NG,Kano,KANO DISTRICT 3,74.0,45,True,True,True,1,7.730156,4.568744,Operational,2013
+FAC-00206,KANO DISTRICT 3 District Hospital-206,District Hospital,4,NG-KAN-117,NG,Kano,KANO DISTRICT 3,613.0,185,True,True,True,5,7.665466,4.549099,Operational,1999
+FAC-00207,KANO DISTRICT 3 Health Center-207,Health Center,3,NG-KAN-117,NG,Kano,KANO DISTRICT 3,58.0,35,False,False,True,1,7.723203,4.526188,Operational,2010
+FAC-00208,KANO DISTRICT 3 Clinic-208,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,37.0,31,True,False,False,2,7.692726,4.534337,Under Construction,2010
+FAC-00209,KANO DISTRICT 3 District Hospital-209,District Hospital,4,NG-KAN-117,NG,Kano,KANO DISTRICT 3,691.0,219,True,True,True,9,7.700337,4.570986,Closed,1994
+FAC-00210,KANO DISTRICT 3 Dispensary-210,Dispensary,1,NG-KAN-117,NG,Kano,KANO DISTRICT 3,94.0,41,False,False,False,0,7.672845,4.532948,Operational,1993
+FAC-00211,KANO DISTRICT 3 Clinic-211,Clinic,2,NG-KAN-117,NG,Kano,KANO DISTRICT 3,,26,False,False,True,2,7.678292,4.575793,Operational,2006
+FAC-00212,Kaduna District 1 Dispensary-212,Dispensary,1,NG-KAD-118,NG,Kaduna,Kaduna District 1,74.0,38,False,True,False,0,6.476488,7.297449,Under Construction,2011
+FAC-00213,Kaduna District 1 Clinic-213,Clinic,2,NG-KAD-119,NG,Kaduna,Kaduna District 1,44.0,42,False,True,False,2,9.761158,12.584222,Operational,1993
+FAC-00214,Kaduna District 1 Dispensary-214,Dispensary,1,NG-KAD-120,NG,Kaduna,Kaduna District 1,90.0,19,False,True,True,0,10.89146,9.611449,Operational,1991
+FAC-00215,KADUNA DISTRICT 2 Clinic-215,Clinic,2,NG-KAD-121,NG,Kaduna,KADUNA DISTRICT 2,7.0,12,False,False,True,0,10.78902,10.347487,Operational,1994
+FAC-00216,Kaduna District 2 Dispensary-216,Dispensary,1,NG-KAD-122,NG,Kaduna,Kaduna District 2,16.0,14,False,False,False,0,8.32663,6.375186,Operational,2009
+FAC-00217,Kaduna District 3 Dispensary-217,Dispensary,1,NG-KAD-123,NG,Kaduna,Kaduna District 3,6.0,11,False,False,True,2,7.507254,12.278548,Operational,1997
+FAC-00218,Kaduna District 3 Dispensary-218,Dispensary,1,NG-KAD-124,NG,Kaduna,Kaduna District 3,52.0,47,False,False,True,0,11.876533,5.473775,Operational,2005
+FAC-00219,Kaduna District 3 Dispensary-219,Dispensary,1,NG-KAD-125,NG,Kaduna,Kaduna District 3,25.0,34,False,False,False,0,13.132633,14.428349,Operational,1992
+FAC-00220,Rivers District 1 Clinic-220,Clinic,2,NG-RIV-126,NG,Rivers,Rivers District 1,29.0,24,True,False,False,1,12.432566,12.174616,Under Construction,1995
+FAC-00221,Rivers District 1 Dispensary-221,Dispensary,1,NG-RIV-127,NG,Rivers,Rivers District 1,48.0,15,False,False,True,1,10.753018,4.322425,Operational,2015
+FAC-00222,Rivers District 1 Health Center-222,Health Center,3,NG-RIV-128,NG,Rivers,Rivers District 1,32.0,30,False,False,False,1,8.791765,12.758608,Operational,2012
+FAC-00223,Rivers District 1 Dispensary-223,Dispensary,1,NG-RIV-128,NG,Rivers,Rivers District 1,26.0,21,False,False,True,0,8.72091,12.813411,Operational,2017
+FAC-00224,Rivers District 1 Dispensary-224,Dispensary,1,NG-RIV-128,NG,Rivers,Rivers District 1,74.0,13,False,False,False,0,8.787213,12.790747,Operational,2010
+FAC-00225,Rivers District 1 Regional Hospital-225,Regional Hospital,5,NG-RIV-128,NG,Rivers,Rivers District 1,1448.0,501,True,True,True,8,8.811628,12.826602,Operational,2002
+FAC-00226,Rivers District 1 Dispensary-226,Dispensary,1,NG-RIV-128,NG,Rivers,Rivers District 1,10.0,31,True,False,True,2,8.740471,12.777643,Operational,2008
+FAC-00227,Rivers District 2 Dispensary-227,Dispensary,1,NG-RIV-129,NG,Rivers,Rivers District 2,82.0,24,True,False,False,0,7.930223,3.555233,Operational,1992
+FAC-00228,Rivers District 2 Dispensary-228,Dispensary,1,NG-RIV-130,NG,Rivers,Rivers District 2,77.0,32,False,False,True,0,6.631881,11.109251,Under Construction,2003
+FAC-00229,Rivers District 2 Health Center-229,Health Center,3,NG-RIV-130,NG,Rivers,Rivers District 2,57.0,40,True,True,False,0,6.579069,11.140935,Operational,2003
+FAC-00230,Oyo District 1 Dispensary-230,Dispensary,1,NG-OYO-131,NG,Oyo,Oyo District 1,72.0,8,False,False,False,1,9.567627,10.396531,Operational,2019
+FAC-00231,Oyo District 1 Clinic-231,Clinic,2,NG-OYO-131,NG,Oyo,Oyo District 1,15.0,25,False,False,True,2,9.597931,10.462391,Operational,1998
+FAC-00232,Oyo District 1 Dispensary-232,Dispensary,1,NG-OYO-132,NG,Oyo,Oyo District 1,85.0,38,True,False,True,0,8.209262,8.531229,Operational,2008
+FAC-00233,Oyo District 2 Dispensary-233,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,97.0,26,False,False,False,0,8.792712,13.763057,Operational,2011
+FAC-00234,Oyo District 2 Dispensary-234,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,71.0,26,True,False,False,1,8.795865,13.752518,Under Construction,2007
+FAC-00235,Oyo District 2 Clinic-235,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,16.0,10,False,False,False,1,8.814016,13.759118,Operational,2003
+FAC-00236,Oyo District 2 Dispensary-236,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,88.0,17,True,True,True,0,8.772641,13.722624,Operational,2010
+FAC-00237,Oyo District 2 Clinic-237,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,68.0,46,True,False,False,2,8.797425,13.793642,Operational,2002
+FAC-00238,Oyo District 2 Dispensary-238,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,23.0,15,False,True,True,0,8.841955,13.800047,Operational,2001
+FAC-00239,Oyo District 2 Dispensary-239,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,37.0,49,False,False,True,1,8.832609,13.716935,Operational,2012
+FAC-00240,Oyo District 2 District Hospital-240,District Hospital,4,NG-OYO-133,NG,Oyo,Oyo District 2,523.0,260,True,True,True,8,8.835235,13.721049,Operational,2009
+FAC-00241,Oyo District 2 Dispensary-241,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,80.0,19,False,False,False,0,8.805161,13.771187,Operational,2007
+FAC-00242,Oyo District 2 Health Center-242,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,77.0,43,False,True,False,2,8.775613,13.765218,Operational,2006
+FAC-00243,Oyo District 2 Dispensary-243,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,16.0,39,False,False,True,2,8.781269,13.767685,Operational,2012
+FAC-00244,Oyo District 2 Dispensary-244,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,42.0,32,False,False,False,0,8.796507,13.742452,Operational,2023
+FAC-00245,Oyo District 2 Clinic-245,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,71.0,32,False,True,False,2,8.7702,13.748826,Operational,2022
+FAC-00246,Oyo District 2 Clinic-246,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,38.0,32,False,True,False,0,8.863633,13.745798,Operational,2007
+FAC-00247,Oyo District 2 Dispensary-247,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,47.0,35,False,False,False,2,8.829547,13.74828,Operational,2001
+FAC-00248,Oyo District 2 Clinic-248,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,35.0,8,True,False,True,0,8.819515,13.808223,Operational,2016
+FAC-00249,Oyo District 2 Health Center-249,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,68.0,31,False,False,True,1,8.817754,13.724826,Operational,2012
+FAC-00250,Oyo District 2 Clinic-250,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,22.0,13,True,False,True,0,8.772063,13.808895,Operational,1994
+FAC-00251,Oyo District 2 Health Center-251,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,53.0,17,True,False,False,1,8.804588,13.794502,Operational,2010
+FAC-00252,Oyo District 2 Clinic-252,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,25.0,48,False,False,False,2,8.782889,13.756225,Operational,2000
+FAC-00253,Oyo District 2 Health Center-253,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,21.0,39,False,False,False,1,8.7891,13.751335,Operational,2006
+FAC-00254,Oyo District 2 Dispensary-254,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,23.0,31,False,False,False,0,8.772767,13.786407,Operational,1994
+FAC-00255,Oyo District 2 Dispensary-255,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,24.0,45,True,False,False,1,8.820259,13.721188,Operational,1995
+FAC-00256,Oyo District 2 Clinic-256,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,79.0,37,False,False,False,1,8.818202,13.769549,Under Construction,2003
+FAC-00257,Oyo District 2 Clinic-257,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,96.0,8,False,False,True,2,8.854365,13.755736,Operational,2021
+FAC-00258,Oyo District 2 Health Center-258,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,67.0,42,False,False,False,2,8.861607,13.713733,Operational,2018
+FAC-00259,Oyo District 2 Regional Hospital-259,Regional Hospital,5,NG-OYO-133,NG,Oyo,Oyo District 2,1405.0,519,True,True,True,18,8.833416,13.793801,Operational,2019
+FAC-00260,Oyo District 2 Dispensary-260,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,51.0,39,True,False,True,2,8.769201,13.716237,Operational,1990
+FAC-00261,Oyo District 2 District Hospital-261,District Hospital,4,NG-OYO-133,NG,Oyo,Oyo District 2,340.0,235,True,True,True,6,8.851162,13.792739,Under Construction,1991
+FAC-00262,Oyo District 2 Health Center-262,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,27.0,13,True,False,False,1,8.77557,13.746703,Operational,2002
+FAC-00263,Oyo District 2 Dispensary-263,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,38.0,49,True,False,False,0,8.780262,13.796028,Operational,1991
+FAC-00264,Oyo District 2 District Hospital-264,District Hospital,4,NG-OYO-133,NG,Oyo,Oyo District 2,212.0,283,True,True,True,8,8.79008,13.798161,Operational,2012
+FAC-00265,Oyo District 2 Dispensary-265,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,,31,False,False,True,1,8.833017,13.809719,Operational,2008
+FAC-00266,Oyo District 2 Dispensary-266,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,90.0,35,False,False,False,0,8.851112,13.767287,Operational,2003
+FAC-00267,Oyo District 2 Clinic-267,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,57.0,28,False,False,True,2,8.846504,13.738962,Operational,2003
+FAC-00268,Oyo District 2 Dispensary-268,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,79.0,45,False,True,False,0,8.773654,13.739438,Operational,2012
+FAC-00269,Oyo District 2 Clinic-269,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,12.0,45,True,False,True,1,8.779158,13.747844,Operational,2016
+FAC-00270,Oyo District 2 Dispensary-270,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,72.0,40,False,False,False,1,8.806701,13.808229,Operational,2012
+FAC-00271,Oyo District 2 Clinic-271,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,37.0,31,False,True,True,0,8.840274,13.77846,Closed,2000
+FAC-00272,Oyo District 2 Dispensary-272,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,51.0,29,True,False,False,1,8.868916,13.722302,Operational,2017
+FAC-00273,Oyo District 2 Dispensary-273,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,51.0,22,False,True,False,1,8.787571,13.767028,Operational,1991
+FAC-00274,Oyo District 2 Health Center-274,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,77.0,42,False,False,False,2,8.844371,13.715415,Operational,1997
+FAC-00275,Oyo District 2 Dispensary-275,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,22.0,7,False,False,False,1,8.788891,13.800843,Operational,2002
+FAC-00276,Oyo District 2 District Hospital-276,District Hospital,4,NG-OYO-133,NG,Oyo,Oyo District 2,317.0,153,True,True,True,3,8.82335,13.721808,Operational,2002
+FAC-00277,Oyo District 2 Clinic-277,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,28.0,6,False,False,True,1,8.842589,13.744845,Under Construction,2013
+FAC-00278,Oyo District 2 Dispensary-278,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,29.0,40,False,False,True,1,8.846368,13.789113,Operational,2001
+FAC-00279,Oyo District 2 Health Center-279,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,57.0,46,False,False,True,2,8.81252,13.745031,Operational,1996
+FAC-00280,Oyo District 2 Clinic-280,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,16.0,20,False,False,False,2,8.836527,13.766517,Operational,2012
+FAC-00281,Oyo District 2 Dispensary-281,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,76.0,49,True,False,False,1,8.862707,13.77215,Operational,2012
+FAC-00282,Oyo District 2 Dispensary-282,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,8.0,30,True,False,False,0,8.833428,13.76795,Operational,2006
+FAC-00283,Oyo District 2 Health Center-283,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,75.0,46,False,False,False,0,8.783665,13.792933,Operational,2020
+FAC-00284,Oyo District 2 Dispensary-284,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,69.0,42,False,False,False,1,8.775189,13.726551,Operational,2000
+FAC-00285,Oyo District 2 District Hospital-285,District Hospital,4,NG-OYO-133,NG,Oyo,Oyo District 2,621.0,254,True,True,True,3,8.793158,13.761881,Operational,1994
+FAC-00286,Oyo District 2 Dispensary-286,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,66.0,26,False,False,False,1,8.773359,13.728396,Operational,2022
+FAC-00287,Oyo District 2 Health Center-287,Health Center,3,NG-OYO-133,NG,Oyo,Oyo District 2,79.0,17,False,False,False,1,8.788662,13.806964,Closed,2015
+FAC-00288,Oyo District 2 Clinic-288,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,80.0,15,False,False,True,0,8.831203,13.809939,Operational,2018
+FAC-00289,Oyo District 2 Dispensary-289,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,21.0,47,False,False,False,2,8.785136,13.759511,Operational,2019
+FAC-00290,Oyo District 2 Dispensary-290,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,43.0,21,False,False,False,2,8.829275,13.795362,Operational,2017
+FAC-00291,Oyo District 2 Dispensary-291,Dispensary,1,NG-OYO-133,NG,Oyo,Oyo District 2,46.0,47,True,False,False,0,8.841855,13.721361,Operational,2018
+FAC-00292,Oyo District 2 Clinic-292,Clinic,2,NG-OYO-133,NG,Oyo,Oyo District 2,17.0,49,False,True,False,1,8.864454,13.761289,Operational,1996
+FAC-00293,Oyo District 2 Clinic-293,Clinic,2,NG-OYO-134,NG,Oyo,Oyo District 2,88.0,24,True,True,False,0,10.301132,9.543851,Closed,2018
+FAC-00294,Oyo District 2 Clinic-294,Clinic,2,NG-OYO-135,NG,Oyo,Oyo District 2,95.0,22,True,True,False,0,13.426122,14.600596,Operational,1994
+FAC-00295,Oyo District 2 Regional Hospital-295,Regional Hospital,5,NG-OYO-135,NG,Oyo,Oyo District 2,1924.0,477,True,True,True,6,13.483897,14.572489,Operational,2000
+FAC-00296,Borno District 1 Dispensary-296,Dispensary,1,NG-BOR-136,NG,Borno,Borno District 1,25.0,39,False,True,False,1,6.357841,11.897255,Operational,2003
+FAC-00297,Borno District 1 Dispensary-297,Dispensary,1,NG-BOR-137,NG,Borno,Borno District 1,88.0,19,True,False,True,1,11.251726,3.612658,Operational,2016
+FAC-00298,Borno District 1 Health Center-298,Health Center,3,NG-BOR-138,NG,Borno,Borno District 1,19.0,39,False,True,False,0,10.563859,12.966792,Operational,2013
+FAC-00299,Borno District 2 Dispensary-299,Dispensary,1,NG-BOR-139,NG,Borno,Borno District 2,71.0,38,False,True,True,0,7.971806,4.36619,Operational,1995
+FAC-00300,Borno District 2 District Hospital-300,District Hospital,4,NG-BOR-139,NG,Borno,Borno District 2,590.0,202,True,True,True,7,7.879714,4.370756,Under Construction,2011
+FAC-00301,Borno District 2 Dispensary-301,Dispensary,1,NG-BOR-140,NG,Borno,Borno District 2,96.0,16,False,False,False,1,6.586087,10.291758,Under Construction,2014
+FAC-00302,Borno District 2 Clinic-302,Clinic,2,NG-BOR-141,NG,Borno,Borno District 2,55.0,18,False,False,False,0,7.357351,7.886365,Operational,2010
+FAC-00303,Enugu District 1 Clinic-303,Clinic,2,NG-ENU-142,NG,Enugu,Enugu District 1,20.0,35,False,True,False,1,6.782853,11.742431,Operational,2006
+FAC-00304,Enugu District 1 Dispensary-304,Dispensary,1,NG-ENU-143,NG,Enugu,Enugu District 1,56.0,29,False,True,False,2,12.752415,7.043107,Under Construction,2013
+FAC-00305,Enugu District 2 Clinic-305,Clinic,2,NG-ENU-144,NG,Enugu,Enugu District 2,19.0,36,False,False,False,2,4.652716,11.422339,Operational,2018
+FAC-00306,Enugu District 2 Clinic-306,Clinic,2,NG-ENU-145,NG,Enugu,Enugu District 2,74.0,10,False,False,False,0,4.306207,12.375365,Operational,1992
+FAC-00307,Others District 1 Clinic-307,Clinic,2,NG-OTH-146,NG,Others,Others District 1,36.0,36,True,False,True,1,8.500618,10.532302,Operational,1993
+FAC-00308,Others District 1 Clinic-308,Clinic,2,NG-OTH-147,NG,Others,Others District 1,33.0,23,False,False,True,1,10.724652,4.95584,Under Construction,2002
+FAC-00309,Others District 1 Dispensary-309,Dispensary,1,NG-OTH-148,NG,Others,Others District 1,66.0,39,False,True,False,2,8.642537,2.680979,Operational,2011
+FAC-00310,Others District 2 Dispensary-310,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,76.0,11,False,False,False,1,4.391006,11.862756,Operational,2022
+FAC-00311,Others District 2 Clinic-311,Clinic,2,NG-OTH-149,NG,Others,Others District 2,57.0,15,False,False,True,0,4.373667,11.901993,Operational,2022
+FAC-00312,Others District 2 Clinic-312,Clinic,2,NG-OTH-149,NG,Others,Others District 2,23.0,26,True,False,True,0,4.398602,11.940026,Operational,2012
+FAC-00313,Others District 2 Health Center-313,Health Center,3,NG-OTH-149,NG,Others,Others District 2,23.0,33,False,False,False,0,4.301545,11.906552,Closed,1991
+FAC-00314,Others District 2 Dispensary-314,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,73.0,32,False,True,False,1,4.320841,11.91351,Operational,1992
+FAC-00315,Others District 2 Health Center-315,Health Center,3,NG-OTH-149,NG,Others,Others District 2,93.0,39,True,False,False,1,4.360761,11.869238,Operational,2009
+FAC-00316,Others District 2 Clinic-316,Clinic,2,NG-OTH-149,NG,Others,Others District 2,58.0,24,False,False,True,2,4.301908,11.958042,Operational,1999
+FAC-00317,Others District 2 Clinic-317,Clinic,2,NG-OTH-149,NG,Others,Others District 2,52.0,10,False,False,True,0,4.317805,11.873247,Operational,2004
+FAC-00318,Others District 2 Health Center-318,Health Center,3,NG-OTH-149,NG,Others,Others District 2,55.0,25,False,False,True,2,4.305446,11.924289,Operational,1996
+FAC-00319,Others District 2 Health Center-319,Health Center,3,NG-OTH-149,NG,Others,Others District 2,40.0,23,True,False,False,0,4.374338,11.883007,Operational,1999
+FAC-00320,Others District 2 National Hospital-320,National Hospital,6,NG-OTH-149,NG,Others,Others District 2,553.0,889,True,True,True,7,4.389403,11.86997,Operational,2004
+FAC-00321,Others District 2 Dispensary-321,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,77.0,31,False,False,False,1,4.367465,11.931627,Operational,2012
+FAC-00322,Others District 2 District Hospital-322,District Hospital,4,NG-OTH-149,NG,Others,Others District 2,635.0,146,True,True,True,9,4.325235,11.882981,Operational,2023
+FAC-00323,Others District 2 District Hospital-323,District Hospital,4,NG-OTH-149,NG,Others,Others District 2,260.0,277,True,True,True,4,4.321931,11.92125,Operational,2019
+FAC-00324,Others District 2 Dispensary-324,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,14.0,22,False,False,True,1,4.379074,11.901285,Operational,2016
+FAC-00325,Others District 2 Clinic-325,Clinic,2,NG-OTH-149,NG,Others,Others District 2,55.0,46,False,False,False,0,4.327282,11.898385,Under Construction,1998
+FAC-00326,Others District 2 Regional Hospital-326,Regional Hospital,5,NG-OTH-149,NG,Others,Others District 2,1710.0,969,True,True,True,17,4.387769,11.925335,Operational,2004
+FAC-00327,Others District 2 District Hospital-327,District Hospital,4,NG-OTH-149,NG,Others,Others District 2,262.0,249,True,True,True,9,4.344789,11.863731,Operational,1996
+FAC-00328,Others District 2 District Hospital-328,District Hospital,4,NG-OTH-149,NG,Others,Others District 2,287.0,167,True,True,True,5,4.310936,11.937984,Operational,1990
+FAC-00329,Others District 2 Dispensary-329,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,89.0,33,False,False,False,0,4.372454,11.944189,Operational,1993
+FAC-00330,Others District 2 Clinic-330,Clinic,2,NG-OTH-149,NG,Others,Others District 2,72.0,16,False,False,True,2,4.335776,11.944396,Operational,2021
+FAC-00331,Others District 2 Dispensary-331,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,9.0,40,False,False,False,1,4.388029,11.871797,Operational,2011
+FAC-00332,Others District 2 Clinic-332,Clinic,2,NG-OTH-149,NG,Others,Others District 2,9.0,46,False,False,False,2,4.344318,11.922595,Operational,2012
+FAC-00333,Others District 2 Health Center-333,Health Center,3,NG-OTH-149,NG,Others,Others District 2,50.0,27,True,True,False,0,4.373637,11.913033,Operational,2022
+FAC-00334,Others District 2 Clinic-334,Clinic,2,NG-OTH-149,NG,Others,Others District 2,36.0,46,True,False,True,2,4.322633,11.913462,Operational,2003
+FAC-00335,Others District 2 Health Center-335,Health Center,3,NG-OTH-149,NG,Others,Others District 2,51.0,23,True,False,False,1,4.356085,11.903118,Operational,2008
+FAC-00336,Others District 2 Dispensary-336,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,44.0,46,True,False,False,0,4.357938,11.863754,Under Construction,2018
+FAC-00337,Others District 2 Clinic-337,Clinic,2,NG-OTH-149,NG,Others,Others District 2,92.0,30,True,False,False,0,4.320829,11.912321,Operational,2006
+FAC-00338,Others District 2 Dispensary-338,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,7.0,19,False,False,True,0,4.301395,11.933884,Operational,1990
+FAC-00339,Others District 2 Clinic-339,Clinic,2,NG-OTH-149,NG,Others,Others District 2,90.0,20,False,False,False,0,4.345526,11.879884,Under Construction,2004
+FAC-00340,Others District 2 Clinic-340,Clinic,2,NG-OTH-149,NG,Others,Others District 2,57.0,34,False,False,True,0,4.307094,11.949275,Operational,2004
+FAC-00341,Others District 2 District Hospital-341,District Hospital,4,NG-OTH-149,NG,Others,Others District 2,248.0,272,True,True,True,3,4.337944,11.941921,Operational,2018
+FAC-00342,Others District 2 Clinic-342,Clinic,2,NG-OTH-149,NG,Others,Others District 2,97.0,7,True,False,False,2,4.37106,11.898988,Operational,2000
+FAC-00343,Others District 2 Dispensary-343,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,95.0,34,False,False,True,2,4.363596,11.871077,Operational,2014
+FAC-00344,Others District 2 Clinic-344,Clinic,2,NG-OTH-149,NG,Others,Others District 2,77.0,41,False,False,False,0,4.30186,11.882264,Operational,1996
+FAC-00345,Others District 2 Dispensary-345,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,96.0,10,True,False,False,0,4.343713,11.93897,Under Construction,2011
+FAC-00346,Others District 2 Dispensary-346,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,80.0,46,False,False,True,0,4.33178,11.88569,Operational,2019
+FAC-00347,Others District 2 Dispensary-347,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,14.0,48,True,True,False,2,4.338677,11.943723,Operational,2021
+FAC-00348,Others District 2 Clinic-348,Clinic,2,NG-OTH-149,NG,Others,Others District 2,66.0,42,True,False,False,0,4.332848,11.888491,Operational,2002
+FAC-00349,Others District 2 Dispensary-349,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,11.0,26,False,False,False,1,4.376482,11.880312,Operational,2009
+FAC-00350,Others District 2 Clinic-350,Clinic,2,NG-OTH-149,NG,Others,Others District 2,32.0,12,False,False,False,0,4.389243,11.943973,Operational,1995
+FAC-00351,Others District 2 Clinic-351,Clinic,2,NG-OTH-149,NG,Others,Others District 2,63.0,44,False,False,False,2,4.384884,11.886441,Operational,2016
+FAC-00352,Others District 2 Dispensary-352,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,47.0,35,False,False,False,2,4.324547,11.865575,Operational,2000
+FAC-00353,Others District 2 Clinic-353,Clinic,2,NG-OTH-149,NG,Others,Others District 2,58.0,15,False,False,True,1,4.301835,11.937975,Operational,2021
+FAC-00354,Others District 2 Clinic-354,Clinic,2,NG-OTH-149,NG,Others,Others District 2,59.0,19,True,False,False,2,4.34063,11.900599,Operational,2018
+FAC-00355,Others District 2 Dispensary-355,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,47.0,6,True,False,False,1,4.387238,11.899453,Operational,2017
+FAC-00356,Others District 2 Clinic-356,Clinic,2,NG-OTH-149,NG,Others,Others District 2,63.0,9,False,False,False,2,4.346514,11.955533,Operational,2021
+FAC-00357,Others District 2 Clinic-357,Clinic,2,NG-OTH-149,NG,Others,Others District 2,22.0,31,False,True,False,2,4.363561,11.866979,Operational,2014
+FAC-00358,Others District 2 Dispensary-358,Dispensary,1,NG-OTH-149,NG,Others,Others District 2,78.0,26,False,False,False,2,4.320814,11.865774,Operational,2006
+FAC-00359,Others District 2 Dispensary-359,Dispensary,1,NG-OTH-150,NG,Others,Others District 2,18.0,24,False,False,False,1,7.536849,13.334216,Closed,1992
+FAC-00360,Others District 2 Dispensary-360,Dispensary,1,NG-OTH-151,NG,Others,Others District 2,94.0,34,True,False,True,0,6.255066,9.040046,Operational,2011
+FAC-00361,Others District 2 Dispensary-361,Dispensary,1,NG-OTH-151,NG,Others,Others District 2,33.0,44,True,False,False,1,6.251226,9.047632,Operational,2016
+FAC-00362,Others District 2 Dispensary-362,Dispensary,1,NG-OTH-152,NG,Others,Others District 2,92.0,13,True,False,False,2,7.011588,6.145527,Under Construction,2019
+FAC-00363,Others District 3 Health Center-363,Health Center,3,NG-OTH-153,NG,Others,Others District 3,57.0,16,False,False,True,0,11.56377,11.49229,Operational,2023
+FAC-00364,Others District 3 Dispensary-364,Dispensary,1,NG-OTH-154,NG,Others,Others District 3,54.0,42,True,False,False,1,6.763857,11.525322,Operational,2012
+FAC-00365,Others District 3 Dispensary-365,Dispensary,1,NG-OTH-155,NG,Others,Others District 3,68.0,12,True,True,True,0,4.513102,13.369931,Operational,2015
+FAC-00366,Others District 4 Dispensary-366,Dispensary,1,NG-OTH-156,NG,Others,Others District 4,99.0,22,False,True,True,1,9.811077,13.599406,Operational,2021
+FAC-00367,Others District 4 Health Center-367,Health Center,3,NG-OTH-157,NG,Others,Others District 4,68.0,42,False,True,False,1,9.319896,13.84139,Operational,2020
+FAC-00368,Others District 5 Clinic-368,Clinic,2,NG-OTH-158,NG,Others,Others District 5,61.0,46,False,False,False,0,5.55158,3.338877,Operational,2004
+FAC-00369,Others District 5 Clinic-369,Clinic,2,NG-OTH-159,NG,Others,Others District 5,83.0,43,False,False,True,0,11.772391,5.746535,Operational,2001
+FAC-00370,Others District 5 Dispensary-370,Dispensary,1,NG-OTH-160,NG,Others,Others District 5,87.0,11,False,False,True,0,4.848041,2.892288,Operational,2002
+FAC-00371,Others District 5 Dispensary-371,Dispensary,1,NG-OTH-161,NG,Others,Others District 5,10.0,23,False,False,False,0,8.836837,9.829263,Operational,2021
+FAC-00372,Others District 6 Clinic-372,Clinic,2,NG-OTH-162,NG,Others,Others District 6,67.0,42,True,False,True,0,13.235048,2.678571,Under Construction,1997
+FAC-00373,Others District 6 Dispensary-373,Dispensary,1,NG-OTH-163,NG,Others,Others District 6,,10,True,False,False,1,4.283748,2.722946,Operational,1994
+FAC-00374,Others District 6 Dispensary-374,Dispensary,1,NG-OTH-164,NG,Others,Others District 6,93.0,45,True,False,True,2,12.058825,13.610958,Under Construction,2009
+FAC-00375,Others District 7 Clinic-375,Clinic,2,NG-OTH-165,NG,Others,Others District 7,85.0,40,False,True,True,0,4.729459,6.215154,Under Construction,1997
+FAC-00376,Others District 7 Clinic-376,Clinic,2,NG-OTH-166,NG,Others,Others District 7,94.0,17,True,False,False,2,4.311525,13.730238,Operational,2019
+FAC-00377,Gauteng District 1 Dispensary-377,Dispensary,1,ZA-GAU-167,ZA,Gauteng,Gauteng District 1,97.0,34,True,True,True,1,-30.548167,26.645347,Operational,1998
+FAC-00378,Gauteng District 1 Clinic-378,Clinic,2,ZA-GAU-168,ZA,Gauteng,Gauteng District 1,99.0,27,False,False,False,1,-22.033932,29.135483,Operational,1998
+FAC-00379,Gauteng District 1 Clinic-379,Clinic,2,ZA-GAU-169,ZA,Gauteng,Gauteng District 1,16.0,37,True,False,True,0,-26.379808,25.388067,Operational,2000
+FAC-00380,Gauteng District 1 Clinic-380,Clinic,2,ZA-GAU-170,ZA,Gauteng,Gauteng District 1,99.0,21,True,False,False,0,-24.242072,22.722786,Operational,1997
+FAC-00381,Gauteng District 2 Dispensary-381,Dispensary,1,ZA-GAU-171,ZA,Gauteng,Gauteng District 2,15.0,28,False,False,True,0,-21.986291,19.853611,Operational,2017
+FAC-00382,Gauteng District 2 Dispensary-382,Dispensary,1,ZA-GAU-172,ZA,Gauteng,Gauteng District 2,41.0,8,True,False,False,1,-22.919738,24.613049,Operational,2008
+FAC-00383,Gauteng District 3 Clinic-383,Clinic,2,ZA-GAU-173,ZA,Gauteng,Gauteng District 3,60.0,32,True,False,False,0,-32.493673,31.426258,Operational,2016
+FAC-00384,Gauteng District 3 Health Center-384,Health Center,3,ZA-GAU-173,ZA,Gauteng,Gauteng District 3,20.0,16,True,False,False,2,-32.542006,31.357024,Operational,1998
+FAC-00385,Gauteng District 3 Dispensary-385,Dispensary,1,ZA-GAU-173,ZA,Gauteng,Gauteng District 3,68.0,44,True,False,True,1,-32.498005,31.410779,Operational,2015
+FAC-00386,Gauteng District 3 Dispensary-386,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,91.0,35,False,False,True,1,-23.275363,30.245227,Operational,2019
+FAC-00387,Gauteng District 3 Dispensary-387,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,25.0,29,False,True,False,0,-23.332777,30.286279,Under Construction,2004
+FAC-00388,Gauteng District 3 Clinic-388,Clinic,2,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,25.0,28,False,False,True,0,-23.322678,30.219582,Operational,2010
+FAC-00389,Gauteng District 3 Dispensary-389,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,90.0,44,False,False,False,2,-23.250203,30.226337,Operational,1994
+FAC-00390,Gauteng District 3 Health Center-390,Health Center,3,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,57.0,41,False,False,True,2,-23.284984,30.291951,Operational,2019
+FAC-00391,Gauteng District 3 Dispensary-391,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,80.0,43,False,False,False,1,-23.319845,30.260419,Operational,2020
+FAC-00392,Gauteng District 3 Dispensary-392,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,60.0,38,True,True,False,2,-23.322643,30.317007,Operational,2010
+FAC-00393,Gauteng District 3 Dispensary-393,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,26.0,42,False,False,False,2,-23.311651,30.23897,Operational,2006
+FAC-00394,Gauteng District 3 Clinic-394,Clinic,2,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,49.0,10,True,False,False,2,-23.262107,30.256525,Operational,1995
+FAC-00395,Gauteng District 3 Dispensary-395,Dispensary,1,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,62.0,27,False,False,True,0,-23.319492,30.28348,Operational,1993
+FAC-00396,Gauteng District 3 Clinic-396,Clinic,2,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,18.0,18,True,False,False,0,-23.267112,30.222468,Operational,2008
+FAC-00397,Gauteng District 3 Health Center-397,Health Center,3,ZA-GAU-174,ZA,Gauteng,Gauteng District 3,39.0,36,False,False,False,1,-23.307123,30.243598,Operational,2021
+FAC-00398,Gauteng District 4 Dispensary-398,Dispensary,1,ZA-GAU-175,ZA,Gauteng,Gauteng District 4,74.0,18,True,False,True,0,-29.202057,21.284692,Operational,2015
+FAC-00399,Gauteng District 4 Health Center-399,Health Center,3,ZA-GAU-176,ZA,Gauteng,Gauteng District 4,70.0,35,True,False,False,2,-25.395083,18.212591,Under Construction,2005
+FAC-00400,Gauteng District 4 Clinic-400,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,78.0,42,True,False,True,1,-22.767445,26.40099,Operational,2019
+FAC-00401,Gauteng District 4 Clinic-401,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,8.0,33,False,False,True,2,-22.757088,26.339069,Under Construction,1995
+FAC-00402,Gauteng District 4 Clinic-402,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,67.0,7,True,False,False,1,-22.772319,26.384468,Operational,2011
+FAC-00403,Gauteng District 4 Dispensary-403,Dispensary,1,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,39.0,26,False,False,True,0,-22.712802,26.314208,Operational,2012
+FAC-00404,Gauteng District 4 Clinic-404,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,22.0,45,True,False,True,0,-22.781113,26.366277,Operational,2017
+FAC-00405,Gauteng District 4 Health Center-405,Health Center,3,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,29.0,14,False,False,True,1,-22.731339,26.31687,Operational,2023
+FAC-00406,Gauteng District 4 District Hospital-406,District Hospital,4,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,658.0,110,True,True,True,6,-22.72834,26.4091,Operational,1991
+FAC-00407,Gauteng District 4 Dispensary-407,Dispensary,1,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,46.0,22,True,False,True,1,-22.726039,26.384747,Under Construction,2001
+FAC-00408,Gauteng District 4 Clinic-408,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,8.0,43,False,False,False,1,-22.784686,26.402055,Operational,2001
+FAC-00409,Gauteng District 4 Clinic-409,Clinic,2,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,47.0,21,True,False,False,2,-22.718795,26.321167,Operational,2018
+FAC-00410,Gauteng District 4 Dispensary-410,Dispensary,1,ZA-GAU-177,ZA,Gauteng,Gauteng District 4,34.0,27,False,True,False,1,-22.767624,26.345071,Operational,2008
+FAC-00411,Gauteng District 4 Health Center-411,Health Center,3,ZA-GAU-178,ZA,Gauteng,Gauteng District 4,25.0,41,False,False,False,2,-23.111784,30.060559,Operational,2007
+FAC-00412,Gauteng District 5 District Hospital-412,District Hospital,4,ZA-GAU-179,ZA,Gauteng,Gauteng District 5,229.0,144,True,True,True,4,-23.576124,28.399876,Operational,2018
+FAC-00413,Gauteng District 5 Clinic-413,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,56.0,40,True,False,True,0,-23.052313,31.32284,Operational,1993
+FAC-00414,Gauteng District 5 Health Center-414,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,9.0,24,False,False,False,2,-23.092487,31.248357,Closed,2020
+FAC-00415,Gauteng District 5 Dispensary-415,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,23.0,46,False,False,False,1,-23.055761,31.338751,Operational,1999
+FAC-00416,Gauteng District 5 Clinic-416,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,64.0,28,False,False,True,0,-23.076589,31.268128,Operational,2010
+FAC-00417,Gauteng District 5 Dispensary-417,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,30.0,16,False,False,True,2,-23.054342,31.318326,Operational,2013
+FAC-00418,Gauteng District 5 Clinic-418,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,23.0,30,False,False,False,2,-23.087118,31.307882,Operational,1991
+FAC-00419,Gauteng District 5 Dispensary-419,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,6.0,34,True,True,False,1,-23.025245,31.272616,Operational,2005
+FAC-00420,Gauteng District 5 Health Center-420,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,61.0,24,True,False,True,1,-23.071698,31.33312,Operational,2001
+FAC-00421,Gauteng District 5 Regional Hospital-421,Regional Hospital,5,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,1021.0,704,True,True,True,6,-23.035349,31.288505,Operational,2013
+FAC-00422,Gauteng District 5 Clinic-422,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,6.0,35,False,True,False,0,-23.061863,31.296626,Operational,1999
+FAC-00423,Gauteng District 5 Clinic-423,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,22.0,28,False,False,True,1,-23.034392,31.339379,Operational,2005
+FAC-00424,Gauteng District 5 Dispensary-424,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,60.0,29,False,False,False,0,-23.094187,31.315867,Operational,1994
+FAC-00425,Gauteng District 5 Dispensary-425,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,82.0,43,True,False,False,2,-23.035825,31.252971,Operational,2004
+FAC-00426,Gauteng District 5 Health Center-426,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,45.0,48,False,False,False,1,-23.090726,31.270112,Under Construction,2020
+FAC-00427,Gauteng District 5 Clinic-427,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,96.0,23,True,False,False,1,-23.023788,31.296808,Operational,1995
+FAC-00428,Gauteng District 5 Dispensary-428,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,99.0,26,False,False,True,1,-23.110054,31.271726,Operational,2000
+FAC-00429,Gauteng District 5 Dispensary-429,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,58.0,28,False,False,False,2,-23.06128,31.321481,Operational,1990
+FAC-00430,Gauteng District 5 Clinic-430,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,33.0,24,False,False,True,1,-23.0457,31.306896,Operational,2009
+FAC-00431,Gauteng District 5 Dispensary-431,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,77.0,43,False,False,False,2,-23.100887,31.242803,Operational,2011
+FAC-00432,Gauteng District 5 Health Center-432,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,76.0,12,False,False,True,1,-23.091766,31.317385,Operational,2001
+FAC-00433,Gauteng District 5 Clinic-433,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,59.0,18,False,False,True,2,-23.069738,31.309165,Operational,2017
+FAC-00434,Gauteng District 5 Dispensary-434,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,76.0,11,False,False,False,2,-23.042506,31.273964,Under Construction,2013
+FAC-00435,Gauteng District 5 Dispensary-435,Dispensary,1,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,17.0,29,False,False,False,0,-23.079957,31.315859,Operational,2000
+FAC-00436,Gauteng District 5 Clinic-436,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,91.0,49,False,False,True,2,-23.037974,31.286907,Operational,2003
+FAC-00437,Gauteng District 5 Health Center-437,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,34.0,32,True,True,False,0,-23.032285,31.285443,Closed,2012
+FAC-00438,Gauteng District 5 Clinic-438,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,11.0,26,False,True,False,0,-23.05937,31.298408,Operational,2022
+FAC-00439,Gauteng District 5 Health Center-439,Health Center,3,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,57.0,38,False,False,True,0,-23.115355,31.276599,Operational,1997
+FAC-00440,Gauteng District 5 Clinic-440,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,87.0,40,False,False,False,1,-23.104715,31.257443,Under Construction,2020
+FAC-00441,Gauteng District 5 Clinic-441,Clinic,2,ZA-GAU-180,ZA,Gauteng,Gauteng District 5,21.0,43,False,False,False,1,-23.111532,31.287918,Operational,2019
+FAC-00442,Gauteng District 5 Clinic-442,Clinic,2,ZA-GAU-181,ZA,Gauteng,Gauteng District 5,94.0,11,True,False,False,0,-31.743166,30.428866,Operational,2011
+FAC-00443,Gauteng District 5 Clinic-443,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,22.0,35,False,False,False,1,-26.205909,32.945053,Operational,1998
+FAC-00444,Gauteng District 5 Dispensary-444,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,80.0,33,False,False,False,0,-26.284466,32.861646,Operational,1996
+FAC-00445,Gauteng District 5 Dispensary-445,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,42.0,41,False,True,False,1,-26.204243,32.9088,Operational,2018
+FAC-00446,Gauteng District 5 District Hospital-446,District Hospital,4,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,649.0,271,True,True,True,8,-26.223731,32.928441,Operational,2005
+FAC-00447,Gauteng District 5 Dispensary-447,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,43.0,32,False,False,True,2,-26.280918,32.910436,Operational,2021
+FAC-00448,Gauteng District 5 Dispensary-448,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,43.0,19,False,True,True,2,-26.266648,32.888671,Operational,2002
+FAC-00449,Gauteng District 5 Dispensary-449,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,71.0,12,True,False,True,2,-26.284296,32.905329,Operational,1992
+FAC-00450,Gauteng District 5 Dispensary-450,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,64.0,18,True,False,False,0,-26.204643,32.940276,Operational,1990
+FAC-00451,Gauteng District 5 Clinic-451,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,84.0,12,True,True,True,0,-26.274549,32.901856,Operational,2012
+FAC-00452,Gauteng District 5 Dispensary-452,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,73.0,47,True,False,False,0,-26.279201,32.850419,Operational,2016
+FAC-00453,Gauteng District 5 Dispensary-453,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,13.0,44,True,False,True,0,-26.190097,32.904986,Closed,2019
+FAC-00454,Gauteng District 5 Clinic-454,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,73.0,29,False,False,False,1,-26.275641,32.883199,Operational,2002
+FAC-00455,Gauteng District 5 Clinic-455,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,59.0,15,False,False,False,2,-26.203815,32.872466,Operational,2011
+FAC-00456,Gauteng District 5 Health Center-456,Health Center,3,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,23.0,22,True,False,True,2,-26.234689,32.856797,Operational,2015
+FAC-00457,Gauteng District 5 Dispensary-457,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,44.0,20,False,False,False,1,-26.273355,32.917546,Operational,1997
+FAC-00458,Gauteng District 5 Health Center-458,Health Center,3,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,90.0,25,False,False,True,1,-26.251333,32.916922,Operational,2012
+FAC-00459,Gauteng District 5 Clinic-459,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,81.0,47,False,True,False,1,-26.23153,32.907029,Operational,1996
+FAC-00460,Gauteng District 5 Dispensary-460,Dispensary,1,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,88.0,31,False,False,False,1,-26.267301,32.901318,Operational,2012
+FAC-00461,Gauteng District 5 Clinic-461,Clinic,2,ZA-GAU-182,ZA,Gauteng,Gauteng District 5,96.0,21,True,False,False,0,-26.196075,32.874258,Operational,2000
+FAC-00462,KwaZulu-Natal District 1 Dispensary-462,Dispensary,1,ZA-KWA-183,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,44.0,7,False,True,True,2,-32.162444,16.486165,Operational,1990
+FAC-00463,KwaZulu-Natal District 1 Clinic-463,Clinic,2,ZA-KWA-184,ZA,KwaZulu-Natal,KwaZulu-Natal District 1,49.0,47,False,False,False,1,-26.546647,27.296621,Under Construction,1990
+FAC-00464,KwaZulu-Natal District 2 Clinic-464,Clinic,2,ZA-KWA-185,ZA,KwaZulu-Natal,KwaZulu-Natal District 2,38.0,20,False,False,False,2,-28.588989,19.96442,Operational,2020
+FAC-00465,KwaZulu-Natal District 2 Clinic-465,Clinic,2,ZA-KWA-186,ZA,KwaZulu-Natal,KwaZulu-Natal District 2,34.0,22,False,True,False,0,-30.215612,24.985274,Under Construction,2005
+FAC-00466,KwaZulu-Natal District 2 Dispensary-466,Dispensary,1,ZA-KWA-187,ZA,KwaZulu-Natal,KwaZulu-Natal District 2,56.0,9,False,False,False,2,-29.688674,26.921777,Operational,2020
+FAC-00467,KwaZulu-Natal District 2 Health Center-467,Health Center,3,ZA-KWA-188,ZA,KwaZulu-Natal,KwaZulu-Natal District 2,71.0,13,True,False,True,1,-24.216445,16.500006,Operational,1999
+FAC-00468,KwaZulu-Natal District 3 Dispensary-468,Dispensary,1,ZA-KWA-189,ZA,KwaZulu-Natal,KwaZulu-Natal District 3,77.0,11,False,False,False,1,-25.474258,26.967866,Operational,2015
+FAC-00469,KwaZulu-Natal District 3 Dispensary-469,Dispensary,1,ZA-KWA-190,ZA,KwaZulu-Natal,KwaZulu-Natal District 3,99.0,29,False,False,True,2,-30.378811,29.833432,Operational,1995
+FAC-00470,KwaZulu-Natal District 4 Clinic-470,Clinic,2,ZA-KWA-191,ZA,KwaZulu-Natal,KwaZulu-Natal District 4,86.0,15,False,False,True,1,-31.784406,26.218073,Under Construction,2013
+FAC-00471,KwaZulu-Natal District 4 Dispensary-471,Dispensary,1,ZA-KWA-191,ZA,KwaZulu-Natal,KwaZulu-Natal District 4,19.0,29,False,True,False,2,-31.72093,26.168289,Operational,2005
+FAC-00472,KwaZulu-Natal District 4 Clinic-472,Clinic,2,ZA-KWA-191,ZA,KwaZulu-Natal,KwaZulu-Natal District 4,55.0,12,False,False,False,1,-31.75484,26.251602,Under Construction,2023
+FAC-00473,KwaZulu-Natal District 4 Health Center-473,Health Center,3,ZA-KWA-191,ZA,KwaZulu-Natal,KwaZulu-Natal District 4,10.0,28,False,False,True,1,-31.735029,26.230305,Operational,2023
+FAC-00474,KwaZulu-Natal District 4 Dispensary-474,Dispensary,1,ZA-KWA-192,ZA,KwaZulu-Natal,KwaZulu-Natal District 4,79.0,42,True,False,True,0,-31.145453,28.535858,Operational,2009
+FAC-00475,Western Cape District 1 Dispensary-475,Dispensary,1,ZA-WES-193,ZA,Western Cape,Western Cape District 1,90.0,11,False,False,True,0,-33.54542,22.034274,Operational,1996
+FAC-00476,Western Cape District 1 Dispensary-476,Dispensary,1,ZA-WES-194,ZA,Western Cape,Western Cape District 1,95.0,20,True,True,False,1,-33.982336,29.69671,Operational,2006
+FAC-00477,Western Cape District 2 Clinic-477,Clinic,2,ZA-WES-195,ZA,Western Cape,Western Cape District 2,9.0,36,False,True,False,2,-32.41642,23.75887,Operational,2006
+FAC-00478,Western Cape District 2 Clinic-478,Clinic,2,ZA-WES-196,ZA,Western Cape,Western Cape District 2,27.0,22,False,False,True,1,-32.191099,27.697419,Operational,2004
+FAC-00479,Western Cape District 2 Health Center-479,Health Center,3,ZA-WES-196,ZA,Western Cape,Western Cape District 2,51.0,17,True,False,False,0,-32.126532,27.70232,Operational,2023
+FAC-00480,Western Cape District 2 Clinic-480,Clinic,2,ZA-WES-197,ZA,Western Cape,Western Cape District 2,82.0,33,True,False,True,1,-27.276331,21.059725,Operational,2016
+FAC-00481,Western Cape District 3 Health Center-481,Health Center,3,ZA-WES-198,ZA,Western Cape,Western Cape District 3,85.0,41,False,False,False,1,-23.981145,29.501188,Under Construction,2006
+FAC-00482,Western Cape District 3 Health Center-482,Health Center,3,ZA-WES-199,ZA,Western Cape,Western Cape District 3,6.0,8,False,False,True,0,-23.529484,16.894087,Operational,1998
+FAC-00483,Western Cape District 3 Clinic-483,Clinic,2,ZA-WES-199,ZA,Western Cape,Western Cape District 3,61.0,6,False,False,True,0,-23.531826,16.943412,Operational,2022
+FAC-00484,Western Cape District 3 Dispensary-484,Dispensary,1,ZA-WES-200,ZA,Western Cape,Western Cape District 3,69.0,37,True,False,True,0,-26.106861,30.029628,Operational,1995
+FAC-00485,Western Cape District 3 Clinic-485,Clinic,2,ZA-WES-201,ZA,Western Cape,Western Cape District 3,38.0,27,True,True,True,1,-33.96976,16.484124,Operational,2006
+FAC-00486,Eastern Cape District 1 Dispensary-486,Dispensary,1,ZA-EAS-202,ZA,Eastern Cape,Eastern Cape District 1,27.0,34,False,True,False,1,-25.960639,16.506243,Operational,1990
+FAC-00487,Eastern Cape District 1 Dispensary-487,Dispensary,1,ZA-EAS-203,ZA,Eastern Cape,Eastern Cape District 1,53.0,47,False,False,True,0,-34.009652,29.367356,Operational,2009
+FAC-00488,Eastern Cape District 1 Dispensary-488,Dispensary,1,ZA-EAS-203,ZA,Eastern Cape,Eastern Cape District 1,42.0,12,False,True,False,0,-34.031508,29.386697,Operational,2019
+FAC-00489,Eastern Cape District 1 Dispensary-489,Dispensary,1,ZA-EAS-204,ZA,Eastern Cape,Eastern Cape District 1,79.0,24,False,False,True,1,-27.185617,27.144364,Operational,2006
+FAC-00490,Eastern Cape District 2 Dispensary-490,Dispensary,1,ZA-EAS-205,ZA,Eastern Cape,Eastern Cape District 2,91.0,29,False,True,False,2,-28.667905,26.851908,Under Construction,1990
+FAC-00491,Eastern Cape District 2 Dispensary-491,Dispensary,1,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,97.0,10,True,False,False,0,-34.0361,16.494007,Operational,2015
+FAC-00492,Eastern Cape District 2 Clinic-492,Clinic,2,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,69.0,40,False,True,False,1,-33.951921,16.510593,Operational,2023
+FAC-00493,Eastern Cape District 2 Clinic-493,Clinic,2,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,72.0,18,False,False,False,1,-34.030573,16.49472,Operational,2011
+FAC-00494,Eastern Cape District 2 Dispensary-494,Dispensary,1,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,88.0,5,True,False,False,1,-34.027949,16.468596,Closed,2002
+FAC-00495,Eastern Cape District 2 Dispensary-495,Dispensary,1,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,48.0,31,False,False,False,1,-34.038418,16.520596,Operational,2022
+FAC-00496,Eastern Cape District 2 Clinic-496,Clinic,2,ZA-EAS-206,ZA,Eastern Cape,Eastern Cape District 2,42.0,20,False,False,False,1,-33.986674,16.495028,Operational,1996
+FAC-00497,Eastern Cape District 2 Dispensary-497,Dispensary,1,ZA-EAS-207,ZA,Eastern Cape,Eastern Cape District 2,36.0,35,False,False,False,1,-30.140668,26.288808,Operational,2015
+FAC-00498,Eastern Cape District 2 Clinic-498,Clinic,2,ZA-EAS-207,ZA,Eastern Cape,Eastern Cape District 2,25.0,21,True,False,True,0,-30.143529,26.256272,Operational,2004
+FAC-00499,Eastern Cape District 2 Dispensary-499,Dispensary,1,ZA-EAS-208,ZA,Eastern Cape,Eastern Cape District 2,32.0,21,False,False,True,1,-33.998271,24.744825,Operational,2011
+FAC-00500,Limpopo District 1 District Hospital-500,District Hospital,4,ZA-LIM-209,ZA,Limpopo,Limpopo District 1,273.0,124,True,True,True,6,-31.907228,22.582464,Operational,2013
+FAC-00501,Limpopo District 1 Health Center-501,Health Center,3,ZA-LIM-210,ZA,Limpopo,Limpopo District 1,21.0,28,False,False,True,0,-25.782738,27.926671,Operational,2019
+FAC-00502,Limpopo District 1 Health Center-502,Health Center,3,ZA-LIM-210,ZA,Limpopo,Limpopo District 1,79.0,25,False,False,True,0,-25.77631,27.965274,Operational,2007
+FAC-00503,Limpopo District 1 Health Center-503,Health Center,3,ZA-LIM-210,ZA,Limpopo,Limpopo District 1,18.0,33,True,False,False,2,-25.806074,27.897838,Operational,2016
+FAC-00504,Limpopo District 1 Dispensary-504,Dispensary,1,ZA-LIM-211,ZA,Limpopo,Limpopo District 1,23.0,30,False,False,False,1,-34.005515,29.980222,Operational,2008
+FAC-00505,Limpopo District 1 Dispensary-505,Dispensary,1,ZA-LIM-212,ZA,Limpopo,Limpopo District 1,37.0,16,False,False,False,0,-24.025627,30.582088,Operational,1996
+FAC-00506,LIMPOPO DISTRICT 2 Dispensary-506,Dispensary,1,ZA-LIM-213,ZA,Limpopo,LIMPOPO DISTRICT 2,20.0,28,False,False,True,0,-32.055803,25.967399,Operational,2017
+FAC-00507,Limpopo District 2 Dispensary-507,Dispensary,1,ZA-LIM-214,ZA,Limpopo,Limpopo District 2,24.0,20,False,False,True,2,-29.697087,25.657289,Operational,1992
+FAC-00508,Limpopo District 2 Dispensary-508,Dispensary,1,ZA-LIM-215,ZA,Limpopo,Limpopo District 2,30.0,15,False,False,False,1,-24.284874,23.856085,Operational,2023
+FAC-00509,LIMPOPO DISTRICT 2 Dispensary-509,Dispensary,1,ZA-LIM-216,ZA,Limpopo,LIMPOPO DISTRICT 2,25.0,32,True,False,True,1,-27.598251,26.592826,Operational,2009
+FAC-00510,Mpumalanga District 1 Dispensary-510,Dispensary,1,ZA-MPU-217,ZA,Mpumalanga,Mpumalanga District 1,7.0,16,False,False,True,1,-24.020493,16.501568,Operational,2011
+FAC-00511,Mpumalanga District 1 Health Center-511,Health Center,3,ZA-MPU-218,ZA,Mpumalanga,Mpumalanga District 1,56.0,34,False,False,False,0,-29.071708,21.471551,Operational,1996
+FAC-00512,Mpumalanga District 1 Dispensary-512,Dispensary,1,ZA-MPU-218,ZA,Mpumalanga,Mpumalanga District 1,15.0,19,True,False,False,2,-29.042176,21.404235,Operational,2010
+FAC-00513,Free State District 1 Dispensary-513,Dispensary,1,ZA-FRE-219,ZA,Free State,Free State District 1,15.0,42,False,False,False,1,-27.175463,31.755384,Operational,2023
+FAC-00514,Free State District 1 District Hospital-514,District Hospital,4,ZA-FRE-219,ZA,Free State,Free State District 1,715.0,269,True,True,True,6,-27.176645,31.733545,Under Construction,2007
+FAC-00515,Free State District 1 Dispensary-515,Dispensary,1,ZA-FRE-220,ZA,Free State,Free State District 1,6.0,16,False,True,True,0,-25.416455,26.99447,Operational,1991
+FAC-00516,Free State District 1 Clinic-516,Clinic,2,ZA-FRE-220,ZA,Free State,Free State District 1,15.0,40,False,False,False,1,-25.426621,27.042663,Under Construction,2010
+FAC-00517,North West District 1 Dispensary-517,Dispensary,1,ZA-NOR-221,ZA,North West,North West District 1,54.0,34,False,False,True,2,-28.11066,16.533642,Under Construction,2011
+FAC-00518,North West District 1 Clinic-518,Clinic,2,ZA-NOR-222,ZA,North West,North West District 1,66.0,10,False,True,True,0,-26.914688,19.332426,Operational,2013
+FAC-00519,North West District 1 Dispensary-519,Dispensary,1,ZA-NOR-223,ZA,North West,North West District 1,22.0,32,False,False,True,0,-26.377971,22.213413,Operational,2015
+FAC-00520,North West District 1 Clinic-520,Clinic,2,ZA-NOR-224,ZA,North West,North West District 1,27.0,38,True,False,True,0,-27.696138,19.826673,Operational,2007
+FAC-00521,North West District 1 Health Center-521,Health Center,3,ZA-NOR-224,ZA,North West,North West District 1,88.0,39,False,False,True,2,-27.6691,19.793545,Operational,1999
+FAC-00522,North West District 2 Clinic-522,Clinic,2,ZA-NOR-225,ZA,North West,North West District 2,53.0,15,False,False,False,1,-32.869405,31.055166,Operational,2019
+FAC-00523,North West District 2 Clinic-523,Clinic,2,ZA-NOR-226,ZA,North West,North West District 2,27.0,20,True,False,True,0,-32.770843,19.515137,Operational,2002
+FAC-00524,North West District 2 Clinic-524,Clinic,2,ZA-NOR-226,ZA,North West,North West District 2,7.0,30,True,False,False,2,-32.71369,19.513688,Under Construction,2001
+FAC-00525,North West District 2 Clinic-525,Clinic,2,ZA-NOR-227,ZA,North West,North West District 2,11.0,30,False,True,False,1,-23.249994,26.85951,Under Construction,1994
+FAC-00526,North West District 2 Health Center-526,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,56.0,17,True,False,True,0,-25.024993,30.755956,Operational,2004
+FAC-00527,North West District 2 Health Center-527,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,89.0,10,True,False,False,0,-25.016325,30.724944,Operational,2016
+FAC-00528,North West District 2 Dispensary-528,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,81.0,27,True,False,False,2,-25.059334,30.682017,Operational,2001
+FAC-00529,North West District 2 Clinic-529,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,96.0,13,False,False,False,0,-25.102506,30.773455,Operational,2003
+FAC-00530,North West District 2 Health Center-530,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,42.0,8,False,False,False,0,-25.022936,30.700396,Operational,2004
+FAC-00531,North West District 2 District Hospital-531,District Hospital,4,ZA-NOR-228,ZA,North West,North West District 2,794.0,281,True,True,True,4,-25.095527,30.775371,Under Construction,2005
+FAC-00532,North West District 2 Dispensary-532,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,29.0,27,False,False,False,1,-25.09781,30.774685,Operational,2023
+FAC-00533,North West District 2 Dispensary-533,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,8.0,33,True,False,True,0,-25.023445,30.702955,Operational,1990
+FAC-00534,North West District 2 Health Center-534,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,94.0,21,True,False,False,2,-25.100702,30.739697,Operational,2011
+FAC-00535,North West District 2 District Hospital-535,District Hospital,4,ZA-NOR-228,ZA,North West,North West District 2,258.0,167,True,True,True,8,-25.090235,30.773314,Operational,2020
+FAC-00536,North West District 2 Clinic-536,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,44.0,47,False,False,True,1,-25.06226,30.751652,Operational,2005
+FAC-00537,North West District 2 Clinic-537,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,34.0,40,False,True,False,2,-25.06782,30.686791,Operational,1993
+FAC-00538,North West District 2 Dispensary-538,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,35.0,27,False,True,False,1,-25.064614,30.709004,Operational,2002
+FAC-00539,North West District 2 Dispensary-539,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,49.0,22,True,False,False,1,-25.068713,30.702664,Operational,1993
+FAC-00540,North West District 2 Clinic-540,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,70.0,9,False,False,True,2,-25.026762,30.725952,Operational,2010
+FAC-00541,North West District 2 Health Center-541,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,96.0,43,True,True,True,1,-25.038427,30.693359,Operational,2008
+FAC-00542,North West District 2 Dispensary-542,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,37.0,17,False,False,False,1,-25.017207,30.705003,Operational,1990
+FAC-00543,North West District 2 Dispensary-543,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,95.0,25,True,False,True,2,-25.061146,30.76896,Operational,2010
+FAC-00544,North West District 2 Clinic-544,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,74.0,33,False,False,True,2,-25.058022,30.688173,Operational,2009
+FAC-00545,North West District 2 Clinic-545,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,89.0,27,False,False,False,1,-25.115258,30.760984,Under Construction,1996
+FAC-00546,North West District 2 Clinic-546,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,46.0,46,False,True,True,2,-25.070882,30.749207,Operational,2007
+FAC-00547,North West District 2 Clinic-547,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,75.0,21,False,True,False,2,-25.030544,30.729749,Operational,1998
+FAC-00548,North West District 2 Health Center-548,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,28.0,18,False,False,False,0,-25.078779,30.757131,Operational,2006
+FAC-00549,North West District 2 Dispensary-549,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,36.0,13,True,False,False,2,-25.036212,30.713714,Operational,2010
+FAC-00550,North West District 2 Health Center-550,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,5.0,14,True,True,True,2,-25.06459,30.764396,Operational,2017
+FAC-00551,North West District 2 Dispensary-551,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,43.0,33,False,False,False,1,-25.078672,30.689161,Operational,1998
+FAC-00552,North West District 2 Dispensary-552,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,76.0,39,True,False,False,1,-25.019214,30.72426,Operational,2003
+FAC-00553,North West District 2 Dispensary-553,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,27.0,24,True,True,True,0,-25.080529,30.711479,Operational,1994
+FAC-00554,North West District 2 Dispensary-554,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,46.0,42,False,False,False,2,-25.017542,30.704076,Operational,2020
+FAC-00555,North West District 2 Dispensary-555,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,38.0,10,False,False,True,1,-25.031714,30.682951,Operational,2021
+FAC-00556,North West District 2 Health Center-556,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,90.0,26,True,True,False,1,-25.093867,30.705314,Under Construction,1999
+FAC-00557,North West District 2 Clinic-557,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,21.0,10,False,False,True,2,-25.079208,30.719008,Closed,1992
+FAC-00558,North West District 2 Clinic-558,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,44.0,39,True,False,True,2,-25.041216,30.681176,Operational,2006
+FAC-00559,North West District 2 Dispensary-559,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,81.0,6,False,False,True,2,-25.029655,30.761525,Closed,1994
+FAC-00560,North West District 2 Dispensary-560,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,43.0,17,True,False,False,0,-25.07008,30.719595,Operational,1992
+FAC-00561,North West District 2 Health Center-561,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,94.0,15,False,False,False,1,-25.064001,30.685033,Operational,1996
+FAC-00562,North West District 2 Clinic-562,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,74.0,45,False,False,True,2,-25.069477,30.693244,Under Construction,2000
+FAC-00563,North West District 2 Health Center-563,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,27.0,31,False,False,False,1,-25.104479,30.744307,Operational,2022
+FAC-00564,North West District 2 Clinic-564,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,9.0,43,False,True,False,1,-25.08661,30.734459,Operational,2007
+FAC-00565,North West District 2 Health Center-565,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,20.0,42,False,False,False,2,-25.089162,30.770982,Operational,2009
+FAC-00566,North West District 2 Dispensary-566,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,95.0,34,False,False,False,1,-25.025935,30.693269,Operational,2017
+FAC-00567,North West District 2 Dispensary-567,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,,36,False,False,False,1,-25.030055,30.696976,Operational,1992
+FAC-00568,North West District 2 Dispensary-568,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,33.0,15,False,True,True,0,-25.075086,30.714694,Operational,2000
+FAC-00569,North West District 2 Dispensary-569,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,69.0,39,False,False,False,2,-25.071963,30.683911,Operational,2007
+FAC-00570,North West District 2 District Hospital-570,District Hospital,4,ZA-NOR-228,ZA,North West,North West District 2,708.0,291,True,True,True,3,-25.110366,30.722605,Operational,2020
+FAC-00571,North West District 2 Dispensary-571,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,80.0,40,False,False,False,1,-25.017772,30.746097,Operational,2010
+FAC-00572,North West District 2 Dispensary-572,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,30.0,12,True,False,True,0,-25.056108,30.766886,Under Construction,2005
+FAC-00573,North West District 2 Clinic-573,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,25.0,6,False,False,False,1,-25.102153,30.773682,Operational,2022
+FAC-00574,North West District 2 Clinic-574,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,68.0,42,True,False,True,0,-25.043803,30.731318,Operational,2018
+FAC-00575,North West District 2 Clinic-575,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,19.0,34,False,False,False,1,-25.096932,30.720031,Under Construction,2018
+FAC-00576,North West District 2 Regional Hospital-576,Regional Hospital,5,ZA-NOR-228,ZA,North West,North West District 2,911.0,631,True,True,True,10,-25.095591,30.779748,Operational,2016
+FAC-00577,North West District 2 Health Center-577,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,94.0,33,True,False,False,2,-25.047182,30.769227,Operational,2016
+FAC-00578,North West District 2 Dispensary-578,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,70.0,29,False,False,False,0,-25.097466,30.690481,Operational,1995
+FAC-00579,North West District 2 Dispensary-579,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,62.0,22,False,False,False,2,-25.020845,30.70991,Operational,1990
+FAC-00580,North West District 2 Regional Hospital-580,Regional Hospital,5,ZA-NOR-228,ZA,North West,North West District 2,1248.0,677,True,True,True,13,-25.099226,30.751138,Operational,2011
+FAC-00581,North West District 2 Dispensary-581,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,49.0,30,True,True,False,0,-25.065814,30.771095,Operational,2006
+FAC-00582,North West District 2 Health Center-582,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,83.0,20,False,False,False,2,-25.08493,30.724713,Operational,1999
+FAC-00583,North West District 2 National Hospital-583,National Hospital,6,ZA-NOR-228,ZA,North West,North West District 2,1626.0,496,True,True,True,14,-25.110331,30.763219,Operational,2001
+FAC-00584,North West District 2 Health Center-584,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,30.0,37,False,False,False,0,-25.093567,30.734483,Operational,2021
+FAC-00585,North West District 2 Dispensary-585,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,5.0,39,True,True,True,1,-25.073582,30.759474,Operational,2011
+FAC-00586,North West District 2 Clinic-586,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,57.0,40,True,True,True,0,-25.092937,30.701746,Operational,2018
+FAC-00587,North West District 2 Regional Hospital-587,Regional Hospital,5,ZA-NOR-228,ZA,North West,North West District 2,1284.0,535,True,True,True,16,-25.058926,30.763155,Closed,1991
+FAC-00588,North West District 2 Dispensary-588,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,18.0,37,True,True,False,2,-25.088374,30.702277,Under Construction,2007
+FAC-00589,North West District 2 Clinic-589,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,16.0,33,True,True,False,2,-25.106042,30.724843,Under Construction,1994
+FAC-00590,North West District 2 Dispensary-590,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,13.0,37,True,False,False,1,-25.043771,30.705631,Operational,2018
+FAC-00591,North West District 2 Dispensary-591,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,8.0,22,True,False,True,1,-25.050648,30.720436,Operational,2007
+FAC-00592,North West District 2 Dispensary-592,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,24.0,29,True,False,False,0,-25.019331,30.771497,Operational,1994
+FAC-00593,North West District 2 Health Center-593,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,35.0,49,True,False,False,0,-25.094556,30.758089,Operational,2019
+FAC-00594,North West District 2 Health Center-594,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,6.0,7,False,False,False,1,-25.102103,30.685351,Operational,2020
+FAC-00595,North West District 2 Clinic-595,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,6.0,36,False,False,True,1,-25.054762,30.77829,Operational,2023
+FAC-00596,North West District 2 Dispensary-596,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,75.0,10,False,False,False,1,-25.03427,30.723123,Operational,2001
+FAC-00597,North West District 2 Clinic-597,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,70.0,15,False,True,False,2,-25.112996,30.744288,Operational,2019
+FAC-00598,North West District 2 Health Center-598,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,34.0,12,True,False,False,1,-25.029497,30.720593,Operational,1997
+FAC-00599,North West District 2 Dispensary-599,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,31.0,44,False,False,True,1,-25.040822,30.754558,Operational,2008
+FAC-00600,North West District 2 Health Center-600,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,20.0,27,False,False,True,2,-25.053073,30.76291,Operational,2011
+FAC-00601,North West District 2 Dispensary-601,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,32.0,37,False,False,True,2,-25.053196,30.71579,Closed,2015
+FAC-00602,North West District 2 Clinic-602,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,42.0,6,False,False,True,0,-25.056462,30.751846,Operational,2006
+FAC-00603,North West District 2 Clinic-603,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,33.0,10,False,False,False,1,-25.052722,30.73421,Operational,1996
+FAC-00604,North West District 2 Health Center-604,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,93.0,17,False,False,True,0,-25.099419,30.720549,Under Construction,2023
+FAC-00605,North West District 2 Health Center-605,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,7.0,46,False,False,False,2,-25.104928,30.7765,Operational,1994
+FAC-00606,North West District 2 Dispensary-606,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,98.0,8,False,True,False,0,-25.10583,30.730832,Operational,2005
+FAC-00607,North West District 2 Dispensary-607,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,26.0,40,False,False,True,2,-25.087748,30.721029,Operational,2005
+FAC-00608,North West District 2 Dispensary-608,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,68.0,36,False,True,False,2,-25.033332,30.694577,Operational,2003
+FAC-00609,North West District 2 Dispensary-609,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,52.0,5,False,False,True,0,-25.038903,30.76101,Operational,1995
+FAC-00610,North West District 2 Clinic-610,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,48.0,40,False,False,True,0,-25.094315,30.761287,Operational,2011
+FAC-00611,North West District 2 Dispensary-611,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,73.0,13,False,True,True,0,-25.062118,30.737495,Operational,2017
+FAC-00612,North West District 2 Clinic-612,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,15.0,27,True,False,False,0,-25.049281,30.762182,Operational,2010
+FAC-00613,North West District 2 Clinic-613,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,65.0,42,True,False,True,1,-25.083532,30.761839,Operational,1994
+FAC-00614,North West District 2 Dispensary-614,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,16.0,29,False,False,True,0,-25.053193,30.705236,Operational,1992
+FAC-00615,North West District 2 Dispensary-615,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,88.0,35,False,False,True,0,-25.061184,30.734541,Operational,2001
+FAC-00616,North West District 2 Clinic-616,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,43.0,29,False,False,True,1,-25.071126,30.690105,Operational,2002
+FAC-00617,North West District 2 Dispensary-617,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,19.0,40,False,False,False,0,-25.028508,30.692596,Under Construction,2015
+FAC-00618,North West District 2 District Hospital-618,District Hospital,4,ZA-NOR-228,ZA,North West,North West District 2,510.0,115,True,True,True,4,-25.09979,30.749951,Operational,2003
+FAC-00619,North West District 2 Clinic-619,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,37.0,29,False,False,False,0,-25.062307,30.719335,Operational,2002
+FAC-00620,North West District 2 Dispensary-620,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,66.0,37,False,False,False,2,-25.04327,30.771693,Under Construction,2023
+FAC-00621,North West District 2 Clinic-621,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,72.0,14,False,True,False,1,-25.098822,30.724651,Operational,1996
+FAC-00622,North West District 2 Clinic-622,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,20.0,44,False,False,False,1,-25.078141,30.705739,Operational,2013
+FAC-00623,North West District 2 Health Center-623,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,29.0,6,False,True,False,0,-25.038289,30.713789,Operational,1995
+FAC-00624,North West District 2 Dispensary-624,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,51.0,19,False,True,False,0,-25.080623,30.752184,Operational,2020
+FAC-00625,North West District 2 Clinic-625,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,21.0,18,True,False,False,1,-25.07825,30.772245,Operational,2007
+FAC-00626,North West District 2 Dispensary-626,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,13.0,39,False,True,True,1,-25.115484,30.779862,Operational,2019
+FAC-00627,North West District 2 Clinic-627,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,16.0,19,False,False,False,2,-25.096376,30.711264,Operational,1993
+FAC-00628,North West District 2 Dispensary-628,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,42.0,27,False,False,True,2,-25.105036,30.767509,Operational,2003
+FAC-00629,North West District 2 Clinic-629,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,13.0,39,False,False,True,2,-25.109585,30.698651,Operational,2010
+FAC-00630,North West District 2 Dispensary-630,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,19.0,23,False,False,True,1,-25.042884,30.768791,Operational,1997
+FAC-00631,North West District 2 Clinic-631,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,39.0,41,True,True,False,0,-25.110425,30.76356,Operational,2011
+FAC-00632,North West District 2 National Hospital-632,National Hospital,6,ZA-NOR-228,ZA,North West,North West District 2,895.0,811,True,True,True,16,-25.096107,30.711798,Operational,2006
+FAC-00633,North West District 2 Clinic-633,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,98.0,32,True,False,False,1,-25.086155,30.693479,Operational,2013
+FAC-00634,North West District 2 Health Center-634,Health Center,3,ZA-NOR-228,ZA,North West,North West District 2,44.0,19,False,True,False,2,-25.106513,30.775422,Operational,1996
+FAC-00635,North West District 2 Clinic-635,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,38.0,15,True,False,False,1,-25.067507,30.711471,Operational,1997
+FAC-00636,North West District 2 Clinic-636,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,57.0,12,False,True,True,2,-25.063857,30.73649,Operational,2023
+FAC-00637,North West District 2 Clinic-637,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,44.0,32,False,True,False,2,-25.103739,30.778509,Operational,2014
+FAC-00638,North West District 2 Clinic-638,Clinic,2,ZA-NOR-228,ZA,North West,North West District 2,32.0,9,False,False,False,2,-25.09996,30.715331,Operational,2012
+FAC-00639,North West District 2 Dispensary-639,Dispensary,1,ZA-NOR-228,ZA,North West,North West District 2,65.0,11,True,False,False,1,-25.07436,30.696836,Operational,2014

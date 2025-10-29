@@ -244,5 +244,3 @@ def save_facility_data(df: pd.DataFrame, output_path: str = "data/raw") -> Path:
     print(f"File size: {file_path.stat().st_size / 1024:.2f} KB")
     return file_path
 
-
-

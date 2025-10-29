@@ -2,29 +2,32 @@
 Data cleaning script.
 This script fixes identified data quality issues:
 COMPLETENESS:
-- Reports data new_cases column has 10348 missing values.
-- Reports data deaths column has 31046 missing values.
-- Facilities data capacity column has 5 missing values.
-- Geographical data population column has 1 missing value.
+- Reports data cases column has 18477 missing values.
+- Reports data deaths column has 55314 missing values.
+- Facilities data capacity column has 6 missing values.
+- Geographical data population column has 4 missing value.
 - Weather data temperature_min_c column has 5 missing values.
 - Weather data temperature_max_c column has 5 missing values.
-- Weather data rainfall_mm column has 571 missing values.
-- Weather data rainfall_mm column has 571 missing values.
+- Weather data rainfall_mm column has 2087 missing values.
 - Weather data humidity_pct column has 5 missing values.
 - Weather data temperature_max_c colimn has one outlier value.
 - Weather data rainfall_mm column has one negative value.
 
 VALIDITY:
-- Reports data has 1 negative value in new_cases column.
-- Reports data has one record where deaths exceeds number of new cases.
+- Reports data has 1 negative value in cases column.
+- Reports data has 3 records where deaths exceeds number of cases.
+- Weather data temperature_avg_c has 89 outliers.
+- Weather data temperature_min_c has 10 outliers.
+- Weather data temperature_max_c has 89 outliers.
+- Weather data rainfall_mm column has one negative value.
 
 CONSISTENCY:
- - 5 geographical locations do not have reports.
- - 65 facilities do not have reports.
- - 5 facilities have bed_capacity but zero staff.
+ - 37 geographical locations do not have reports.
+ - 95 facilities do not have reports.
+ - 3 facilities have bed_capacity but zero staff.
 
  UNIQUENESS:
- - Reports data has 5 duplicate records.
+ - Reports data has 13052 duplicate records.
 """
 
 import pandas as pd
@@ -152,17 +155,19 @@ class DataCleaner:
         initial_rows = len(self.weather)
 
         # Remove outliers (temperature outliers)
-        temp_mean = self.weather['temperature_max_c'].mean()
-        temp_std = self.weather['temperature_max_c'].std()
-        temp_z_score = ((self.weather['temperature_max_c'] - temp_mean) / temp_std).round()
+        for temp_var in ['temperature_max_c', 'temperature_min_c', 'temperature_avg_c']:
 
-        # Remove extreme tempratures (temp_z_score > 3)
-        temp_outliers = abs(temp_z_score) > 3
-        outlier_count = temp_outliers.sum()
+            temp_mean = self.weather[temp_var].mean()
+            temp_std = self.weather[temp_var].std()
+            temp_z_score = ((self.weather[temp_var] - temp_mean) / temp_std).round()
 
-        if outlier_count > 0:
-            self.weather = self.weather[~temp_outliers]
-            self.log_action('Remove outliers', f'{outlier_count} extreme temperature outlier removed.')
+            # Remove extreme tempratures (temp_z_score > 3)
+            temp_outliers = abs(temp_z_score) > 3
+            outlier_count = temp_outliers.sum()
+
+            if outlier_count > 0:
+                self.weather = self.weather[~temp_outliers]
+                self.log_action('Remove outliers', f'{outlier_count} extreme temperature outlier removed.')
         
         # Fix negative rainfall
         negative_rain = (self.weather['rainfall_mm'] < 0).sum()
@@ -211,16 +216,16 @@ class DataCleaner:
         initial_rows = len(self.reports)
 
         # Remove records with negative new cases
-        negative_cases = (self.reports['new_cases'] < 0).sum()
+        negative_cases = (self.reports['cases'] < 0).sum()
         if negative_cases > 0:
-            self.reports = self.reports[self.reports['new_cases'] >= 0]
+            self.reports = self.reports[self.reports['cases'] >= 0]
             self.log_action('Remove invalid records', f'{negative_cases}')
         
         # Fix deaths > cases
-        death_exceed = (self.reports['deaths'] > self.reports['new_cases']).sum()
+        death_exceed = (self.reports['deaths'] > self.reports['cases']).sum()
         if death_exceed > 0:
-            self.reports.loc[self.reports['deaths'] > self.reports['new_cases'], 'deaths'] = \
-            self.reports.loc[self.reports['deaths'] > self.reports['new_cases'], 'new_cases']
+            self.reports.loc[self.reports['deaths'] > self.reports['cases'], 'deaths'] = \
+            self.reports.loc[self.reports['deaths'] > self.reports['cases'], 'cases']
             self.log_action('Fix invalid record', f"{death_exceed} where deaths exceeds cases.")
         
         # Remove Duplicates
@@ -232,9 +237,9 @@ class DataCleaner:
         
         # Handle missing values
         # Remove records with missing cases
-        missing_cases = self.reports['new_cases'].isnull().sum()
+        missing_cases = self.reports['cases'].isnull().sum()
         if missing_cases > 0:
-            self.reports = self.reports[self.reports['new_cases'].notna()]
+            self.reports = self.reports[self.reports['cases'].notna()]
             self.log_action('Remove incomplete record', f'{missing_cases} records missing cases removed.')
         
         # Impute records with missing deaths with zero. Assume deaths not reported means no deaths.

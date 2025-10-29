@@ -1,63 +1,226 @@
-geography_id,country_code,country_name,region_name,district_name,sub_district_name,population,urban_rural,latitude,longitude,population_density
-KE-NAI-001,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 1,16284.0,Rural,2.70785,35.367478,92.0
-KE-NAI-002,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 2,21023.0,Rural,-3.770233,37.573991,12.0
-KE-NAI-003,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 1,7433.0,Rural,-4.175372,39.67599,73.0
-KE-NAI-004,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 2,11396.0,Rural,4.527568,38.839852,98.0
-KE-NAI-005,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 3,180523.0,Urban,-1.991569,38.794823,799.0
-KE-NAI-006,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 1,6899.0,Rural,-2.535227,34.624851,64.0
-KE-NAI-007,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 2,46606.0,Rural,4.444047,37.634103,30.0
-KE-NAI-008,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 3,48021.0,Rural,-0.510357,34.00612,18.0
-KE-COA-009,KE,Kenya,Coast,Coast District 1,Coast District 1 Sub-district 1,22159.0,Rural,-3.791649,39.373864,56.0
-KE-COA-010,KE,Kenya,Coast,Coast District 1,Coast District 1 Sub-district 2,,Rural,-3.087709,37.028485,11.0
-KE-COA-011,KE,Kenya,Coast,Coast District 1,Coast District 1 Sub-district 3,14692.0,Rural,-0.74605,35.563533,72.0
-KE-RIF-012,KE,Kenya,Rift Valley,Rift Valley District 1,Rift Valley District 1 Sub-district 1,37606.0,Rural,2.508735,41.415992,57.0
-KE-RIF-013,KE,Kenya,Rift Valley,Rift Valley District 1,Rift Valley District 1 Sub-district 2,29253.0,Rural,-1.663171,38.463552,49.0
-KE-RIF-014,KE,Kenya,Rift Valley,Rift Valley District 1,Rift Valley District 1 Sub-district 3,26271.0,Rural,3.154165,39.878561,35.0
-KE-CEN-015,KE,Kenya,Central,Central District 1,Central District 1 Sub-district 1,363358.0,Urban,-2.087309,38.241569,912.0
-KE-CEN-016,KE,Kenya,Central,Central District 1,Central District 1 Sub-district 2,7027.0,Rural,-4.006679,41.795095,17.0
-KE-EAS-017,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 1,17666.0,Rural,-4.569058,35.490739,14.0
-KE-EAS-018,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 2,13392.0,Rural,3.914598,39.108616,81.0
-KE-EAS-019,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 3,16837.0,Rural,-0.520109,34.663281,97.0
-KE-WES-020,KE,Kenya,Western,Western District 1,Western District 1 Sub-district 1,10056.0,Rural,2.085337,39.00046,56.0
-KE-WES-021,KE,Kenya,Western,Western District 1,Western District 1 Sub-district 2,11910.0,Rural,1.933177,39.98628,23.0
-KE-NYA-022,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 1,73419.0,Urban,-4.323968,39.585303,560.0
-KE-NYA-023,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 2,27403.0,Rural,-2.824011,41.066109,32.0
-NG-LAG-024,NG,Nigeria,Lagos,Lagos District 1,Lagos District 1 Sub-district 1,374767.0,Urban,8.239676,11.691059,938.0
-NG-LAG-025,NG,Nigeria,Lagos,Lagos District 1,Lagos District 1 Sub-district 2,47557.0,Rural,7.081614,4.618533,66.0
-NG-LAG-026,NG,Nigeria,Lagos,Lagos District 2,Lagos District 2 Sub-district 1,492141.0,Urban,12.666022,12.263698,430.0
-NG-LAG-027,NG,Nigeria,Lagos,Lagos District 2,Lagos District 2 Sub-district 2,28776.0,Rural,7.413712,4.152847,10.0
-NG-KAN-028,NG,Nigeria,Kano,Kano District 1,Kano District 1 Sub-district 1,14474.0,Rural,10.517825,2.706192,79.0
-NG-KAN-029,NG,Nigeria,Kano,Kano District 1,Kano District 1 Sub-district 2,37562.0,Rural,9.203174,7.667191,53.0
-NG-KAD-030,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 1,8304.0,Rural,13.351933,6.546115,61.0
-NG-KAD-031,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 2,49417.0,Rural,7.790844,14.264207,12.0
-NG-KAD-032,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 3,338880.0,Urban,7.188432,6.089602,101.0
-NG-RIV-033,NG,Nigeria,Rivers,Rivers District 1,Rivers District 1 Sub-district 1,26556.0,Rural,8.245955,3.093304,53.0
-NG-RIV-034,NG,Nigeria,Rivers,Rivers District 1,Rivers District 1 Sub-district 2,37970.0,Rural,8.598718,9.279428,65.0
-NG-RIV-035,NG,Nigeria,Rivers,Rivers District 1,Rivers District 1 Sub-district 3,45545.0,Rural,6.58132,11.365775,79.0
-NG-OYO-036,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 1,47107.0,Rural,9.443437,3.774448,68.0
-NG-OYO-037,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 2,11546.0,Rural,6.090578,3.185224,99.0
-NG-OYO-038,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 3,23227.0,Rural,9.216093,5.3953,42.0
-NG-BOR-039,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 1,58155.0,Urban,8.012659,13.847087,572.0
-NG-BOR-040,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 2,21646.0,Rural,6.307088,9.143231,25.0
-NG-BOR-041,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 3,7049.0,Rural,12.145333,9.30689,10.0
-NG-ENU-042,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 1,12158.0,Rural,13.568026,9.343692,18.0
-NG-ENU-043,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 2,9499.0,Rural,6.977165,11.034258,33.0
-NG-ENU-044,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 3,37711.0,Rural,8.183278,13.264464,45.0
-ZA-GAU-045,ZA,South Africa,Gauteng,Gauteng District 1,Gauteng District 1 Sub-district 1,43360.0,Rural,-25.972141,26.023261,34.0
-ZA-GAU-046,ZA,South Africa,Gauteng,Gauteng District 1,Gauteng District 1 Sub-district 2,7869.0,Rural,-33.939261,19.137252,44.0
-ZA-GAU-047,ZA,South Africa,Gauteng,Gauteng District 1,Gauteng District 1 Sub-district 3,28328.0,Rural,-26.176465,20.178017,23.0
-ZA-GAU-048,ZA,South Africa,Gauteng,Gauteng District 2,Gauteng District 2 Sub-district 1,38986.0,Rural,-31.854127,22.510088,26.0
-ZA-GAU-049,ZA,South Africa,Gauteng,Gauteng District 2,Gauteng District 2 Sub-district 2,24830.0,Rural,-30.30327,25.39766,31.0
-ZA-KWA-050,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 1,KwaZulu-Natal District 1 Sub-district 1,10895.0,Rural,-26.92155,32.553843,36.0
-ZA-KWA-051,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 1,KwaZulu-Natal District 1 Sub-district 2,44790.0,Rural,-28.787268,22.241286,73.0
-ZA-KWA-052,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 1,KwaZulu-Natal District 1 Sub-district 3,42410.0,Rural,-23.629989,20.275038,73.0
-ZA-WES-053,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 1,22453.0,Rural,-33.476755,32.810628,15.0
-ZA-WES-054,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 2,36216.0,Rural,-29.558096,16.753489,55.0
-ZA-EAS-055,ZA,South Africa,Eastern Cape,Eastern Cape District 1,Eastern Cape District 1 Sub-district 1,191564.0,Urban,-27.13249,32.577438,260.0
-ZA-EAS-056,ZA,South Africa,Eastern Cape,Eastern Cape District 1,Eastern Cape District 1 Sub-district 2,28093.0,Rural,-30.196936,19.279681,67.0
-ZA-LIM-057,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 1,16093.0,Rural,-27.159266,18.093694,32.0
-ZA-LIM-058,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 2,5784.0,Rural,-32.318992,25.000606,42.0
-ZA-MPU-059,ZA,South Africa,Mpumalanga,Mpumalanga District 1,Mpumalanga District 1 Sub-district 1,24190.0,Rural,-25.570191,22.395655,35.0
-ZA-MPU-060,ZA,South Africa,Mpumalanga,Mpumalanga District 1,Mpumalanga District 1 Sub-district 2,27009.0,Rural,-24.278639,30.719986,16.0
-ZA-FRE-061,ZA,South Africa,Free State,Free State District 1,Free State District 1 Sub-district 1,287549.0,Urban,-26.465267,19.686093,499.0
-ZA-FRE-062,ZA,South Africa,Free State,Free State District 1,Free State District 1 Sub-district 2,82097.0,Urban,-33.390778,31.040521,933.0
+geography_id,country_code,country_name,region_name,district_name,sub_district_name,population,urban_rural,latitude,longitude,area_sq_km,population_density,elevation,healthcare_access_index
+KE-NAI-001,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 1,2031138.0,Urban,2.495326,38.626801,131,21804.05,466,0.18
+KE-NAI-002,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 2,1971423.0,Urban,-3.427139,39.059108,318,8718.1,769,0.678
+KE-NAI-003,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 3,918559.0,Urban,4.471768,38.791852,323,3999.2,21,0.106
+KE-NAI-004,KE,Kenya,Nairobi,Nairobi District 1,Nairobi District 1 Sub-district 4,1456876.0,Urban,0.934432,34.967951,485,4224.25,975,0.286
+KE-NAI-005,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 1,1745293.0,Urban,-1.198903,41.717847,514,4775.01,646,0.236
+KE-NAI-006,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 2,1397803.0,Urban,-3.847449,39.325864,376,5227.9,1478,0.588
+KE-NAI-007,KE,Kenya,Nairobi,Nairobi District 2,Nairobi District 2 Sub-district 3,1922590.0,Urban,3.70088,35.92224,881,3068.88,1021,0.516
+KE-NAI-008,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 1,548853.0,Urban,4.261337,40.053063,171,4513.66,201,0.816
+KE-NAI-009,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 2,1482217.0,Urban,-3.93282,35.419863,711,2931.64,2343,0.776
+KE-NAI-010,KE,Kenya,Nairobi,Nairobi District 3,Nairobi District 3 Sub-district 3,1296269.0,Urban,4.221074,38.708274,502,3631.28,1180,0.742
+KE-NAI-011,KE,Kenya,Nairobi,Nairobi District 4,Nairobi District 4 Sub-district 1,2035073.0,Urban,2.426076,35.441725,481,5949.82,1162,0.259
+KE-NAI-012,KE,Kenya,Nairobi,Nairobi District 4,Nairobi District 4 Sub-district 2,772359.0,Urban,2.417014,34.444357,240,4525.61,2088,0.832
+KE-COA-013,KE,Kenya,Coast,Coast District 1,Coast District 1 Sub-district 1,259125.0,Rural,-4.7,35.403859,854,426.7,2146,0.573
+KE-COA-014,KE,Kenya,Coast,Coast District 1,Coast District 1 Sub-district 2,1990240.0,Urban,-2.28268,40.689697,652,4292.66,1028,0.549
+KE-COA-015,KE,Kenya,Coast,Coast District 2,Coast District 2 Sub-district 1,1560503.0,Urban,-0.982485,36.336328,563,3897.85,1484,0.261
+KE-COA-016,KE,Kenya,Coast,Coast District 2,Coast District 2 Sub-district 2,122377.0,Rural,-2.920389,36.984566,1807,95.24,2278,0.428
+KE-COA-017,KE,Kenya,Coast,Coast District 2,Coast District 2 Sub-district 3,152814.0,Rural,2.924638,37.706924,3364,63.88,1819,0.844
+KE-COA-018,KE,Kenya,Coast,Coast District 2,Coast District 2 Sub-district 4,113460.0,Rural,2.260683,39.345377,3677,43.39,1363,0.814
+KE-COA-019,KE,Kenya,Coast,Coast District 3,Coast District 3 Sub-district 1,409427.0,Urban,2.489749,35.460028,234,2460.54,1408,0.282
+KE-COA-020,KE,Kenya,Coast,Coast District 3,Coast District 3 Sub-district 2,101535.0,Rural,-2.56501,35.35425,759,188.13,1479,0.527
+KE-COA-021,KE,Kenya,Coast,Coast District 3,Coast District 3 Sub-district 3,198095.0,Rural,-4.7,35.616921,2048,136.02,1631,0.546
+KE-COA-021,KE,Kenya,Coast,Coast District 3,Coast District 3 Sub-district 4,258235.0,Rural,3.193673,40.615578,3631,100.01,1636,0.328
+KE-RIF-023,KE,Kenya,Rift Valley,Rift Valley District 1,Rift Valley District 1 Sub-district 1,195752.0,Rural,0.198115,34.50383,3524,78.12,1661,0.216
+KE-RIF-024,KE,Kenya,Rift Valley,Rift Valley District 1,Rift Valley District 1 Sub-district 2,202782.0,Rural,0.665106,38.833574,3560,80.1,202,0.396
+KE-RIF-025,KE,Kenya,Rift Valley,Rift Valley District 2,Rift Valley District 2 Sub-district 1,110989.0,Rural,1.415026,38.378197,658,237.21,1147,0.507
+KE-RIF-026,KE,Kenya,Rift Valley,Rift Valley District 2,Rift Valley District 2 Sub-district 2,257386.0,Rural,-1.445382,35.853928,1419,255.08,1986,0.748
+KE-RIF-027,KE,Kenya,Rift Valley,Rift Valley District 3,Rift Valley District 3 Sub-district 1,1907206.0,Urban,-0.77938,38.234011,881,3044.32,640,0.641
+KE-RIF-028,KE,Kenya,Rift Valley,Rift Valley District 3,Rift Valley District 3 Sub-district 2,69157.0,Rural,0.558666,39.658275,312,311.71,1787,0.24
+KE-RIF-029,KE,Kenya,Rift Valley,Rift Valley District 3,Rift Valley District 3 Sub-district 3,,Rural,0.44895,36.026818,3773,52.33,452,0.82
+KE-RIF-030,KE,Kenya,Rift Valley,Rift Valley District 3,Rift Valley District 3 Sub-district 4,159349.0,Rural,-1.883296,39.694863,2305,97.22,1154,0.785
+KE-RIF-031,KE,Kenya,Rift Valley,Rift Valley District 4,Rift Valley District 4 Sub-district 1,230629.0,Rural,3.436835,41.57708,1495,216.94,103,0.585
+KE-RIF-032,KE,Kenya,Rift Valley,Rift Valley District 4,Rift Valley District 4 Sub-district 2,1625543.0,Urban,4.578274,36.363368,887,2577.17,337,0.488
+KE-RIF-033,KE,Kenya,Rift Valley,Rift Valley District 4,Rift Valley District 4 Sub-district 3,257597.0,Rural,-2.391095,39.789434,4543,79.74,1300,0.243
+KE-RIF-034,KE,Kenya,Rift Valley,Rift Valley District 5,Rift Valley District 5 Sub-district 1,271935.0,Rural,0.80847,34.841398,4615,82.86,1045,0.295
+KE-RIF-035,KE,Kenya,Rift Valley,Rift Valley District 5,Rift Valley District 5 Sub-district 2,131203.0,Rural,0.049902,41.34079,275,670.94,797,0.616
+KE-RIF-036,KE,Kenya,Rift Valley,Rift Valley District 5,Rift Valley District 5 Sub-district 3,132742.0,Rural,-2.66104,39.871617,4804,38.86,546,0.715
+KE-RIF-037,KE,Kenya,Rift Valley,Rift Valley District 5,Rift Valley District 5 Sub-district 4,1607391.0,Urban,4.269465,41.723429,382,5917.35,2146,0.698
+KE-RIF-038,KE,Kenya,Rift Valley,Rift Valley District 6,Rift Valley District 6 Sub-district 1,128974.0,Rural,4.51309,41.80096,1189,152.54,190,0.345
+KE-RIF-039,KE,Kenya,Rift Valley,Rift Valley District 6,Rift Valley District 6 Sub-district 2,1930757.0,Urban,0.036303,37.073495,744,3649.42,569,0.844
+KE-CEN-040,KE,Kenya,Central,Central District 1,Central District 1 Sub-district 1,1104048.0,Urban,3.140401,33.9,164,9467.01,1409,0.358
+KE-CEN-041,KE,Kenya,Central,Central District 1,Central District 1 Sub-district 2,110835.0,Rural,0.466002,35.599929,2856,54.57,537,0.748
+KE-CEN-042,KE,Kenya,Central,Central District 1,Central District 1 Sub-district 3,134958.0,Rural,-4.7,33.9,4181,45.39,684,0.255
+KE-CEN-043,KE,Kenya,Central,Central District 2,Central District 2 Sub-district 1,98076.0,Rural,-2.923745,35.728664,4979,27.7,1823,0.563
+KE-CEN-044,KE,Kenya,Central,Central District 2,Central District 2 Sub-district 2,1563714.0,Urban,-3.402266,37.450666,351,6264.97,2352,0.13
+KE-CEN-045,KE,Kenya,Central,Central District 2,Central District 2 Sub-district 3,116358.0,Rural,1.632082,34.896343,54,3030.22,1126,0.168
+KE-CEN-045,KE,Kenya,Central,Central District 3,Central District 3 Sub-district 1,1030809.0,Urban,-1.039193,37.823439,829,1748.61,268,0.876
+KE-CEN-047,KE,Kenya,Central,Central District 3,Central District 3 Sub-district 2,194035.0,Rural,1.328132,34.890658,3725,73.25,1081,0.163
+KE-CEN-048,KE,Kenya,Central,Central District 4,Central District 4 Sub-district 1,485725.0,Urban,-2.083775,38.231999,650,1050.86,1081,0.832
+KE-CEN-049,KE,Kenya,Central,Central District 4,Central District 4 Sub-district 2,161595.0,Rural,-0.959292,38.440767,4633,49.05,896,0.864
+KE-EAS-050,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 1,47618.0,Rural,-0.210697,36.2248,3197,20.95,153,0.385
+KE-EAS-051,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 2,42264.0,Rural,-4.7,33.9,3109,19.12,452,0.479
+KE-EAS-052,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 3,1592284.0,Urban,1.604591,35.638435,263,8514.0,1757,0.62
+KE-EAS-053,KE,Kenya,Eastern,Eastern District 1,Eastern District 1 Sub-district 4,1357374.0,Urban,2.346428,34.955149,915,2086.16,2489,0.501
+KE-EAS-054,KE,Kenya,Eastern,Eastern District 2,Eastern District 2 Sub-district 1,55226.0,Rural,-4.7,38.007354,4642,16.73,895,0.609
+KE-EAS-055,KE,Kenya,Eastern,Eastern District 2,Eastern District 2 Sub-district 2,170910.0,Rural,-2.28972,38.014306,4050,59.34,956,0.536
+KE-EAS-056,KE,Kenya,Eastern,Eastern District 3,Eastern District 3 Sub-district 1,62793.0,Rural,0.159108,34.521475,4430,19.93,2444,0.272
+KE-EAS-057,KE,Kenya,Eastern,Eastern District 3,Eastern District 3 Sub-district 2,104910.0,Rural,-4.7,38.332054,2946,50.08,89,0.355
+KE-WES-058,KE,Kenya,Western,Western District 1,Western District 1 Sub-district 1,183370.0,Rural,2.149157,35.530838,3317,77.74,825,0.657
+KE-WES-059,KE,Kenya,Western,Western District 1,Western District 1 Sub-district 2,129053.0,Rural,-4.7,36.619568,2858,63.5,675,0.242
+KE-WES-060,KE,Kenya,Western,Western District 1,Western District 1 Sub-district 3,255597.0,Rural,-0.069301,39.129182,1621,221.74,977,0.3
+KE-WES-061,KE,Kenya,Western,Western District 2,Western District 2 Sub-district 1,79270.0,Rural,-3.206449,38.714758,2376,46.92,2264,0.291
+KE-WES-062,KE,Kenya,Western,Western District 2,Western District 2 Sub-district 2,114094.0,Rural,-0.726553,39.88766,1415,113.39,396,0.816
+KE-WES-063,KE,Kenya,Western,Western District 2,Western District 2 Sub-district 3,174222.0,Rural,2.994652,34.006293,2552,96.0,1819,0.86
+KE-WES-064,KE,Kenya,Western,Western District 2,Western District 2 Sub-district 4,260434.0,Rural,-0.840261,33.942275,3190,114.81,395,0.363
+KE-WES-065,KE,Kenya,Western,Western District 3,Western District 3 Sub-district 1,119695.0,Rural,1.936285,39.592945,2206,76.3,1065,0.879
+KE-WES-066,KE,Kenya,Western,Western District 3,Western District 3 Sub-district 2,42202.0,Rural,1.429031,37.643326,4896,12.12,953,0.595
+KE-WES-067,KE,Kenya,Western,Western District 3,Western District 3 Sub-district 3,729468.0,Urban,-1.462749,35.056611,402,2551.82,1217,0.165
+KE-WES-068,KE,Kenya,Western,Western District 3,Western District 3 Sub-district 4,1306777.0,Urban,-0.01926,40.181108,351,5235.56,499,0.289
+KE-NYA-069,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 1,154295.0,Rural,3.113685,38.809336,2973,72.98,1205,0.664
+KE-NYA-070,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 2,195400.0,Rural,-2.438263,38.897001,4798,57.27,753,0.475
+KE-NYA-071,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 3,1390136.0,Urban,4.17955,40.909693,396,4936.64,1996,0.29
+KE-NYA-072,KE,Kenya,Nyanza,Nyanza District 1,Nyanza District 1 Sub-district 4,199753.0,Rural,-0.815278,41.9,183,1535.01,2105,0.11
+KE-NYA-073,KE,Kenya,Nyanza,Nyanza District 2,Nyanza District 2 Sub-district 1,1937963.0,Urban,-3.068773,41.9,773,3525.61,1252,0.302
+KE-NYA-074,KE,Kenya,Nyanza,Nyanza District 2,Nyanza District 2 Sub-district 2,116666.0,Rural,-1.926596,36.690473,3536,46.4,1396,0.658
+KE-NYA-075,KE,Kenya,Nyanza,Nyanza District 3,Nyanza District 3 Sub-district 1,146185.0,Rural,4.6,41.9,2881,71.36,967,0.416
+KE-NYA-076,KE,Kenya,Nyanza,Nyanza District 3,Nyanza District 3 Sub-district 2,469877.0,Urban,-1.894377,40.130787,657,1005.75,539,0.162
+KE-NYA-077,KE,Kenya,Nyanza,Nyanza District 3,Nyanza District 3 Sub-district 3,49890.0,Rural,0.74274,35.214528,2558,27.43,924,0.207
+KE-NYA-078,KE,Kenya,Nyanza,Nyanza District 3,Nyanza District 3 Sub-district 4,667482.0,Urban,4.6,40.761756,824,1139.15,1944,0.435
+KE-NYA-079,KE,Kenya,Nyanza,Nyanza District 4,Nyanza District 4 Sub-district 1,196374.0,Rural,-1.939441,38.246041,4519,61.11,2193,0.89
+KE-NYA-080,KE,Kenya,Nyanza,Nyanza District 4,Nyanza District 4 Sub-district 2,1518311.0,Urban,3.498678,38.099916,836,2554.01,688,0.771
+KE-NYA-081,KE,Kenya,Nyanza,Nyanza District 4,Nyanza District 4 Sub-district 3,110625.0,Rural,-2.227575,35.065376,4663,33.36,475,0.75
+KE-NYA-082,KE,Kenya,Nyanza,Nyanza District 5,Nyanza District 5 Sub-district 1,279310.0,Rural,1.693115,41.107899,2774,141.6,713,0.78
+KE-NYA-083,KE,Kenya,Nyanza,Nyanza District 5,Nyanza District 5 Sub-district 2,63120.0,Rural,-1.133985,37.153854,4594,19.32,880,0.706
+KE-NYA-084,KE,Kenya,Nyanza,Nyanza District 5,Nyanza District 5 Sub-district 3,715331.0,Urban,-2.416314,40.328586,683,1472.84,437,0.718
+KE-NYA-085,KE,Kenya,Nyanza,Nyanza District 5,Nyanza District 5 Sub-district 4,61958.0,Rural,4.119987,41.9,3087,28.23,762,0.423
+KE-NYA-086,KE,Kenya,Nyanza,Nyanza District 6,Nyanza District 6 Sub-district 1,1132651.0,Urban,3.825015,40.070891,84,18962.07,434,0.823
+KE-NYA-087,KE,Kenya,Nyanza,Nyanza District 6,Nyanza District 6 Sub-district 2,40496.0,Rural,2.182817,40.049155,1408,40.45,2482,0.823
+KE-NYA-088,KE,Kenya,Nyanza,Nyanza District 6,Nyanza District 6 Sub-district 3,259947.0,Rural,0.721067,41.9,4687,77.99,758,0.519
+KE-NYA-089,KE,Kenya,Nyanza,Nyanza District 6,Nyanza District 6 Sub-district 4,261417.0,Rural,4.35905,41.107342,3081,119.32,68,0.884
+KE-NYA-090,KE,Kenya,Nyanza,Nyanza District 7,Nyanza District 7 Sub-district 1,109916.0,Rural,2.418228,36.877165,1956,79.03,2158,0.203
+KE-NYA-091,KE,Kenya,Nyanza,Nyanza District 7,Nyanza District 7 Sub-district 2,1991080.0,Urban,0.250395,40.537341,909,3080.31,359,0.657
+NG-LAG-092,NG,Nigeria,Lagos,Lagos District 1,Lagos District 1 Sub-district 1,6606594.0,Urban,8.699066,13.601713,70,94379.91,1028,0.376
+NG-LAG-093,NG,Nigeria,Lagos,LAGOS DISTRICT 1,Lagos District 1 Sub-district 2,3382357.0,Urban,4.604344,3.457267,242,13976.68,523,0.265
+NG-LAG-094,NG,Nigeria,Lagos,Lagos District 2,Lagos District 2 Sub-district 1,9480473.0,Urban,10.38059,2.7,258,36746.02,2094,0.602
+NG-LAG-095,NG,Nigeria,Lagos,Lagos District 2,Lagos District 2 Sub-district 2,4125354.0,Urban,12.593175,2.748528,35,117867.26,1280,0.168
+NG-LAG-096,NG,Nigeria,Lagos,Lagos District 2,Lagos District 2 Sub-district 3,9083123.0,Urban,5.762554,6.430318,735,12357.99,525,0.595
+NG-LAG-097,NG,Nigeria,Lagos,Lagos District 3,Lagos District 3 Sub-district 1,8585153.0,Urban,10.928521,2.7,321,26745.02,882,0.671
+NG-LAG-098,NG,Nigeria,Lagos,Lagos District 3,Lagos District 3 Sub-district 2,4708654.0,Urban,4.3,12.341558,815,5777.49,1906,0.294
+NG-LAG-099,NG,Nigeria,Lagos,Lagos District 3,Lagos District 3 Sub-district 3,3319049.0,Urban,9.166865,12.026149,95,34937.36,125,0.196
+NG-LAG-100,NG,Nigeria,Lagos,Lagos District 3,Lagos District 3 Sub-district 4,6642264.0,Urban,10.272182,11.412838,118,56290.37,1169,0.17
+NG-LAG-101,NG,Nigeria,Lagos,Lagos District 4,Lagos District 4 Sub-district 1,3568103.0,Urban,7.896732,3.539906,434,8221.44,1541,0.82
+NG-LAG-102,NG,Nigeria,Lagos,Lagos District 4,Lagos District 4 Sub-district 2,3697143.0,Urban,8.535978,5.952847,386,9578.09,1312,0.106
+NG-LAG-103,NG,Nigeria,Lagos,Lagos District 4,Lagos District 4 Sub-district 3,9914501.0,Urban,6.113994,3.933808,852,11636.74,2397,0.239
+NG-LAG-104,NG,Nigeria,Lagos,Lagos District 4,Lagos District 4 Sub-district 4,4668866.0,Urban,8.788109,6.905422,557,8382.17,919,0.19
+NG-KAN-105,NG,Nigeria,Kano,Kano District 1,Kano District 1 Sub-district 1,6986126.0,Urban,13.324692,7.232744,513,13618.18,2021,0.635
+NG-KAN-106,NG,Nigeria,Kano,Kano District 1,Kano District 1 Sub-district 2,625134.0,Rural,10.617153,9.835472,1191,524.88,1810,0.26
+NG-KAN-107,NG,Nigeria,Kano,Kano District 1,Kano District 1 Sub-district 3,335659.0,Rural,6.583234,11.430079,4465,75.18,1573,0.565
+NG-KAN-108,NG,Nigeria,Kano,Kano District 2,Kano District 2 Sub-district 1,467436.0,Rural,10.593659,4.7804,4835,96.68,2039,0.208
+NG-KAN-109,NG,Nigeria,Kano,Kano District 2,Kano District 2 Sub-district 2,8211179.0,Urban,7.417412,12.310101,605,13572.2,320,0.211
+NG-KAN-110,NG,Nigeria,Kano,Kano District 2,Kano District 2 Sub-district 3,9112074.0,Urban,10.023196,11.376312,428,21289.89,1118,0.844
+NG-KAN-111,NG,Nigeria,Kano,Kano District 2,Kano District 2 Sub-district 4,886667.0,Rural,9.402576,14.6,3580,247.67,1160,0.264
+NG-KAN-112,NG,Nigeria,Kano,Kano District 3,Kano District 3 Sub-district 1,2092501.0,Urban,5.942509,13.463722,788,2655.46,872,0.7
+NG-KAN-113,NG,Nigeria,Kano,Kano District 3,Kano District 3 Sub-district 2,879554.0,Rural,7.057752,13.857139,127,6925.62,131,0.353
+NG-KAN-114,NG,Nigeria,Kano,Kano District 3,Kano District 3 Sub-district 3,1829735.0,Urban,9.819507,12.657711,809,2261.72,2469,0.532
+NG-KAN-115,NG,Nigeria,Kano,Kano District 3,Kano District 3 Sub-district 4,8490200.0,Urban,8.89228,8.822337,971,8743.77,1997,0.153
+NG-KAD-116,NG,Nigeria,Kaduna,KADUNA DISTRICT 1,Kaduna District 1 Sub-district 1,,Rural,12.746388,9.455726,2085,319.16,477,0.815
+NG-KAD-117,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 2,372933.0,Rural,10.94707,10.399067,1000,372.93,2336,0.127
+NG-KAD-118,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 3,132265.0,Rural,8.466222,10.96616,2903,45.56,1932,0.189
+NG-KAD-119,NG,Nigeria,Kaduna,Kaduna District 1,Kaduna District 1 Sub-district 4,302967.0,Rural,9.521996,7.963231,3769,80.38,2094,0.427
+NG-KAD-120,NG,Nigeria,Kaduna,Kaduna District 2,Kaduna District 2 Sub-district 1,247550.0,Rural,9.46905,8.715549,843,293.65,1834,0.579
+NG-KAD-121,NG,Nigeria,Kaduna,Kaduna District 2,Kaduna District 2 Sub-district 2,488349.0,Rural,12.445125,8.928362,4857,100.55,2070,0.47
+NG-KAD-122,NG,Nigeria,Kaduna,Kaduna District 3,Kaduna District 3 Sub-district 1,306988.0,Rural,5.059515,3.185456,1689,181.76,827,0.574
+NG-KAD-123,NG,Nigeria,Kaduna,Kaduna District 3,Kaduna District 3 Sub-district 2,4357679.0,Urban,10.411848,12.963743,849,5132.72,126,0.222
+NG-KAD-124,NG,Nigeria,Kaduna,Kaduna District 3,Kaduna District 3 Sub-district 3,209945.0,Rural,4.385647,2.906121,3583,58.59,1430,0.198
+NG-RIV-125,NG,Nigeria,Rivers,Rivers District 1,Rivers District 1 Sub-district 1,232717.0,Rural,6.31908,12.95174,3122,74.54,1854,0.349
+NG-RIV-126,NG,Nigeria,Rivers,Rivers District 1,Rivers District 1 Sub-district 2,3427540.0,Urban,8.171735,11.842171,211,16244.27,2360,0.104
+NG-RIV-127,NG,Nigeria,Rivers,Rivers District 2,Rivers District 2 Sub-district 1,2898739.0,Urban,9.689398,13.931882,395,7338.58,474,0.69
+NG-RIV-128,NG,Nigeria,Rivers,Rivers District 2,Rivers District 2 Sub-district 2,9369066.0,Urban,4.845728,13.847319,191,49052.7,663,0.562
+NG-OYO-129,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 1,2045482.0,Urban,9.390537,2.7,478,4279.25,966,0.88
+NG-OYO-130,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 2,3412149.0,Urban,11.582867,7.85353,369,9247.02,326,0.576
+NG-OYO-131,NG,Nigeria,Oyo,Oyo District 1,Oyo District 1 Sub-district 3,5327858.0,Urban,5.335894,12.173046,41,129947.76,2332,0.6
+NG-OYO-132,NG,Nigeria,Oyo,Oyo District 2,Oyo District 2 Sub-district 1,7511634.0,Urban,4.3,10.714979,184,40824.1,193,0.528
+NG-OYO-133,NG,Nigeria,Oyo,Oyo District 2,Oyo District 2 Sub-district 2,4943645.0,Urban,8.693347,3.333559,906,5456.56,54,0.857
+NG-BOR-134,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 1,962061.0,Rural,8.203153,10.800922,104,9250.59,1823,0.673
+NG-BOR-135,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 2,997336.0,Rural,5.278933,4.02179,2540,392.65,1790,0.116
+NG-BOR-136,NG,Nigeria,Borno,Borno District 1,Borno District 1 Sub-district 3,4185714.0,Urban,9.414363,4.106375,427,9802.61,2143,0.891
+NG-BOR-137,NG,Nigeria,Borno,Borno District 2,Borno District 2 Sub-district 1,416915.0,Rural,9.561617,3.711313,872,478.11,943,0.17
+NG-BOR-138,NG,Nigeria,Borno,Borno District 2,Borno District 2 Sub-district 2,378176.0,Rural,5.143708,2.7,3502,107.99,914,0.566
+NG-BOR-139,NG,Nigeria,Borno,Borno District 2,Borno District 2 Sub-district 3,501921.0,Rural,11.88999,8.706659,3644,137.74,745,0.76
+NG-ENU-140,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 1,478387.0,Rural,10.17663,7.429199,3627,131.9,1387,0.212
+NG-ENU-141,NG,Nigeria,Enugu,ENUGU DISTRICT 1,Enugu District 1 Sub-district 2,643351.0,Rural,13.644326,8.162879,4881,131.81,520,0.533
+NG-ENU-142,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 3,422918.0,Rural,6.277822,10.233345,2591,163.23,2051,0.206
+NG-ENU-143,NG,Nigeria,Enugu,Enugu District 1,Enugu District 1 Sub-district 4,356609.0,Rural,6.79895,2.776049,2225,160.27,2089,0.561
+NG-ENU-144,NG,Nigeria,Enugu,Enugu District 2,Enugu District 2 Sub-district 1,6888997.0,Urban,12.150321,5.013613,883,7801.81,341,0.21
+NG-ENU-145,NG,Nigeria,Enugu,Enugu District 2,Enugu District 2 Sub-district 2,575781.0,Rural,11.213772,5.540895,504,1142.42,1708,0.77
+NG-ENU-146,NG,Nigeria,Enugu,Enugu District 2,Enugu District 2 Sub-district 3,784733.0,Rural,9.16641,3.116095,3117,251.76,1845,0.69
+NG-OTH-147,NG,Nigeria,Others,OTHERS DISTRICT 1,Others District 1 Sub-district 1,7247794.0,Urban,8.008951,9.010518,305,23763.26,2058,0.385
+NG-OTH-148,NG,Nigeria,Others,Others District 1,Others District 1 Sub-district 2,111046.0,Rural,11.513485,14.6,4200,26.44,757,0.208
+NG-OTH-149,NG,Nigeria,Others,Others District 1,Others District 1 Sub-district 3,683417.0,Rural,5.952958,7.498842,1812,377.16,364,0.224
+NG-OTH-150,NG,Nigeria,Others,Others District 1,Others District 1 Sub-district 4,599137.0,Rural,6.676943,5.27204,1290,464.45,60,0.651
+NG-OTH-151,NG,Nigeria,Others,Others District 2,Others District 2 Sub-district 1,124354.0,Rural,13.516982,13.890949,221,562.69,1458,0.318
+NG-OTH-152,NG,Nigeria,Others,Others District 2,Others District 2 Sub-district 2,675762.0,Rural,8.673727,13.98632,3054,221.27,1040,0.86
+NG-OTH-153,NG,Nigeria,Others,Others District 2,Others District 2 Sub-district 3,419278.0,Rural,6.48597,14.6,388,1080.61,1799,0.611
+NG-OTH-154,NG,Nigeria,Others,Others District 3,Others District 3 Sub-district 1,692245.0,Rural,11.771023,14.6,3776,183.33,488,0.855
+NG-OTH-155,NG,Nigeria,Others,Others District 3,Others District 3 Sub-district 2,4813270.0,Urban,10.989343,10.0091,400,12033.17,334,0.658
+NG-OTH-156,NG,Nigeria,Others,Others District 4,Others District 4 Sub-district 1,9593223.0,Urban,13.9,14.6,603,15909.16,989,0.144
+NG-OTH-157,NG,Nigeria,Others,Others District 4,Others District 4 Sub-district 2,349321.0,Rural,11.841248,12.114891,3273,106.73,2235,0.485
+NG-OTH-158,NG,Nigeria,Others,Others District 5,Others District 5 Sub-district 1,234055.0,Rural,9.887509,9.191277,88,2659.72,1372,0.629
+NG-OTH-159,NG,Nigeria,Others,Others District 5,Others District 5 Sub-district 2,738112.0,Rural,13.9,11.706672,3571,206.7,310,0.47
+NG-OTH-160,NG,Nigeria,Others,Others District 5,Others District 5 Sub-district 3,915862.0,Rural,7.43414,8.94707,3860,237.27,1914,0.898
+NG-OTH-161,NG,Nigeria,Others,Others District 5,Others District 5 Sub-district 4,522845.0,Rural,6.503617,4.825302,4893,106.86,696,0.565
+NG-OTH-162,NG,Nigeria,Others,OTHERS DISTRICT 6,Others District 6 Sub-district 1,729661.0,Rural,9.664161,9.392048,4534,160.93,2050,0.474
+NG-OTH-163,NG,Nigeria,Others,Others District 6,Others District 6 Sub-district 2,6408753.0,Urban,8.498158,7.157832,674,9508.54,431,0.114
+NG-OTH-164,NG,Nigeria,Others,Others District 6,Others District 6 Sub-district 3,266472.0,Rural,6.704489,9.038299,1013,263.05,2234,0.86
+NG-OTH-165,NG,Nigeria,Others,Others District 6,Others District 6 Sub-district 4,338506.0,Rural,11.303721,14.6,3465,97.69,10,0.823
+NG-OTH-166,NG,Nigeria,Others,Others District 7,Others District 7 Sub-district 1,6166650.0,Urban,9.50877,14.348026,319,19331.19,884,0.765
+NG-OTH-167,NG,Nigeria,Others,Others District 7,Others District 7 Sub-district 2,1302186.0,Urban,7.348269,7.001686,762,1708.91,2306,0.761
+NG-OTH-168,NG,Nigeria,Others,Others District 7,Others District 7 Sub-district 3,698069.0,Rural,13.9,14.6,3220,216.79,1043,0.896
+ZA-GAU-169,ZA,South Africa,Gauteng,Gauteng District 1,Gauteng District 1 Sub-district 1,1418499.0,Urban,-27.817764,32.9,12,194129.42,159,0.471
+ZA-GAU-170,ZA,South Africa,Gauteng,Gauteng District 1,Gauteng District 1 Sub-district 2,1324903.0,Urban,-26.750966,18.393984,626,3475.79,951,0.312
+ZA-GAU-171,ZA,South Africa,Gauteng,Gauteng District 2,Gauteng District 2 Sub-district 1,1803980.0,Urban,-23.485678,17.474527,472,6276.73,39,0.845
+ZA-GAU-172,ZA,South Africa,Gauteng,Gauteng District 2,Gauteng District 2 Sub-district 2,673099.0,Urban,-28.810561,23.005692,337,3280.15,1274,0.679
+ZA-GAU-173,ZA,South Africa,Gauteng,Gauteng District 3,Gauteng District 3 Sub-district 1,549922.0,Urban,-25.512895,18.142146,602,1500.2,1137,0.496
+ZA-GAU-174,ZA,South Africa,Gauteng,Gauteng District 3,Gauteng District 3 Sub-district 2,1902150.0,Urban,-22.833835,26.263231,49,63751.76,1889,0.535
+ZA-GAU-175,ZA,South Africa,Gauteng,Gauteng District 3,Gauteng District 3 Sub-district 3,1745521.0,Urban,-23.29407,20.916283,580,4942.43,1704,0.367
+ZA-GAU-176,ZA,South Africa,Gauteng,Gauteng District 4,Gauteng District 4 Sub-district 1,1489888.0,Urban,-32.441991,28.357048,709,3451.05,2054,0.805
+ZA-GAU-177,ZA,South Africa,Gauteng,Gauteng District 4,Gauteng District 4 Sub-district 2,720610.0,Rural,-33.361033,30.436995,2769,42.74,2410,0.283
+ZA-GAU-178,ZA,South Africa,Gauteng,Gauteng District 5,Gauteng District 5 Sub-district 1,573634.0,Urban,-24.63237,21.136089,971,970.2,1247,0.167
+ZA-GAU-179,ZA,South Africa,Gauteng,Gauteng District 5,Gauteng District 5 Sub-district 2,2799829.0,Urban,-32.321874,23.071404,457,10061.41,2412,0.724
+ZA-GAU-180,ZA,South Africa,Gauteng,Gauteng District 5,Gauteng District 5 Sub-district 3,2526367.0,Urban,-27.216801,32.686669,840,4939.25,1435,0.606
+ZA-GAU-181,ZA,South Africa,Gauteng,Gauteng District 5,Gauteng District 5 Sub-district 4,2781715.0,Urban,-24.246316,19.743157,493,9266.36,1265,0.858
+ZA-KWA-182,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 1,KwaZulu-Natal District 1 Sub-district 1,,Rural,-27.553954,21.434482,4619,81.41,2257,0.797
+ZA-KWA-183,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 1,KwaZulu-Natal District 1 Sub-district 2,45583.0,Rural,-29.1885,26.382208,2478,30.21,1030,0.153
+ZA-KWA-184,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 2,KwaZulu-Natal District 2 Sub-district 1,1251021.0,Urban,-24.714572,19.903143,992,2071.08,1453,0.475
+ZA-KWA-185,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 2,KwaZulu-Natal District 2 Sub-district 2,84752.0,Rural,-29.123356,18.445431,936,148.7,2204,0.339
+ZA-KWA-186,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 3,KwaZulu-Natal District 3 Sub-district 1,221919.0,Rural,-26.685865,20.243456,2946,123.71,988,0.855
+ZA-KWA-187,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 3,KwaZulu-Natal District 3 Sub-district 2,1163457.0,Urban,-31.249418,31.899233,266,7183.11,569,0.815
+ZA-KWA-188,ZA,South Africa,KwaZulu-Natal,KWAZULU-NATAL DISTRICT 3,KwaZulu-Natal District 3 Sub-district 3,864344.0,Urban,-32.13569,29.999214,801,1772.14,1809,0.791
+ZA-KWA-189,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 4,KwaZulu-Natal District 4 Sub-district 1,293836.0,Rural,-32.095585,17.257098,569,848.08,590,0.463
+ZA-KWA-190,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 4,KwaZulu-Natal District 4 Sub-district 2,1046577.0,Urban,-27.025356,17.914416,702,2448.37,1559,0.837
+ZA-KWA-191,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 4,KwaZulu-Natal District 4 Sub-district 3,104984.0,Rural,-28.994833,16.5,3394,50.8,1259,0.298
+ZA-KWA-192,ZA,South Africa,KwaZulu-Natal,KwaZulu-Natal District 4,KwaZulu-Natal District 4 Sub-district 4,2738664.0,Urban,-28.640865,16.815027,510,8818.85,116,0.572
+ZA-WES-193,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 1,146860.0,Rural,-33.464554,18.229329,4483,53.8,1389,0.88
+ZA-WES-194,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 2,2223685.0,Urban,-25.264217,31.147207,111,32899.84,1415,0.679
+ZA-WES-195,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 3,1179185.0,Urban,-26.753146,17.342429,319,6070.65,1109,0.268
+ZA-WES-196,ZA,South Africa,Western Cape,Western Cape District 1,Western Cape District 1 Sub-district 4,1387472.0,Urban,-33.48675,22.395165,11,207145.36,2272,0.17
+ZA-WES-197,ZA,South Africa,Western Cape,Western Cape District 2,Western Cape District 2 Sub-district 1,1076744.0,Urban,-32.661058,23.550742,203,8710.84,89,0.652
+ZA-WES-198,ZA,South Africa,Western Cape,Western Cape District 2,Western Cape District 2 Sub-district 2,2740565.0,Urban,-33.109798,28.035522,881,5108.67,1994,0.199
+ZA-WES-199,ZA,South Africa,Western Cape,Western Cape District 3,Western Cape District 3 Sub-district 1,2044573.0,Urban,-26.204745,27.093484,562,5974.61,715,0.797
+ZA-WES-200,ZA,South Africa,Western Cape,Western Cape District 3,Western Cape District 3 Sub-district 2,2780683.0,Urban,-24.202927,27.082231,392,11649.54,2054,0.629
+ZA-WES-201,ZA,South Africa,Western Cape,Western Cape District 3,Western Cape District 3 Sub-district 3,2636022.0,Urban,-24.198009,24.928023,136,31831.24,808,0.231
+ZA-WES-202,ZA,South Africa,Western Cape,Western Cape District 3,Western Cape District 3 Sub-district 4,872463.0,Urban,-32.879775,21.093693,918,1560.8,1560,0.797
+ZA-EAS-203,ZA,South Africa,Eastern Cape,Eastern Cape District 1,Eastern Cape District 1 Sub-district 1,2810635.0,Urban,-24.132651,32.077258,318,14515.13,694,0.135
+ZA-EAS-204,ZA,South Africa,Eastern Cape,Eastern Cape District 1,Eastern Cape District 1 Sub-district 2,1485976.0,Urban,-25.224844,23.22916,321,7602.4,1082,0.62
+ZA-EAS-205,ZA,South Africa,Eastern Cape,Eastern Cape District 1,Eastern Cape District 1 Sub-district 3,1718641.0,Urban,-30.417267,24.640957,216,13066.97,352,0.772
+ZA-EAS-206,ZA,South Africa,Eastern Cape,Eastern Cape District 2,Eastern Cape District 2 Sub-district 1,66567.0,Rural,-24.151522,24.757291,4661,23.45,1387,0.714
+ZA-EAS-207,ZA,South Africa,Eastern Cape,Eastern Cape District 2,Eastern Cape District 2 Sub-district 2,259622.0,Rural,-22.659622,27.269477,1323,322.27,1535,0.585
+ZA-LIM-208,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 1,265986.0,Rural,-27.795888,30.507786,4331,100.86,1269,0.387
+ZA-LIM-209,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 2,267098.0,Rural,-25.624023,18.10379,4939,88.81,2147,0.827
+ZA-LIM-210,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 3,2114140.0,Urban,-29.504618,21.010511,943,3681.85,552,0.298
+ZA-LIM-211,ZA,South Africa,Limpopo,Limpopo District 1,Limpopo District 1 Sub-district 4,90312.0,Rural,-29.478192,20.128227,179,828.59,837,0.622
+ZA-LIM-212,ZA,South Africa,Limpopo,Limpopo District 2,Limpopo District 2 Sub-district 1,231261.0,Rural,-25.360165,16.5,4605,82.47,300,0.29
+ZA-LIM-213,ZA,South Africa,Limpopo,Limpopo District 2,Limpopo District 2 Sub-district 2,2650801.0,Urban,-34.0,17.02083,979,4446.7,1628,0.37
+ZA-MPU-214,ZA,South Africa,Mpumalanga,Mpumalanga District 1,Mpumalanga District 1 Sub-district 1,866960.0,Urban,-31.951429,25.341978,522,2727.55,2360,0.234
+ZA-MPU-215,ZA,South Africa,Mpumalanga,Mpumalanga District 1,Mpumalanga District 1 Sub-district 2,485968.0,Urban,-26.099176,26.107194,174,4586.72,2352,0.775
+ZA-MPU-216,ZA,South Africa,Mpumalanga,Mpumalanga District 1,Mpumalanga District 1 Sub-district 3,101622.0,Rural,-24.565406,24.3743,1324,126.05,956,0.127
+ZA-FRE-217,ZA,South Africa,Free State,Free State District 1,Free State District 1 Sub-district 1,2036174.0,Urban,-23.336732,16.5,128,26124.53,1058,0.462
+ZA-FRE-218,ZA,South Africa,Free State,Free State District 1,Free State District 1 Sub-district 2,128437.0,Rural,-28.489182,16.5,4635,45.51,275,0.889
+ZA-FRE-219,ZA,South Africa,Free State,Free State District 1,Free State District 1 Sub-district 3,179962.0,Rural,-34.0,21.012143,3918,75.43,1208,0.564
+ZA-NOR-220,ZA,South Africa,North West,North West District 1,North West District 1 Sub-district 1,35992.0,Rural,-24.485629,20.856681,4453,13.27,1359,0.852
+ZA-NOR-221,ZA,South Africa,North West,North West District 1,North West District 1 Sub-district 2,104649.0,Rural,-22.0,20.106372,1849,92.95,1381,0.795
+ZA-NOR-222,ZA,South Africa,North West,North West District 1,North West District 1 Sub-district 3,892010.0,Urban,-22.0,24.704867,423,3463.16,2161,0.295
+ZA-NOR-223,ZA,South Africa,North West,North West District 1,North West District 1 Sub-district 4,169321.0,Rural,-23.265768,20.421401,4490,61.93,813,0.835
+ZA-NOR-224,ZA,South Africa,North West,North West District 2,North West District 2 Sub-district 1,2088967.0,Urban,-22.565933,29.504733,370,9272.0,1009,0.584
+ZA-NOR-225,ZA,South Africa,North West,North West District 2,North West District 2 Sub-district 2,,Rural,-22.0,30.906215,3878,65.62,488,0.187

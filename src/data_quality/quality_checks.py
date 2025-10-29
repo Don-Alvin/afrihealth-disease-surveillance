@@ -106,9 +106,9 @@ class DataQualityChecker:
     def check_validity(self) -> Dict:
         """Check for invalid values"""
 
-        # Check if there are negative values in numerical columns. Recorded values in new_cases, deaths and recoveries cannot be negative.
+        # Check if there are negative values in numerical columns. Recorded values in cases, deaths and recoveries cannot be negative.
         issues = []
-        numeric_cols = ['new_cases', 'deaths', 'recoveries']
+        numeric_cols = ['cases', 'deaths', 'recoveries']
         for col in numeric_cols:
             if col in self.reports.columns:
                 negative_count = (self.reports[col] < 0).sum()
@@ -120,14 +120,14 @@ class DataQualityChecker:
                         'description': f"{negative_count} records have negative {col} (impossible)."
                     })
 
-        # Check if number of recorded deaths exceed number of new_cases (impossible).
-        death_exceed_count = (self.reports['deaths'] > self.reports['new_cases']).sum()
+        # Check if number of recorded deaths exceed number of cases (impossible).
+        death_exceed_count = (self.reports['deaths'] > self.reports['cases']).sum()
         if death_exceed_count > 0:
             issues.append({
                 "check": "Deaths exceed cases",
                 "issue_count": int(death_exceed_count),
                 "severity": 'HIGH',
-                "description": f"{death_exceed_count} records where deaths are more than new_cases"
+                "description": f"{death_exceed_count} records where deaths are more than cases"
             })
         
         # Check if report_date is in the future

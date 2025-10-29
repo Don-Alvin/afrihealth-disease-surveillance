@@ -28,7 +28,7 @@ def main():
     print()
 
     # Configuration
-    NUM_DISTRICTS = 30
+    NUM_DISTRICTS = 100
     NUM_FACILITIES = 500
     START_DATE = '2020-01-01'
     END_DATE = '2024-12-31'
