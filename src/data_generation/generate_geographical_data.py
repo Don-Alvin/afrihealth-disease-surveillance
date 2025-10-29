@@ -361,8 +361,4 @@ def save_geographical_data(df: pd.DataFrame, output_path: str = "data/raw") -> P
     return file_path
 
 
-if __name__ == '__main__':
-    geo_df = generate_geographical_data(num_districts=100, random_state=42)
-    save_geographical_data(df=geo_df)
-
 
