@@ -3,7 +3,6 @@ from pathlib import Path
 from google.cloud import storage
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
-import requests
 
 load_dotenv()
 

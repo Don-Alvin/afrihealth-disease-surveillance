@@ -1,0 +1,12 @@
+catalog:
+  type:sql
+  uri: sqlite:///data/iceberg_catalog.db
+  warehouse: gs://afrihealth-surveillance-iceberg-da/warehouse
+gcs:
+  project_id: afrihealth-surveillance
+  credentials_path: ./credentials/service-account-key.json
+default:
+  format: parquet
+  compression: snappy
+write:
+  target_file_size_mb: 128
