@@ -59,9 +59,9 @@ class IcebergManager:
             else:
                 raise
     
-    def get_disease_cases_schema(self) -> Schema:
+    def get_reports_schema(self) -> Schema:
         """
-        Define schema for disease_cases table
+        Define schema for reports table
 
         Returns:
             Iceberg Schema Object
