@@ -1,3 +1,9 @@
+import sys
+import os
+
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
+
 from src.data_ingestion.iceberg_manager import IcebergManager
 from pyiceberg.partitioning import PartitionSpec, PartitionField
 from pyiceberg.transforms import DayTransform, IdentityTransform
@@ -35,7 +41,7 @@ def create_bronze_tables():
         namespace='bronze',
         table_name='geography',
         schema=manager.get_geography_schema(),
-        partition_spec=None
+        partition_spec=PartitionSpec()
     )
 
     # Facilities table
@@ -43,7 +49,7 @@ def create_bronze_tables():
         namespace='bronze',
         table_name='facilities',
         schema=manager.get_facilities_schema(),
-        partition_spec=None
+        partition_spec=PartitionSpec()
     )
 
     # Weather
@@ -96,7 +102,7 @@ def create_silver_tables():
         namespace='silver',
         table_name='geography_validated',
         schema=manager.get_geography_schema(),
-        partition_spec=None
+        partition_spec=PartitionSpec()
     )
 
     # Facilities validated
@@ -104,7 +110,7 @@ def create_silver_tables():
         namespace='silver',
         table_name='facilities_validated',
         schema=manager.get_facilities_schema(),
-        partition_spec=None
+        partition_spec=PartitionSpec()
     )
 
     # Weather validated
@@ -136,7 +142,7 @@ def list_tables():
 
 if __name__ == "__main__":
     create_bronze_tables()
-    create_silver_tables
+    create_silver_tables()
 
     list_tables()
     

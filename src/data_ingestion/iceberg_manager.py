@@ -28,7 +28,7 @@ class IcebergManager:
             self.config = yaml.safe_load(f)
         
         # Set up GCS credentials
-        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = self.config['gcs']['credential_path']
+        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = self.config['gcs']['credentials_path']
 
         # Initialize catalog
         self.catalog = SqlCatalog(
@@ -211,7 +211,7 @@ class IcebergManager:
         elif data_path.endswith('.csv.gz'):
             df = pd.read_csv(data_path, compression='gzip')
         elif data_path.endswith('.parquet'):
-            df.read_parquet(data_path)
+            df = pd.read_parquet(data_path)
         else:
             raise ValueError('Unsupported file format')
         
