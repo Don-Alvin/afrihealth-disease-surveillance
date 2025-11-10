@@ -166,9 +166,9 @@ def list_tables():
             print(f"No table in {namespace}")
 
 if __name__ == "__main__":
-    drop_tables()
-    create_bronze_tables()
-    create_silver_tables()
+    # drop_tables()
+    # create_bronze_tables()
+    # create_silver_tables()
 
     list_tables()
     
