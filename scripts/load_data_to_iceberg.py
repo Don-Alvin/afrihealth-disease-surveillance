@@ -107,8 +107,8 @@ def verify_data_loaded():
 if __name__ == "__main__":
     total_start = time.time()
 
-    # load_bronze_layer()
-    # load_silver_layer()
+    load_bronze_layer()
+    load_silver_layer()
     verify_data_loaded()
 
     total_time = time.time() - total_start

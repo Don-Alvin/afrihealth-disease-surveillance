@@ -86,7 +86,6 @@ def verify_partitions():
 
 def show_table_metadata():
     tables = ['bronze.reports', 'bronze.weather', 'silver.reports_validated', 'silver.weather_validated']
-    print("\nTable Metadata:")
     for name in tables:
         try:
             table = manager.catalog.load_table(name)
