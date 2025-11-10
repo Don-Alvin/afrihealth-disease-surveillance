@@ -8,6 +8,7 @@ from src.data_ingestion.iceberg_manager import IcebergManager
 from pyiceberg.partitioning import PartitionSpec, PartitionField
 from pyiceberg.transforms import DayTransform, IdentityTransform
 
+
 # Create bronze layer tables
 def create_bronze_tables():
     manager = IcebergManager()
@@ -33,7 +34,7 @@ def create_bronze_tables():
         namespace='bronze',
         table_name='reports',
         schema=manager.get_reports_schema(),
-        partition_spec=reports_partition
+        partition_spec=PartitionSpec()
     )
 
     # Geography table
@@ -66,7 +67,7 @@ def create_bronze_tables():
         namespace='bronze',
         table_name='weather',
         schema=manager.get_weather_schema(),
-        partition_spec=weather_partition
+        partition_spec=PartitionSpec()
     )
 
 # Create silver layer table
@@ -94,7 +95,7 @@ def create_silver_tables():
         namespace='silver',
         table_name='reports_validated',
         schema=manager.get_reports_schema(),
-        partition_spec=reports_partition
+        partition_spec=PartitionSpec()
     )
 
     # Geography validated
@@ -109,7 +110,7 @@ def create_silver_tables():
     manager.create_table(
         namespace='silver',
         table_name='facilities_validated',
-        schema=manager.get_facilities_schema(),
+        schema=manager.get_facilities_clean_schema(),
         partition_spec=PartitionSpec()
     )
 
@@ -126,8 +127,32 @@ def create_silver_tables():
         namespace='silver',
         table_name='weather_validated',
         schema=manager.get_weather_schema(),
-        partition_spec=weather_partition
+        partition_spec=PartitionSpec()
     )
+
+def drop_tables():
+    manager = IcebergManager()
+    
+    # Tables to recreate
+    tables_to_drop = [
+        ('bronze', 'reports'),
+        ('bronze', 'geography'),
+        ('bronze', 'facilities'),
+        ('bronze', 'weather'),
+        ('silver', 'reports_validated'),
+        ('silver', 'geography_validated'),
+        ('silver', 'facilities_validated'),
+        ('silver', 'weather_validated')
+    ]
+    
+    # Drop tables
+    for namespace, table_name in tables_to_drop:
+        full_name = f"{namespace}.{table_name}"
+        try:
+            manager.catalog.drop_table(full_name)
+            print(f"Dropped table: {full_name}")
+        except Exception as e:
+            print(f"Could not drop {full_name}: {e}")
 
 def list_tables():
     manager = IcebergManager()
@@ -141,6 +166,7 @@ def list_tables():
             print(f"No table in {namespace}")
 
 if __name__ == "__main__":
+    drop_tables()
     create_bronze_tables()
     create_silver_tables()
 

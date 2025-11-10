@@ -1,16 +1,14 @@
 import os
 import yaml
-from pathlib import Path
-from typing import Dict, List
 import pandas as pd
 from pyiceberg.catalog.sql import SqlCatalog
 from pyiceberg.schema import Schema
 from pyiceberg.types import (
-    NestedField, StringType, IntegerType, FloatType, DateType, BooleanType, TimestampType
+    NestedField, StringType, IntegerType, DoubleType, DateType, BooleanType, LongType
 )
-from pyiceberg.partitioning import PartitionSpec, PartitionField
-from pyiceberg.transforms import DayTransform, IdentityTransform
+from pyiceberg.partitioning import PartitionSpec
 from dotenv import load_dotenv
+import pyarrow as pa
 
 load_dotenv()
 
@@ -68,15 +66,15 @@ class IcebergManager:
         """
 
         return Schema(
-            NestedField(1, "report_id", StringType(), required=True),
-            NestedField(2, "report_date", DateType(), required=True),
+            NestedField(1, "report_id", StringType(), required=False),
+            NestedField(2, "report_date", DateType(), required=False),
             NestedField(3, "case_date", DateType(), required=False),
-            NestedField(4, "facility_id", StringType(), required=True),
-            NestedField(5, "geography_id", StringType(), required=True),
-            NestedField(6, "disease", StringType(), required=True),
-            NestedField(7, "cases", IntegerType(), required=False),
-            NestedField(8, "deaths", IntegerType(), required=False),
-            NestedField(9, "recoveries", IntegerType(), required=False),
+            NestedField(4, "facility_id", StringType(), required=False),
+            NestedField(5, "geography_id", StringType(), required=False),
+            NestedField(6, "disease", StringType(), required=False),
+            NestedField(7, "cases", DoubleType(), required=False),
+            NestedField(8, "deaths", DoubleType(), required=False),
+            NestedField(9, "recoveries", LongType(), required=False),
             NestedField(10, "age_group", StringType(), required=False),
             NestedField(11, "gender", StringType(), required=False)
         )
@@ -90,20 +88,20 @@ class IcebergManager:
         """
 
         return Schema(
-            NestedField(1, "geography_id", StringType(), required=True),
-            NestedField(2, "country_code", StringType(), required=True),
-            NestedField(3, "country_name", StringType(), required=True),
-            NestedField(4, "region_name", StringType(), required=True),
-            NestedField(5, "district_name", StringType(), required=True),
+            NestedField(1, "geography_id", StringType(), required=False),
+            NestedField(2, "country_code", StringType(), required=False),
+            NestedField(3, "country_name", StringType(), required=False),
+            NestedField(4, "region_name", StringType(), required=False),
+            NestedField(5, "district_name", StringType(), required=False),
             NestedField(6, "sub_district_name", StringType(), required=False),
-            NestedField(7, "population", FloatType(), required=False),
+            NestedField(7, "population", DoubleType(), required=False),
             NestedField(8, "urban_rural", StringType(), required=False),
-            NestedField(9, "latitude", FloatType(), required=False),
-            NestedField(10, "longitude", FloatType(), required=False),
-            NestedField(11, "area_sq_km", FloatType(), required=False),
-            NestedField(12, "population_density", FloatType(), required=False),
-            NestedField(13, "elevation", FloatType(), required=False),
-            NestedField(14, "healthcare_access_index", FloatType(), required=False)
+            NestedField(9, "latitude", DoubleType(), required=False),
+            NestedField(10, "longitude", DoubleType(), required=False),
+            NestedField(11, "area_sq_km", LongType(), required=False),
+            NestedField(12, "population_density", DoubleType(), required=False),
+            NestedField(13, "elevation", LongType(), required=False),
+            NestedField(14, "healthcare_access_index", DoubleType(), required=False)
         )
 
     def get_facilities_schema(self) -> Schema:
@@ -115,24 +113,53 @@ class IcebergManager:
         """
 
         return Schema(
-            NestedField(1, "facility_id", StringType(), required=True),
-            NestedField(2, "facility_name", StringType(), required=True),
-            NestedField(3, "facility_type", StringType(), required=True),
-            NestedField(4, "facility_level", IntegerType(), required=False),
-            NestedField(5, "geography_id", StringType(), required=True),
-            NestedField(6, "country_code", StringType(), required=True),
+            NestedField(1, "facility_id", StringType(), required=False),
+            NestedField(2, "facility_name", StringType(), required=False),
+            NestedField(3, "facility_type", StringType(), required=False),
+            NestedField(4, "facility_level", LongType(), required=False),
+            NestedField(5, "geography_id", StringType(), required=False),
+            NestedField(6, "country_code", StringType(), required=False),
             NestedField(7, "region_name", StringType(), required=False),
             NestedField(8, "district_name", StringType(), required=False),
-            NestedField(9, "bed_capacity", IntegerType(), required=False),
-            NestedField(10, "staff_count", IntegerType(), required=False),
+            NestedField(9, "capacity", DoubleType(), required=False),
+            NestedField(10, "staff_count", LongType(), required=False),
             NestedField(11, "has_lab", BooleanType(), required=False),
-            NestedField(12, "has_isolation_unit", BooleanType(), required=False),
+            NestedField(12, "has_isolation_ward", BooleanType(), required=False),
             NestedField(13, "has_xray", BooleanType(), required=False),
-            NestedField(14, "ambulance_count", IntegerType(), required=False),
-            NestedField(15, "latitude", FloatType(), required=False),
-            NestedField(16, "longitude", FloatType(), required=False),
+            NestedField(14, "ambulance_count", LongType(), required=False),
+            NestedField(15, "latitude", DoubleType(), required=False),
+            NestedField(16, "longitude", DoubleType(), required=False),
             NestedField(17, "operational_status", StringType(), required=False),
-            NestedField(18, "established_year", IntegerType(), required=False),
+            NestedField(18, "established_year", LongType(), required=False),
+        )
+
+    def get_facilities_clean_schema(self) -> Schema:
+        """
+        Define schema for facilities table
+
+        Returns:
+            Iceberg Schema Object
+        """
+
+        return Schema(
+            NestedField(1, "facility_id", StringType(), required=False),
+            NestedField(2, "facility_name", StringType(), required=False),
+            NestedField(3, "facility_type", StringType(), required=False),
+            NestedField(4, "facility_level", LongType(), required=False),
+            NestedField(5, "geography_id", StringType(), required=False),
+            NestedField(6, "country_code", StringType(), required=False),
+            NestedField(7, "region_name", StringType(), required=False),
+            NestedField(8, "district_name", StringType(), required=False),
+            NestedField(9, "bed_capacity", DoubleType(), required=False),
+            NestedField(10, "staff_count", LongType(), required=False),
+            NestedField(11, "has_lab", BooleanType(), required=False),
+            NestedField(12, "has_isolation_ward", BooleanType(), required=False),
+            NestedField(13, "has_xray", BooleanType(), required=False),
+            NestedField(14, "ambulance_count", LongType(), required=False),
+            NestedField(15, "latitude", DoubleType(), required=False),
+            NestedField(16, "longitude", DoubleType(), required=False),
+            NestedField(17, "operational_status", StringType(), required=False),
+            NestedField(18, "established_year", LongType(), required=False),
         )
     
     def get_weather_schema(self) -> Schema:
@@ -144,14 +171,13 @@ class IcebergManager:
         """
 
         return Schema(
-            NestedField(1, "date", DateType(), required=True),
-            NestedField(2, "geography_id", StringType(), required=True),
-            NestedField(3, "temperature_min_c", FloatType(), required=False),
-            NestedField(4, "temperature_max_c", FloatType(), required=False),
-            NestedField(5, "temperature_avg_c", FloatType(), required=False),
-            NestedField(6, "rainfall_mm", FloatType(), required=False),
-            NestedField(7, "humidity_pct", FloatType(), required=False),
-            NestedField(8, "sunshine_hours", FloatType(), required=False),
+            NestedField(1, "date", DateType(), required=False),
+            NestedField(2, "geography_id", StringType(), required=False),
+            NestedField(3, "temperature_min_c", DoubleType(), required=False),
+            NestedField(4, "temperature_max_c", DoubleType(), required=False),
+            NestedField(5, "temperature_avg_c", DoubleType(), required=False),
+            NestedField(6, "rainfall_mm", DoubleType(), required=False),
+            NestedField(7, "humidity_pct", DoubleType(), required=False),
         )
 
     def create_table(
@@ -219,13 +245,15 @@ class IcebergManager:
         date_columns = ['report_date', 'case_date', 'date']
         for col in date_columns:
             if col in df.columns:
-                df[col] = pd.to_datetime(df[col])
+                df[col] = pd.to_datetime(df[col], errors='coerce').dt.date
         
         # Get table
         table = self.catalog.load_table(full_name)
 
         # Append data
-        table.append(df)
+        pa_table = pa.Table.from_pandas(df)
+        table.append(pa_table)
+
 
 if __name__ == "__main__":
     manager = IcebergManager()
