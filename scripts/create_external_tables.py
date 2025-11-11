@@ -5,6 +5,7 @@ Create external tables linked to Iceberg
 import os
 from google.cloud import bigquery
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 project_id = os.getenv('GCP_PROJECT_ID')
@@ -92,7 +93,6 @@ def create_all_external_tables():
         description="Weather (external link to Iceberg silver layer)"
     )
 
-    print('External tables created')
 
 def test_external_tables():
     test_queries = [
@@ -144,7 +144,7 @@ def test_external_tables():
         print()
 
 if __name__ == "__main__":
+    time.sleep(30)
     create_all_external_tables()
-    import time
-    time.sleep(10)
+    time.sleep(30)
     test_external_tables()
