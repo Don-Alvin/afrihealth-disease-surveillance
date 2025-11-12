@@ -151,10 +151,7 @@ def test_staging_tables():
 
 
 if __name__ == "__main__":
-    # # Load data
-    # total = load_all_staging_tables()
-    
-    # Test queries
+    total = load_all_staging_tables()
     test_staging_tables()
     
 
