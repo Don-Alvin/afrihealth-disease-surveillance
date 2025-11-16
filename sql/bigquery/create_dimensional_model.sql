@@ -87,7 +87,7 @@ SELECT
         ELSE FALSE
     END AS is_seasonal,
     CASE 
-        WHEN disease = 'Malaria' THEN TRUe
+        WHEN disease = 'Malaria' THEN TRUE
         ELSE FALSE  
     END AS is_climate_sensitive,
 
