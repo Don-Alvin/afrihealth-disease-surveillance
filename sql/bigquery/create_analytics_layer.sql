@@ -85,7 +85,7 @@ LEFT JOIN `{project_id}.core.dim_date` dd ON fr.report_date = dd.date_value
 LEFT JOIN `{project_id}.core.dim_geography` dg ON fr.geography_id = dg.geography_id
 LEFT JOIN `{project_id}.core.dim_disease` ddis ON fr.disease_id = ddis.disease_id
 LEFT JOIN `{project_id}.core.dim_weather` dw ON fr.weather_key = dw.weather_key
-
+WHERE dg.country_name IS NOT NULL
 GROUP BY 
     dd.year, dd.quarter, dd.quarter_name, dd.month, dd.month_name, dd.year_month, dg.country_code,
     dg.country_name, dg.region_name, dg.urban_rural, ddis.disease_id;
@@ -147,7 +147,8 @@ SELECT
     CURRENT_TIMESTAMP() as created_at
 FROM `{project_id}.core.dim_geography` dg
 LEFT JOIN reports_stats rs ON dg.geography_id = rs.geography_id
-LEFT JOIN facility_stats fs ON dg.geography_id = fs.geography_id;
+LEFT JOIN facility_stats fs ON dg.geography_id = fs.geography_id
+WHERE dg.country_name IS NOT NULL;
 
 CREATE OR REPLACE TABLE `{project_id}.analytics.weather_disease_correlation` AS
 SELECT
@@ -165,6 +166,9 @@ SELECT
         WHEN dw.rainfall_mm < 20 THEN '5-20mm'
         ELSE '> 20mm'
     END AS rainfall_bin,
+    COUNT(DISTINCT fr.report_id) AS reports_count,
+    SUM(fr.cases) AS total_cases,
+    SUM(fr.deaths) AS total_deaths,
     AVG(dw.temperature_avg_c) AS avg_temperature_c,
     AVG(dw.rainfall_mm) AS avg_rainfall_mm,
     AVG(dw.humidity_pct) AS avg_humidity_pct,
