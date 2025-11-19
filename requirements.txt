@@ -18,3 +18,5 @@ reportlab==4.4.
 statsmodels==0.14.5
 pyiceberg[gcs]==0.10.0
 pyarrow==14.0.1
+xgboost==2.0.3
+joblib==1.5.2
