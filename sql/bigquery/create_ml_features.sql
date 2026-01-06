@@ -1,6 +1,6 @@
 CREATE OR REPLACE TABLE `{project_id}.ml_features.outbreak_prediction_features`
 PARTITION BY report_date
-CLUSTER BY geography_id, disease_id
+CLUSTER BY geography_id, disease_id AS
 
 WITH daily_cases AS (
     SELECT
@@ -11,7 +11,7 @@ WITH daily_cases AS (
         SUM(deaths) AS daily_deaths,
         AVG(SAFE_DIVIDE(deaths, NULLIF(cases, 0))) AS daily_cfr
     FROM `{project_id}.core.fact_reports`
-    GROUP BY report_id, geography_id, disease_id
+    GROUP BY report_date, geography_id, disease_id
 ),
 
 enrinched_daily AS (
@@ -54,13 +54,12 @@ lag_features AS (
         LAG(temperature_avg_c, 1) OVER w AS temp_lag_1d,
         LAG(temperature_avg_c, 7) OVER w AS temp_lag_7d,
         LAG(rainfall_mm, 1) OVER w AS rainfall_lag_1d,
-        LAG(rainfall_mm, 7) OVER w AS rainfall_lag_7d,
+        LAG(rainfall_mm, 7) OVER w AS rainfall_lag_7d
     FROM enrinched_daily
 
     WINDOW w AS (
         PARTITION BY geography_id, disease_id
         ORDER BY report_date
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
     )
 ),
 
@@ -78,7 +77,7 @@ rolling_features AS (
         MAX(daily_cases) OVER w7 AS cases_rolling_max_7d,
         MAX(daily_cases) OVER w14 AS cases_rolling_max_14d,
         AVG(temperature_avg_c) OVER w7 AS temp_rolling_avg_7d,
-        AVG(rainfall_mm) OVER w7 AS rainfall_rolling_sum_7d,
+        AVG(rainfall_mm) OVER w7 AS rainfall_rolling_avg_7d,
         AVG(humidity_pct) OVER w7 AS humidity_rolling_avg_7d
     FROM lag_features
 
@@ -91,12 +90,12 @@ rolling_features AS (
         w14 AS (
             PARTITION BY geography_id, disease_id
             ORDER BY report_date
-            ROW BETWEEN 14 AND 1 PRECEDING
+            ROWS BETWEEN 14 PRECEDING AND 1 PRECEDING
         ),
         w30 AS (
             PARTITION BY geography_id, disease_id
             ORDER BY report_date
-            ROW BETWEEN 30 AND 1 PRECEDING
+            ROWS BETWEEN 30 PRECEDING AND 1 PRECEDING
         )
 ),
 
@@ -110,7 +109,7 @@ target_variables AS (
         CASE 
             WHEN LEAD(cases_rolling_avg_14d, 14) OVER w > cases_rolling_avg_14d * 1.5 THEN 1 
             ELSE 0 
-        END AS outbreak_next_7d,
+        END AS outbreak_next_14d,
         LEAD(daily_cases, 7) OVER w AS cases_next_7d,
         LEAD(daily_cases, 14) OVER w AS cases_next_14d,
         LEAD(daily_cases, 30) OVER w AS cases_next_30d
@@ -119,19 +118,19 @@ target_variables AS (
     WINDOW w AS (
         PARTITION BY geography_id, disease_id
         ORDER BY report_date
-        ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
     )
 ),
 
 derived_features AS (
     SELECT
+        *,
         SAFE_DIVIDE(daily_cases, NULLIF(cases_lag_7d, 0)) AS cases_growth_7d,
         SAFE_DIVIDE(daily_cases, NULLIF(cases_lag_14d, 0)) AS cases_growth_14d,
         SAFE_DIVIDE(daily_cases, NULLIF(cases_lag_30d, 0)) AS cases_growth_30d,
         (daily_cases - cases_lag_7d) - (cases_lag_7d - cases_lag_14d) AS cases_acceleration_7d,
-        SAFE_DIVIDE(cases_rollung_std_7d, NULLIF(cases_rolling_avg_7d, 0)) AS cases_volatility_7d,
+        SAFE_DIVIDE(cases_rolling_std_7d, NULLIF(cases_rolling_avg_7d, 0)) AS cases_volatility_7d,
         temperature_avg_c - temp_rolling_avg_7d AS temp_anomaly_7d,
-        rainfall_mm - (rainfall_rolling_sum_7d / 7) AS rainfall_anomaly_7d,
+        rainfall_mm - (rainfall_rolling_avg_7d / 7) AS rainfall_anomaly_7d,
         CASE 
             WHEN temperature_avg_c BETWEEN 20 AND 30
                 AND rainfall_mm > 0
@@ -170,8 +169,8 @@ SELECT
     cases_lag_7d,
     cases_lag_14d,
     cases_lag_30d,
-    death_lag_1d,
-    death_lag_7d,
+    deaths_lag_1d,
+    deaths_lag_7d,
     cases_rolling_avg_7d,
     cases_rolling_avg_14d,
     cases_rolling_avg_30d,
@@ -183,7 +182,6 @@ SELECT
     cases_rolling_max_7d,
     cases_rolling_max_14d,
     cases_growth_7d,
-    cases_growth_14d,
     cases_growth_14d,
     cases_growth_30d,
     cases_acceleration_7d,
@@ -200,7 +198,7 @@ SELECT
     rainfall_lag_1d,
     rainfall_lag_7d,
     temp_rolling_avg_7d,
-    rainfall_rolling_sum_7d,
+    rainfall_rolling_avg_7d,
     humidity_rolling_avg_7d,
     temp_anomaly_7d,
     rainfall_anomaly_7d,
@@ -211,8 +209,8 @@ SELECT
     year,
     month,
     quarter,
-    day_of_the_week,
-    day_of_the_year,
+    day_of_week,
+    day_of_year,
     is_rainy_season,
 
     CURRENT_TIMESTAMP() as created_at
@@ -244,7 +242,7 @@ UNION ALL
 SELECT
     'Outbreak rate (14d)' AS metric,
     CONCAT(
-        CAST(ROUND(AVG(outbreak_next_14d) * 100, 2) AS STRING)
+        CAST(ROUND(AVG(outbreak_next_14d) * 100, 2) AS STRING),
         '%'
     ) AS value
 FROM `{project_id}.ml_features.outbreak_prediction_features`
