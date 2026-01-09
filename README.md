@@ -151,9 +151,6 @@ For this project we will create the following analytical tables:
 
 Model | ROC AUC | Accuracy | Precision | Recall
 ------------------|------------|--------------|-------------|-------------|
-`geography_id` | String | Foreign key identifier for geographic area | "KE-NAI-001", "ZA-FRE-062", "NG-KAN-028"
-`date` | Date | Date of weather measurement | "2023-01-15", "2023-06-20"	
-`temperature_min_c` | Float | Minimum daily temperature in Celsius | 18.5, 22.3
-`temperature_max_c` | Float | Minimum daily temperature in Celsius | 30.2, 35.7
-`rainfall_mm` | Float | Name of district | "Nairobi District 1", "Lagos District 2"
-`humidity_pct` | Float | Humidity percentage | 28, 12
+`Logistic Regression` |
+`Random Forest` |
+`XGBoost` |
