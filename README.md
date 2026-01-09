@@ -4,6 +4,12 @@
 ## Project Overview
 This project is an end-to-end data project that aims to develop a disease surveillance system. We aim to monitor and predict disease outbreak in Africa.
 
+#### Problem
+- Diseases outbreaks in Africa cause thousands of deaths annually. Early detection and prevention is crucial in detering these diseases but the process is difficult. In this project I cover Malaria, Cholera and Tuberculosis.
+
+#### Solution
+- ML-powered early warning system that predicts outbreaks 1 week in advance to help stakeholders mobilse resources to outbreak areas. This will enable proavtive resource allocation, potentially reducing outbreak severity by 30-50%.
+
 ### Project Objectives
 1. Monitor disease trends across regions in real time.
 2. Predict potential outbreaks 2-4 weeks in advance.
@@ -20,6 +26,21 @@ This project is an end-to-end data project that aims to develop a disease survei
 1. Malaria (seasonal, weather sensitive).
 2. Cholera (waterborne, linked to sanitation).
 3. Tuberculosis (chronic, treatment adherence tracking).
+
+### Technology Stack
+#### Data Pipeline
+- Google Cloud Platform (Bigquery, Cloud Storage)
+- Python
+- SQL
+
+#### Machine Learning
+- Scikit-learn(preprocessing, logistic regression)
+- Random Forest
+- XGBoost
+
+#### Visualization
+-Looker Studio
+Matplotlib/ Seaborn
 
 ### Data Sources
 We will create synthetic data to simulate the following scenarios:
@@ -124,4 +145,12 @@ For this project we will create the following analytical tables:
 - `dim_facilities`, `dim_geography`, `dim_date`
 - Aggregated views for dashboard.
 
-###
+
+## Results
+#### Model Performance
+
+Model | ROC AUC | Accuracy | Precision | Recall
+-----------|---------------|-------------|------------|
+`Logistic Regression`|
+`Random Forest`| 
+`XGBoost` | 
