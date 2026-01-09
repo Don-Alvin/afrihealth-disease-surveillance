@@ -149,7 +149,7 @@ For this project we will create the following analytical tables:
 ## Results
 #### Model Performance
 
-Model | ROC AUC | Accuracy | Precision | Recall
+Model | ROC AUC | Accuracy | Precision | Recall|
 -----------|---------------|-------------|------------|
 `Logistic Regression`|
 `Random Forest`| 
